@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "updatedAt": "2026-10-20",
+  "resources": [
+    {
+      "id": "2s-u07-l01-p01-moleculas-organicas-inorganicas",
+      "title": "De los átomos a las moléculas · orgánicas e inorgánicas",
+      "course": "2s",
+      "unit": 7,
+      "lesson": 1,
+      "part": 1,
+      "type": "presentacion",
+      "path": "recursos/2s/u07/l01/p01/moleculas-organicas-inorganicas/",
+      "publicationDate": "2026-10-20"
+    }
+  ]
+}

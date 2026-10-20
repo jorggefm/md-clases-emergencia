@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="description" content="Diez láminas sobre moléculas orgánicas e inorgánicas y sus transformaciones en seres vivos.">
+  <title>2S · U7 · L1 · P01 | De los átomos a las moléculas</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main id="presentation" aria-label="De los átomos a las moléculas">
+    <section id="stage" aria-roledescription="diapositiva" aria-label="Lámina 1 de 10">
+      <img id="slide" src="assets/01-agua-peroxido.png" alt="Comparación molecular del agua y el peróxido de hidrógeno" draggable="false">
+      <div id="keywords" class="overlay" hidden aria-live="polite"></div>
+      <p id="idea" class="overlay" hidden aria-live="polite"></p>
+      <p id="error" role="alert" hidden>No se pudo cargar esta lámina. Comprueba la conexión.</p>
+    </section>
+    <nav aria-label="Controles de presentación">
+      <div class="arrows">
+        <button id="prev" aria-label="Lámina anterior" title="Anterior">&#8592;</button>
+        <span id="counter" aria-live="polite">1 / 10</span>
+        <button id="next" aria-label="Lámina siguiente" title="Siguiente">&#8594;</button>
+      </div>
+      <div class="toggles">
+        <button id="keyToggle" aria-controls="keywords" aria-pressed="false">Palabras clave</button>
+        <button id="ideaToggle" aria-controls="idea" aria-pressed="false">Idea central</button>
+        <button id="full" aria-label="Activar pantalla completa" title="Pantalla completa">&#9974;</button>
+      </div>
+    </nav>
+  </main>
+  <script src="slides.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

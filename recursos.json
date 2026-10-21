@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-20",
+  "updatedAt": "2026-10-21",
   "resources": [
     {
       "id": "2s-u07-l01-p01-moleculas-organicas-inorganicas",
@@ -12,6 +12,17 @@
       "type": "presentacion",
       "path": "recursos/2s/u07/l01/p01/moleculas-organicas-inorganicas/",
       "publicationDate": "2026-10-20"
+    },
+    {
+      "id": "5s-u07-l01-p01-relatividad-lorentz-facil",
+      "title": "Relatividad especial y factor de Lorentz · explicación fácil",
+      "course": "5s",
+      "unit": 7,
+      "lesson": 1,
+      "part": 1,
+      "type": "presentacion",
+      "path": "recursos/5s/u07/l01/p01/relatividad-lorentz-facil/",
+      "publicationDate": "2026-10-21"
     }
   ]
 }

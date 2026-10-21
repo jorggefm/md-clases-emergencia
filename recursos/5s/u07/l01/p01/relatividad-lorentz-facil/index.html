@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Relatividad especial, reloj de luz, simultaneidad y factor de Lorentz explicados paso a paso para 5.º de secundaria.">
+<title>5S · Relatividad fácil</title>
+<style>
+:root{font-family:Arial,Helvetica,sans-serif;color:#122b4d;background:#e8eef5}
+*{box-sizing:border-box}[hidden]{display:none!important}body{margin:0}
+main{height:100dvh;max-width:1440px;margin:auto;display:flex;flex-direction:column;background:#faf9f5;box-shadow:0 0 38px #10284918}
+.slide{flex:1;min-height:0;overflow:auto;padding:clamp(20px,4vw,60px);display:grid;align-content:center;gap:clamp(14px,2vw,28px)}
+.eyebrow{font-size:clamp(14px,1.4vw,19px);font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:#4775a5}
+h1,h2,p{margin:0}h1{font-size:clamp(36px,5.2vw,76px);line-height:1.08}h2{font-size:clamp(30px,4vw,59px);line-height:1.1}
+p{font-size:clamp(20px,2.1vw,30px);line-height:1.3}.lead{max-width:1000px}
+.grid,.three,.table{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:clamp(12px,2vw,24px)}
+.three,.table{grid-template-columns:repeat(3,minmax(0,1fr))}
+.card,.value{background:white;border:2px solid #d2deeb;border-radius:23px;padding:clamp(17px,2.4vw,32px)}
+.card:nth-child(odd){border-top:9px solid #3e85c9}.card:nth-child(even){border-top:9px solid #e26b59}
+.card b{display:block;font-size:clamp(23px,2.7vw,39px);margin-bottom:12px}.card p{font-size:clamp(19px,2vw,28px)}
+.pill,.notice{background:#e8f3fd;border-radius:16px;padding:15px 22px;font-size:clamp(18px,1.8vw,26px);font-weight:700}
+.notice{background:#fff0ed;border-left:7px solid #e26b59;font-weight:400}
+.clock{display:flex;align-items:center;justify-content:center;gap:30px;background:#e8f3fd;border-radius:22px;padding:18px;text-align:center;font-size:clamp(23px,2.7vw,40px);font-weight:700}
+.mirrors{line-height:.8;font-size:clamp(30px,4vw,58px)}
+.step{background:#e8f3fd;border-radius:18px;text-align:center;padding:18px;font-size:clamp(19px,2vw,28px);font-weight:700}
+.step strong{display:block;font-size:clamp(28px,3vw,45px);color:#d45143}
+.events{display:flex;align-items:center;justify-content:space-between;background:#e8f3fd;border-radius:22px;padding:24px}
+.flash{display:grid;place-items:center;width:70px;height:70px;border-radius:50%;background:#ffe4dc;color:#ba4036;font-size:36px;font-weight:700}
+.track{height:6px;flex:1;background:#587fa9;margin:0 15px;position:relative}
+.track:after{content:"andén";position:absolute;left:50%;top:14px;transform:translateX(-50%);font-size:18px}
+.factor{width:100%;max-height:72vh;object-fit:contain;border-radius:14px}
+.value{text-align:center}.value b{display:block;font-size:clamp(26px,3vw,43px)}.value span{display:block;font-size:clamp(19px,2vw,28px);margin-top:10px}
+footer{display:flex;justify-content:space-between;align-items:center;gap:12px;padding:12px 28px;border-top:1px solid #d6e1ec;background:#fff}
+.controls{display:flex;align-items:center;gap:10px}button{font:inherit;font-weight:700;color:#173a65;background:white;border:1px solid #b8cada;border-radius:12px;padding:10px 15px;cursor:pointer}
+button:hover,button:focus-visible{background:#e8f3fd;outline:2px solid #397bc0}button:disabled{opacity:.4;cursor:default}#counter{min-width:60px;text-align:center;font-weight:700}
+#help{position:fixed;left:50%;bottom:76px;transform:translateX(-50%);width:min(850px,calc(100vw - 26px));padding:20px;background:#122b4d;color:white;border-radius:16px;box-shadow:0 8px 32px #0004}
+#help p{font-size:clamp(17px,1.5vw,22px)}#help p+p{margin-top:8px}#help b{color:#a5d9ff}
+@media(max-width:720px){.grid,.three,.table{grid-template-columns:1fr}.slide{align-content:start;overflow:auto}.flash{width:47px;height:47px;font-size:24px}footer{flex-wrap:wrap}.factor{max-height:57vh}}
+</style>
+</head>
+<body>
+<main aria-label="Presentación navegable de relatividad especial">
+<section class="slide" data-idea="El movimiento y el tiempo se describen desde un marco de referencia." data-keys="marco de referencia · rapidez de la luz">
+  <div class="eyebrow">5.º secundaria · Unidad 7 · Lección 1</div>
+  <h1>Relatividad especial,<br>paso a paso</h1>
+  <p class="lead">Repasemos lo conocido antes de llegar al factor de Lorentz.</p>
+  <div class="grid">
+    <div class="card"><b>Marco de referencia</b><p>Es el lugar desde el que medimos posiciones, movimientos y tiempos. Por ejemplo: el tren o el andén.</p></div>
+    <div class="card"><b>La luz en el vacío</b><p>Su rapidez es <strong>c</strong> para ambos observadores, aunque se muevan uno respecto del otro.</p></div>
+  </div>
+  <div class="pill">Si c permanece igual, ¿qué puede cambiar?</div>
+</section>
+<section class="slide" data-idea="La luz recorre una trayectoria más larga cuando el reloj se observa en movimiento." data-keys="dos espejos · un tic · trayectoria">
+  <div class="eyebrow">Paso 1</div><h2>¿Qué es un reloj de luz?</h2>
+  <div class="clock"><span class="mirrors">▰<br>↑↓<br>▰</span><span>Dos espejos + un pulso de luz</span></div>
+  <div class="three"><div class="step"><strong>1</strong>La luz sube.</div><div class="step"><strong>2</strong>La luz baja.</div><div class="step"><strong>3</strong>Ida y vuelta = un tic.</div></div>
+  <p>Desde el andén, el reloj avanza: la luz recorre una <strong>diagonal más larga</strong>. Como su rapidez sigue siendo c, ese tic ocupa más tiempo según el andén.</p>
+</section>
+<section class="slide" data-idea="La simultaneidad de sucesos separados depende del marco de referencia." data-keys="sucesos · relojes sincronizados · simultaneidad">
+  <div class="eyebrow">Paso 2</div><h2>¿Qué significa «al mismo tiempo»?</h2>
+  <div class="events"><span class="flash">A</span><span class="track"></span><span class="flash">B</span></div>
+  <div class="grid">
+    <div class="card"><b>Desde el andén</b><p>Los relojes sincronizados registran los destellos A y B a la misma hora.</p></div>
+    <div class="card"><b>Desde el tren</b><p>Los relojes de ese marco pueden asignarles horas diferentes.</p></div>
+  </div>
+  <div class="notice">Ver llegar primero una luz no basta: hay que distinguir cuándo ocurrió el destello de cuándo llegó su luz.</div>
+</section>
+<section class="slide" data-idea="El factor de Lorentz se calcula con la rapidez relativa expresada como fracción de c." data-keys="v/c · raíz · inverso">
+  <div class="eyebrow">Paso 3 · Una sola cuenta</div><h2>El factor de Lorentz, pieza por pieza</h2>
+  <img class="factor" src="assets/factor-lorentz-facil.png" alt="Factor de Lorentz: gamma igual a uno dividido por la raíz de uno menos v sobre c al cuadrado. Si v es 0,6 c, v sobre c es 0,6; el cuadrado es 0,36; la raíz de 0,64 es 0,8; uno dividido por 0,8 es 1,25.">
+</section>
+<section class="slide" data-idea="Gamma multiplica el intervalo propio del reloj cuando se mide desde el otro marco." data-keys="gamma · tiempo propio · ejemplo">
+  <div class="eyebrow">Paso 4 · Ejemplos</div><h2>¿Qué nos dice γ?</h2>
+  <p>Supón que el reloj de luz marca <strong>1 segundo</strong> junto a él. Desde el otro marco, el intervalo es <strong>Δt = γ × 1 s</strong>.</p>
+  <div class="table">
+    <div class="value"><b>v = 0</b><span>γ = 1</span><span>1 s → 1 s</span></div>
+    <div class="value"><b>v = 0,6c</b><span>γ = 1,25</span><span>1 s → 1,25 s</span></div>
+    <div class="value"><b>v = 0,8c</b><span>γ ≈ 1,67</span><span>1 s → 1,67 s</span></div>
+  </div>
+  <div class="notice">Estos valores son ejemplos idealizados. El reloj funciona normalmente en su propio marco.</div>
+</section>
+<footer><div class="controls"><button id="prev" aria-label="Diapositiva anterior">← Anterior</button><span id="counter" aria-live="polite">1 / 5</span><button id="next" aria-label="Diapositiva siguiente">Siguiente →</button></div><button id="helpToggle" aria-controls="help" aria-expanded="false">Ayuda docente</button></footer>
+<aside id="help" hidden aria-live="polite"><p><b>Palabras clave:</b> <span id="keys"></span></p><p><b>Idea central:</b> <span id="idea"></span></p></aside>
+</main>
+<script>
+const slides=[...document.querySelectorAll('.slide')],prev=document.querySelector('#prev'),next=document.querySelector('#next'),counter=document.querySelector('#counter'),help=document.querySelector('#help'),toggle=document.querySelector('#helpToggle');
+let current=0;
+function render(){slides.forEach((s,i)=>s.hidden=i!==current);prev.disabled=current===0;next.disabled=current===slides.length-1;counter.textContent=(current+1)+' / '+slides.length;document.querySelector('#keys').textContent=slides[current].dataset.keys;document.querySelector('#idea').textContent=slides[current].dataset.idea;help.hidden=true;toggle.setAttribute('aria-expanded','false');document.title='5S · Relatividad fácil · '+(current+1)+'/'+slides.length}
+prev.addEventListener('click',()=>{current=Math.max(0,current-1);render()});next.addEventListener('click',()=>{current=Math.min(slides.length-1,current+1);render()});
+toggle.addEventListener('click',()=>{help.hidden=!help.hidden;toggle.setAttribute('aria-expanded',String(!help.hidden))});
+document.addEventListener('keydown',e=>{if(e.key==='ArrowRight'&&current<slides.length-1){current++;render()}if(e.key==='ArrowLeft'&&current>0){current--;render()}if(e.key==='Escape'&&!help.hidden){help.hidden=true;toggle.setAttribute('aria-expanded','false')}});
+let touchX=0;document.addEventListener('touchstart',e=>{touchX=e.changedTouches[0].screenX},{passive:true});document.addEventListener('touchend',e=>{const dx=e.changedTouches[0].screenX-touchX;if(Math.abs(dx)>65){current=Math.max(0,Math.min(slides.length-1,current+(dx<0?1:-1)));render()}},{passive:true});render();
+</script>
+</body></html>

@@ -23,6 +23,17 @@
       "type": "presentacion",
       "path": "recursos/5s/u07/l01/p01/relatividad-lorentz-facil/",
       "publicationDate": "2026-10-21"
+    },
+    {
+      "id": "3s-u07-l01-p02-ciclo-acoplamiento-gradientes",
+      "title": "El ciclo del acoplamiento energetico",
+      "course": "3s",
+      "unit": 7,
+      "lesson": 1,
+      "part": 2,
+      "type": "presentacion",
+      "path": "recursos/3s/u07/l01/p02/ciclo-acoplamiento-gradientes/",
+      "publicationDate": "2026-10-21"
     }
   ]
 }

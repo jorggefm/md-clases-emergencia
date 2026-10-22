@@ -1,7 +1,22 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-21",
+  "updatedAt": "2026-10-22",
   "resources": [
+    {
+      "id": "4s-u07-l01-p00-debate-origenes",
+      "title": "Debate · Orígenes: vida, ser humano y Dios",
+      "description": "Piloto con siete preguntas, respuestas de 45 segundos, réplicas de 30 segundos, avisos y argumentos cifrados para cada bando. P00: parte pendiente de asignación.",
+      "course": "4s",
+      "unit": 7,
+      "lesson": 1,
+      "part": 0,
+      "slug": "debate-origenes",
+      "type": "recurso",
+      "path": "recursos/4s/u07/l01/p00/debate-origenes/",
+      "publicationDate": "2026-10-22",
+      "revision": "piloto-v1",
+      "note": "GitHub Pages autorizado expresamente el 22/10/2026. Fuente canónica en MD Clases."
+    },
     {
       "id": "2s-u07-l01-p02-reacciones-moleculas-organicas",
       "title": "Moléculas orgánicas y las transformaciones que sostienen la vida",

@@ -8,3 +8,5 @@ Publicaciones alternativas autorizadas por el docente durante la incidencia de R
 - 3S U7 L1 P02 · El ciclo del acoplamiento energetico: `recursos/3s/u07/l01/p02/ciclo-acoplamiento-gradientes/` (21 de octubre de 2026).
 
 Este repositorio conserva las rutas anteriores y solo contiene archivos estaticos de las presentaciones. No incluye archivos de planificacion, datos de estudiantes ni credenciales. Las fuentes canonicas permanecen en `jorggefm/md-clases`.
+
+- 4S U7 L1 · Debate Orígenes: siete preguntas, reloj 45/30 s y guías cifradas. Piloto autorizado el 22/10/2026. Ruta: recursos/4s/u07/l01/p00/debate-origenes/ (parte pendiente).

@@ -1,9 +1,9 @@
 <!doctype html>
 <html lang="es">
-<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#087e7b"><title>Exploradores de moléculas · 2S</title><link rel="stylesheet" href="style.css"></head>
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#087e7b"><title>Exploradores de moléculas · 2S</title><link rel="stylesheet" href="style.css?v=constancia-1"></head>
 <body>
 <main>
-<header><a class="brand" href="#inicio" aria-label="Ir al inicio"><svg viewBox="0 0 40 40" aria-hidden="true"><path d="M20 5L34 13v16L20 37 6 29V13Z M20 5v16m14-8-14 8L6 13m14 8v16"/></svg><span>Exploradores de moléculas<small>2.º secundaria · 23 de octubre de 2026</small></span></a><button id="homeBtn" class="quiet">Inicio</button></header>
+<header><a class="brand" href="#inicio" aria-label="Ir al inicio"><svg viewBox="0 0 40 40" aria-hidden="true"><path d="M20 5L34 13v16L20 37 6 29V13Z M20 5v16m14-8-14 8L6 13m14 8v16"/></svg><span>Exploradores de moléculas<small>2.º secundaria · 23 de octubre de 2026</small></span></a><div class="header-actions"><button id="certificateBtn" class="quiet" disabled>Mi constancia</button><button id="homeBtn" class="quiet">Inicio</button></div></header>
 <section id="landing">
  <div class="welcome"><div><h1>Una estructura.<br>Muchos átomos por descubrir.</h1><p>Explora 40 moléculas, desde el metano hasta una grasa de 167 átomos. Cuenta, comprueba tu fórmula y descubre qué hacen en la vida.</p><button id="start" class="primary">Empezar a explorar <span aria-hidden="true">→</span></button><button id="resume" class="quiet" hidden>Continuar</button><p class="soft">Sin cronómetro. Con pistas y a tu ritmo.</p></div><img src="assets/azucares.webp" alt="Frutas, miel y cereales como contexto de los carbohidratos"></div>
  <section class="rules"><h2>Las claves del dibujo</h2><div class="rules-grid"><p><b>1. Encuentra los carbonos</b>En una estructura esquelética, los extremos, vértices y uniones sin letra representan C. Un cruce sin unión no añade un átomo.</p><p><b>2. Completa cuatro enlaces</b>Para un C neutro: H implícitos = 4 − suma de enlaces dibujados. Simple = 1; doble = 2; triple = 3.</p><p><b>3. Cuenta también las letras</b>O, N, S y P se escriben. Cuenta los H de OH, NH₂ o SH. No sumes otra vez un H que ya está escrito.</p><p><b>4. Construye la fórmula</b>Ajusta los números con + y − o escríbelos. «Comprobar fórmula» muestra lo que contaste y orienta la revisión.</p></div></section>
@@ -19,7 +19,13 @@
  </div>
  <section class="panel context"><div class="context-copy"><h2>¿Qué hace en la vida?</h2><p id="role"></p></div><img id="contextImage" src="assets/humedal.webp" alt="" loading="lazy"><div class="context-source"><span>Ilustración de contexto</span><a id="source" target="_blank" rel="noopener">Identidad y estructura en PubChem ↗</a></div></section>
 </section>
+<section id="certificatePanel" class="panel certificate-panel" aria-labelledby="certificateHeading" hidden>
+ <div class="section-head"><h2 id="certificateHeading" tabindex="-1">Mi constancia</h2><button id="closeCertificate" class="quiet">Cerrar constancia</button></div>
+ <p id="certificateSummary" role="status"></p>
+ <form id="certificateForm"><label for="participantName">Nombre del estudiante o integrantes del equipo</label><input id="participantName" name="participantName" maxlength="120" autocomplete="name" required placeholder="Escribe el nombre que aparecerá en la constancia"><p class="soft">La imagen incluirá la fecha de emisión, el avance y la lista de moléculas resueltas. Se descarga en tu dispositivo para que puedas entregarla al docente.</p><button id="downloadCertificate" class="primary" type="submit">Descargar constancia (PNG)</button></form>
+ <p id="certificateMessage" role="status" aria-live="polite"></p><details><summary>Ver las moléculas incluidas</summary><ol id="certificateMolecules"></ol></details>
+</section>
 <p id="loadStatus" role="status">Cargando las moléculas…</p>
 <footer>Cuenta átomos dentro de una molécula · Ciencia y Tecnología · U7 · L1 · P03 <button id="reset" class="quiet">Reiniciar mi progreso</button></footer>
-</main><script src="app.js" defer></script>
+</main><script src="app.js?v=constancia-1" defer></script>
 </body></html>

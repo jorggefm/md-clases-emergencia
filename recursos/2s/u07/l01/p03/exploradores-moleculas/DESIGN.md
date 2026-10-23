@@ -140,3 +140,7 @@ Se mantienen etiquetas escritas y accesibles en acciones, selector y campos, foc
 - **Don't:** tratar la visualización de la solución como evidencia de reto resuelto.
 
 Revisión final: aprobada conforme a la maqueta y al cierre visual comunicado en este chat. La actualización documental se contrastó con `PRODUCT.md`, `index.html`, `style.css` y `app.js`; no implica una nueva ejecución de pruebas funcionales o visuales.
+
+## Constancia de práctica
+
+Acceso persistente Mi constancia en cabecera. Sección desplegable al final, con nombre, resumen real del avance y descarga PNG. Controles y tipografía heredados; composición móvil sin desbordamiento. La vista no sustituye la actividad; conserva sus contadores y navegación al abrir y cerrar. PNG de 1600 × 1900 con lista de moléculas y fórmulas.

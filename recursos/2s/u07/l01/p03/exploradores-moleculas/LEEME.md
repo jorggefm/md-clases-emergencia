@@ -13,3 +13,7 @@ Imágenes de contexto: generación incorporada imagegen, cuatro imágenes fuente
 Comprobar muestra la fórmula ingresada. Si hay errores, señala los elementos que revisar sin sustituir los números. La solución explicada desglosa H de C y H de otros elementos. Puede escribirse directamente en los contadores para no pulsar 104 veces en la trioleína. El progreso se guarda solo en este navegador.
 
 Regeneración: python scripts/exploradores-moleculas/build.py; python scripts/exploradores-moleculas/finalize.py. Requiere rdkit, requests y pillow. Verificación de interfaz: node scripts/exploradores-moleculas/test.cjs con servidor local 8767.
+
+## Constancias (actualización del 23/10/2026)
+
+Botón Mi constancia disponible durante la actividad. Descarga una imagen PNG con nombre o integrantes, fecha de emisión en hora de Perú, avance y moléculas resueltas. Diferencia avance parcial de finalización 40/40. Conserva la clave de almacenamiento 2s-exploradores-moleculas-v1 y los campos existentes; añade participantName. El nombre solo se guarda en el navegador y se dibuja como texto en el PNG. No se envía automáticamente al docente. Pestañas abiertas antes de la actualización necesitan recargarse una vez, después de comprobar la molécula actual, para cargar el botón.

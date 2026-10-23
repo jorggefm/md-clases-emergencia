@@ -1,0 +1,20 @@
+{
+  "date": "2026-10-23",
+  "generator": "image_gen built-in",
+  "transparent": true,
+  "assets": [
+    {
+      "file": "nave.png",
+      "prompt": "Create a polished educational illustration asset for a Spanish high-school special relativity interactive simulator. ONE isolated spaceship, strict perfectly horizontal SIDE PROFILE pointing right, orthographic side view, entire craft fully visible with generous transparent margin. Premium warm 3D clay / beautifully rendered science textbook illustration, pearl-white body with navy blue trim and restrained coral panels, rounded friendly credible capsule spacecraft. Large clear side cockpit window with a friendly astronaut in white suit seated facing right, visible smiling face. Behind cockpit a small BLANK rectangular dashboard plate for later HTML clock overlay (no digits or text). Small exhaust nozzle on far left, NO exhaust or flames (uniform motion, no thrust). Fine details, beautiful soft materials, clean readable silhouette, not childish. Single coherent spacecraft no duplicates, no ground, no scenery, no stars, NO text, NO numbers, NO label, NO border, NO shadow outside object. Transparent background, wide 3:2 or landscape composition. This will be animated and horizontally compressed as one independent image layer; side profile and absence of perspective foreshortening are essential."
+    },
+    {
+      "file": "tierra.png",
+      "prompt": "Create ONE isolated beautiful Earth globe educational illustration asset on a transparent background for a high-school special relativity simulator. View of blue oceans, recognizable South America prominent facing camera, green land with gentle relief and soft white cloud wisps. Premium warm 3D science textbook illustration style, soft studio light from upper left, accurate spherical silhouette and geography, deep blue and teal palette that matches a pearl-white navy spaceship. Full globe visible with transparent margin. At lower right edge of globe a tiny simple white ground tracking station with dish antenna as part of the globe, no giant antennas, no separate props. NO writing, NO clock, NO labels, NO border, NO space background, NO atmospheric opaque rectangle, NO star field. Globe occupies 80 percent canvas, rich clean illustration, not photorealistic satellite photograph. True transparent background."
+    },
+    {
+      "file": "acelerador.png",
+      "prompt": "Create a single isolated educational 3D illustration asset with true transparent background: short linear particle accelerator shown in strict horizontal SIDE VIEW, pointing from left to right. Two chunky scientific magnetic coils teal and navy with pearl white housing on a short rail base, central thin horizontal transparent vacuum tube clearly visible, open empty gap at CENTER where a glowing electron marker can later be added with code. Balanced simple apparatus, visually understandable to high-school students, no complex wires, softly modeled premium science museum miniature, matte materials, subtle coral accents, clean precise geometry. Full object visible, 15 percent transparent margin. Landscape composition. NO particles in the tube, NO glow trails, NO labels, NO numbers, NO writing, NO background scene, NO ground plane outside the little apparatus base."
+    }
+  ],
+  "integration": "Independent transparent image layers inside SVG. Interactive text, transforms and markers remain code controlled; no rasterized numerical labels."
+}

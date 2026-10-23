@@ -3,15 +3,15 @@ const $ = id => document.getElementById(id);
 const C = 3e8, MASS = 9.11e-31;
 const fmt = (n, digits = 3) => n.toLocaleString('es-PE', { minimumFractionDigits: digits, maximumFractionDigits: digits }).replaceAll(',', 'X').replaceAll('.', ',').replaceAll('X', ' ');
 const sci = n => { if (!n) return '0 J'; const [a,b] = n.toExponential(2).split('e'); return `${a.replace('.', ',')} × 10<sup>${Number(b)}</sup> J`; };
-const state = { mode: 'time', beta: .6, own: 5, step: 0, progress: 1, playing: false, last: 0 };
+const state = { mode: 'time', beta: .6, own: 5, step: 0, progress: 1, playing: false, last: 0, direction: 1, changedSpeed: false };
 const scenarios = {
-  time: { title:'El mismo viaje, dos tiempos', subtitle:'Comparamos dos sucesos del reloj de la nave.', label:'Tiempo propio Δτ', unit:'años', own:5, beta:.6, min:.1, max:100, step:.1, caption:'Intervalos calculados · animación a escala temporal reducida', desc:'El intervalo de la Tierra es gamma veces el intervalo propio de la nave.' },
+  time: { title:'El mismo viaje, dos tiempos', subtitle:'La Tierra y la nave comparan sus relojes.', label:'Tiempo propio Δτ', unit:'años', own:5, beta:.6, min:.1, max:100, step:.1, caption:'Movimiento ilustrativo · los relojes conservan la proporción exacta', desc:'La Tierra y una nave con astronauta muestran relojes independientes. El intervalo terrestre es gamma veces el intervalo propio de la nave.' },
   length: { title:'La misma nave, dos longitudes', subtitle:'La contracción ocurre en la dirección del movimiento.', label:'Longitud propia L₀', unit:'m', own:100, beta:.8, min:1, max:1000, step:1, caption:'Esquema de medidas simultáneas · no es una fotografía', desc:'La longitud medida desde la Tierra es la longitud propia dividida entre gamma.' },
   energy: { title:'Más rapidez, más energía', subtitle:'Un electrón conserva su masa en reposo.', label:'Partícula: electrón', own:1, beta:.9, caption:'Energías en el marco de la Tierra · movimiento ilustrativo', desc:'La energía total del electrón se divide entre energía en reposo y energía cinética.' }
 };
 function physics(beta, own) { const square=beta*beta, diff=1-square, root=Math.sqrt(diff), gamma=1/root, e0=MASS*C*C; return {square,diff,root,gamma,time:gamma*own,length:own/gamma,e0,total:gamma*e0,kinetic:(gamma-1)*e0}; }
 function setMode(mode) {
-  state.mode=mode; const s=scenarios[mode]; state.beta=s.beta; state.own=s.own;
+  state.mode=mode; const s=scenarios[mode]; state.beta=s.beta; state.own=s.own; state.direction=1; state.changedSpeed=false;
   $('speed').value=state.beta; $('own-value').value=state.own;
   $('own-value').min=s.min||1; $('own-value').max=s.max||100; $('own-value').step=s.step||1;
   $('own-input-wrap').hidden=mode==='energy'; $('electron-mass').hidden=mode!=='energy';
@@ -26,34 +26,44 @@ function setMode(mode) {
 }
 function explain(p) {
   const b=fmt(state.beta), g=fmt(p.gamma);
-  const texts=[`β = ${b}: el cuerpo viaja al ${fmt(state.beta*100,1)} % de c. Cambia v; c no cambia.`, `Al multiplicar ${b} por sí mismo obtenemos ${fmt(p.square,6)}. β² sigue siendo menor que 1.`, `1 − ${fmt(p.square,6)} = ${fmt(p.diff,6)}. Al aumentar v, esta diferencia disminuye.`, `La raíz es ${fmt(p.root,6)}. Cuanto más se acerca v a c, más pequeño es este denominador.`, `1 ÷ ${fmt(p.root,6)} ≈ ${g}. Dividir 1 entre un número positivo menor que 1 da un resultado mayor que 1.`];
-  if(state.beta===0 && state.step===4) texts[4]='Con v = 0, la raíz vale 1. Entonces γ = 1: los resultados coinciden con los valores propios.';
+  const texts=[`β = ${b}: viaja al ${fmt(state.beta*100,1)} % de la rapidez de la luz. c es constante; v es lo que mueves.`, `β² = ${fmt(p.square,3)}. Si β sube, su cuadrado también sube; si β baja, su cuadrado baja.`, `1 − β² = ${fmt(p.diff,3)}. Restar un número mayor deja menos: por eso la flecha cambia de sentido.`, `La raíz vale ${fmt(p.root,3)}. Si lo de dentro disminuye, la raíz también disminuye.`, `Este resultado es γ, el factor de Lorentz. Cerca de 1: efectos pequeños. Cuanto más crece por encima de 1: mayores diferencias entre las medidas.`];
+  if(state.beta===0 && state.step===4) texts[4]='Con v = 0, γ = 1 exactamente: no hay diferencias por movimiento relativo. Cuando v aumenta, γ crece y los efectos se hacen más marcados.';
   $('step-explanation').textContent=texts[state.step];
   document.querySelectorAll('[data-step]').forEach(b=>b.setAttribute('aria-pressed',Number(b.dataset.step)===state.step));
 }
 function draw(p) {
   const t=state.progress;
   $('earth-time').textContent=fmt(p.time*t,2); $('ship-time').textContent=fmt(state.own*t,2);
-  $('earth-ring').setAttribute('stroke-dasharray',`${100*t} 100`); $('ship-ring').setAttribute('stroke-dasharray',`${100*t/p.gamma} 100`);
+  $('earth-time').style.fontSize=$('earth-time').textContent.length>6?'26px':'34px';
+  $('time-ship').setAttribute('transform',`translate(${state.playing ? (t-.5)*50*state.beta : 0} 0)`);
+  $('scene-speed').textContent=`${fmt(state.beta)}c`;
   $('time-ratio').textContent=`÷ ${fmt(p.gamma,2)}`;
-  const width=570/p.gamma;
+  const width=394/p.gamma;
   // Scale around the common left endpoint: both diagrams share a length scale.
-  $('moving-ship').setAttribute('transform',`translate(60 0) scale(${1/p.gamma} 1) translate(-60 0)`);
-  $('length-bracket').setAttribute('d',`M60 236v9H${60+width}v-9`);
+  $('moving-ship').setAttribute('transform',`translate(278 0) scale(${1/p.gamma} 1) translate(-278 0)`);
+  $('length-bracket').setAttribute('d',`M278 295v9H${278+width}v-9`);
   $('rest-length').textContent=`${fmt(state.own,1)} m`;
-  $('measured-length').textContent=`L = ${fmt(p.length,2)} m`;
+  $('measured-length').textContent=`${fmt(p.length,2)} m`;
   $('rest-energy-bar').setAttribute('width',570/p.gamma);
-  $('energy-split').setAttribute('d',`M${60+570/p.gamma} 150v54`);
+  $('energy-split').setAttribute('d',`M${60+570/p.gamma} 233v43`);
   $('energy-rest-label').textContent=`E₀ · ${fmt(100/p.gamma,1)} %`;
   $('energy-kinetic-label').textContent=`K · ${fmt(100*(1-1/p.gamma),1)} %`;
-  $('electron').setAttribute('transform',`translate(${state.playing ? (t-.5)*540*state.beta : 0} 0)`);
+  $('electron').setAttribute('transform',`translate(${state.playing ? (t-.5)*160*state.beta : 0} 0)`);
 }
 function render() {
   const p=physics(state.beta,state.own), g=fmt(p.gamma), b=fmt(state.beta);
   $('gamma-value').textContent=g; $('speed-value').textContent=`${b}c`;
   $('speed-ms').textContent=`v = ${fmt(state.beta*C,0)} m/s`;
   $('speed').setAttribute('aria-valuetext',`${fmt(state.beta*100,1)} por ciento de la rapidez de la luz`);
-  ['beta','square','diff','root','inverse'].forEach((key,i)=>$('step-'+key).textContent=fmt([state.beta,p.square,p.diff,p.root,p.gamma][i],i===0||i===4?3:6));
+  ['beta','square','diff','root','inverse'].forEach((key,i)=>$('step-'+key).textContent=fmt([state.beta,p.square,p.diff,p.root,p.gamma][i],3));
+  $('trend-context').textContent=state.changedSpeed ? (state.direction>0?'Al aumentar v, estas cantidades cambian así:':'Al disminuir v, las flechas se invierten:') : 'Si aumentas v, ocurre esto:';
+  document.querySelectorAll('[data-step]').forEach((button,i)=>{
+    const up=[1,1,-1,-1,1][i]*state.direction>0, trend=button.querySelector('.trend');
+    trend.dataset.direction=up?'up':'down';trend.setAttribute('aria-label',up?'Aumenta':'Disminuye');
+    trend.querySelector('.trend-arrow').textContent=up?'↑':'↓';trend.querySelector('.trend-word').textContent=up?'sube':'baja';
+  });
+  $('effect-title').textContent=state.beta===0?'γ = 1 · reposo relativo':`γ ≈ ${g} · ${fmt((p.gamma-1)*100,1)} % por encima de 1`;
+  $('effect-detail').textContent=state.beta===0?'Sin diferencias por movimiento relativo.':state.mode==='length'?`La longitud medida es ${fmt((1-1/p.gamma)*100,1)} % menor que la propia.`:state.mode==='time'?`El intervalo terrestre es ${fmt((p.gamma-1)*100,1)} % mayor que el propio.`:`La energía total es ${fmt((p.gamma-1)*100,1)} % mayor que mc².`;
   document.querySelectorAll('[data-speed]').forEach(b=>b.setAttribute('aria-pressed',Number(b.dataset.speed)===state.beta));
   explain(p); draw(p);
   let statement, steps, conclusion;
@@ -89,8 +99,12 @@ function animateFrame(now){
   draw(physics(state.beta,state.own));
   if(state.progress>=1){stopAnimation();draw(physics(state.beta,state.own));}else requestAnimationFrame(animateFrame);
 }
-$('speed').addEventListener('input',e=>{state.beta=Number(e.target.value);stopAnimation();render();});
-document.querySelectorAll('[data-speed]').forEach(b=>b.addEventListener('click',()=>{state.beta=Number(b.dataset.speed);$('speed').value=state.beta;stopAnimation();render();}));
+function setSpeed(beta){
+  if(beta!==state.beta){state.direction=beta>state.beta?1:-1;state.changedSpeed=true;}
+  state.beta=beta;$('speed').value=state.beta;stopAnimation();render();
+}
+$('speed').addEventListener('input',e=>setSpeed(Number(e.target.value)));
+document.querySelectorAll('[data-speed]').forEach(b=>b.addEventListener('click',()=>setSpeed(Number(b.dataset.speed))));
 document.querySelectorAll('[data-mode]').forEach(b=>b.addEventListener('click',()=>setMode(b.dataset.mode)));
 document.querySelectorAll('[data-step]').forEach(b=>b.addEventListener('click',()=>{state.step=Number(b.dataset.step);explain(physics(state.beta,state.own));}));
 $('beta-info').addEventListener('click',()=>{state.step=0;explain(physics(state.beta,state.own));$('step-explanation').focus();});

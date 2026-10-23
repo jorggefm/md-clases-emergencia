@@ -27,3 +27,9 @@ Fuentes enlazadas dentro de la interfaz: ecuaciones de OpenStax, video original 
 ## Publicación
 
 Fuente canónica: `jorggefm/md-clases`. GitHub Pages autorizado por el docente en `jorggefm/md-clases-emergencia`, ruta idéntica. No sobrescribir la portada ni otros recursos.
+
+## Revisión visual v2
+
+La cuenta añade flechas que se invierten al subir o bajar v: β y β² cambian en el mismo sentido que v; 1 − β² y su raíz en sentido contrario; γ cambia en el mismo sentido que v. El paso 5 se identifica expresamente como Factor de Lorentz. Se mantienen visibles las relaciones «γ cerca de 1: efectos pequeños» y «γ cada vez mayor: efectos más marcados». No se confunde β → 1 con γ → ∞.
+
+Tres ilustraciones transparentes generadas con image_gen: assets/tierra.png, assets/nave.png y assets/acelerador.png. Los prompts exactos están en assets/procedencia.json. La Tierra, nave, relojes numéricos y electrón son capas separadas. El esquema de longitud usa dos copias del mismo recurso gráfico y transforma horizontalmente solo la medida desde la Tierra. La imagen representa una medición esquemática, no una fotografía.

@@ -13,3 +13,22 @@
  .scene-caption{padding-bottom:11px}.experiment-controls{padding:13px 0}
  .result{padding:13px 0}.takeaway{margin-top:15px}
 }
+
+/* Illustrated layers and qualitative reading of the calculation. */
+.steps button{grid-template-columns:22px minmax(0,1fr) auto 59px;gap:7px;min-height:38px}
+.steps output{font-size:14px}.steps button>span:nth-child(2) small{display:block;font-size:11px;font-weight:400;margin-top:2px}
+.trend{display:flex;gap:4px;align-items:center;font-size:11px;font-weight:700;color:#21667c;justify-content:flex-end}
+.trend-arrow{font-size:23px;line-height:1}.trend[data-direction=down]{color:#9c4b25}
+.trend-context{font-size:12px;font-weight:700;color:#21667c;margin:0 0 7px}
+.steps button[data-step="4"]{background:#fff0db;border-color:#e9cfad}.steps button[data-step="4"] output{color:#a6412e;font-weight:700}
+.steps button[data-step="4"][aria-pressed=true]{outline:2px solid #b94631;outline-offset:-2px}
+.gamma-rule{display:flex;align-items:center;justify-content:space-between;gap:9px;background:#e8f2f3;padding:10px 12px;border-radius:7px;font-size:12px;line-height:1.4;margin-top:10px}
+.gamma-rule>span:nth-child(2){font-size:23px}.gamma-rule>span:last-child{color:#94432c}.beta-gamma-note{font-size:11px;margin-top:8px;color:#496273}
+.effect-readout{display:flex;gap:13px;align-items:center;border-bottom:1px solid var(--line);padding:13px 0;font-size:13px;line-height:1.45}.effect-readout b{color:#a6412e;white-space:nowrap}.effect-readout span{color:#496273}
+.scene svg{max-height:330px}.scene{padding:0 12px}.scene-caption{font-size:11px;line-height:1.4}
+.formula-definition{line-height:1.5}.svg-large{font-size:34px}.svg-muted{font-size:15px}
+@media(min-width:1001px) and (max-height:850px){.scene svg{max-height:255px}.steps button{min-height:33px}.equation{min-height:67px}.step-explanation{min-height:34px}.gamma-rule{margin-top:8px;padding:8px 10px}.effect-readout{padding:10px 0}.experiment-controls{padding:10px 0}.scene-caption{font-size:10px}}
+@media(max-width:740px){.scene{padding:0}.scene svg{max-height:none}.effect-readout{align-items:flex-start;flex-direction:column;gap:4px}.steps button{grid-template-columns:22px minmax(0,1fr) auto 55px;gap:5px}.steps output{font-size:13px}.gamma-rule{font-size:11px}.formula-panel{padding:19px 15px}}
+
+.phenomenon>.gamma-rule{justify-content:flex-start;gap:28px;margin-top:12px;font-size:13px}.phenomenon>.beta-gamma-note{margin:6px 0 0}.effect-readout{flex-wrap:wrap;gap:4px 13px}
+@media(min-width:1001px) and (max-height:850px){.masthead{padding-top:6px;padding-bottom:6px}.intro{padding:9px 0}.modes button{padding-top:7px;padding-bottom:7px}.equation{min-height:58px}.speed-control{margin-top:9px;padding-top:7px}input[type=range]{margin-top:7px}.steps-title{margin-top:8px}.steps button{min-height:30px;padding:2px 6px}.scene svg{max-height:225px}.scene-heading{padding-top:13px}.phenomenon>.gamma-rule{margin-top:8px;padding:7px 10px;font-size:12px}.effect-readout{padding:6px 0;font-size:12px}.experiment-controls{padding:8px 0}.result{padding:9px 0}.scene-caption{padding-top:6px;padding-bottom:8px}.step-explanation{min-height:32px;margin-top:5px}}

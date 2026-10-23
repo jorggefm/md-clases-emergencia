@@ -64,3 +64,7 @@ En pantalla completa, el elemento `main` utiliza el fondo del recurso, admite de
 La captura de escritorio actual, de 1265 × 712 px, muestra simultáneamente fórmula, control de rapidez, cinco pasos, diagrama, entrada y resultado con explicación. La compactación resuelve el problema de comparación durante la proyección. El final de la explicación del paso y el contenido complementario pueden requerir desplazamiento normal. La captura móvil revisada muestra apilado sin desbordamiento horizontal visible.
 
 Esta revisión se realizó sobre fuente y capturas, sin navegador. No constituye certificación de contraste, lector de pantalla ni reproducción externa del video.
+
+## Revisión v2: lectura cualitativa e ilustraciones
+
+Se reemplazan los anillos abstractos por imágenes generadas independientes sobre el fondo azul existente. Los números y controles siguen siendo HTML/SVG dinámicos. Flechas y verbos indican el sentido de variación del último cambio de rapidez. El paso 5 tiene fondo ámbar y nombre explícito. La regla de interpretación de γ queda permanentemente junto al fenómeno; un porcentaje cuantifica la diferencia respecto al valor propio. La vista móvil mantiene el apilamiento y la vista compacta muestra los cinco pasos, regla y resultado numérico.

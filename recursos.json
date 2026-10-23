@@ -1,7 +1,8 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-22",
+  "updatedAt": "2026-10-23",
   "resources": [
+    {"id":"5s-u07-l01-p01-simulador-lorentz","title":"Laboratorio de Lorentz · tiempo, longitud y energía","description":"Fórmula interactiva paso a paso, tres ejercicios resueltos, comparación de medidas, video y propuesta sobre muones.","course":"5s","unit":7,"lesson":1,"part":1,"slug":"simulador-lorentz","type":"simulacion","path":"/recursos/5s/u07/l01/p01/simulador-lorentz/","publicationDate":"2026-10-23","publishedUrl":"https://jorggefm.github.io/md-clases-emergencia/recursos/5s/u07/l01/p01/simulador-lorentz/","publicationProvider":"github-pages"},
     {
       "id": "4s-u07-l01-p00-debate-origenes",
       "title": "Debate · Orígenes: vida, ser humano y Dios",

@@ -1,0 +1,18 @@
+QUINTO DE SECUNDARIA - FACTOR DE LORENTZ
+
+Simulador interactivo y tres ejercicios guiados de relatividad especial.
+Unidad 7 - Lección 1
+
+ABRIR LA APLICACIÓN:
+https://jorggefm.github.io/md-clases-emergencia/recursos/5s/u07/l01/p01/simulador-lorentz/?v=3
+
+En la aplicación encontrarás:
+- El factor de Lorentz explicado paso a paso, con flechas de cambio.
+- Simulaciones ilustradas de tiempo, longitud y energía.
+- Energía explicada como: energía en reposo + energía cinética = energía total.
+- La pestaña «Resolver los 3 ejercicios», con problemas, imágenes, soluciones guiadas y comprobación de respuestas.
+
+Acceso directo a los ejercicios:
+https://jorggefm.github.io/md-clases-emergencia/recursos/5s/u07/l01/p01/simulador-lorentz/?v=3#ejercicios
+
+Actualizado el 23 de octubre de 2026.

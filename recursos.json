@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "updatedAt": "2026-10-23",
   "resources": [
-    {"id":"5s-u07-l01-p01-simulador-lorentz","title":"Laboratorio de Lorentz · tiempo, longitud y energía","description":"Flechas de cambio en la fórmula, interpretación de gamma, ilustraciones independientes de Tierra y nave, tres ejercicios, video y propuesta sobre muones.","course":"5s","unit":7,"lesson":1,"part":1,"slug":"simulador-lorentz","type":"simulacion","path":"/recursos/5s/u07/l01/p01/simulador-lorentz/","publicationDate":"2026-10-23","publishedUrl":"https://jorggefm.github.io/md-clases-emergencia/recursos/5s/u07/l01/p01/simulador-lorentz/","publicationProvider":"github-pages","revision":"capas-visuales-v2"},
+    {"id":"5s-u07-l01-p01-simulador-lorentz","title":"Laboratorio de Lorentz · tiempo, longitud y energía","description":"Energía como suma de reposo y movimiento; pestaña con tres ejercicios ilustrados, soluciones guiadas y comprobación de respuestas. Simulador interactivo del factor de Lorentz.","course":"5s","unit":7,"lesson":1,"part":1,"slug":"simulador-lorentz","type":"simulacion","path":"/recursos/5s/u07/l01/p01/simulador-lorentz/","publicationDate":"2026-10-23","publishedUrl":"https://jorggefm.github.io/md-clases-emergencia/recursos/5s/u07/l01/p01/simulador-lorentz/","publicationProvider":"github-pages","revision":"energia-suma-ejercicios-v3"},
     {
       "id": "4s-u07-l01-p00-debate-origenes",
       "title": "Debate · Orígenes: vida, ser humano y Dios",

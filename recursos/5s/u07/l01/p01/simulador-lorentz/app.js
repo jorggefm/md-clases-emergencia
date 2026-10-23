@@ -7,7 +7,7 @@ const state = { mode: 'time', beta: .6, own: 5, step: 0, progress: 1, playing: f
 const scenarios = {
   time: { title:'El mismo viaje, dos tiempos', subtitle:'La Tierra y la nave comparan sus relojes.', label:'Tiempo propio Δτ', unit:'años', own:5, beta:.6, min:.1, max:100, step:.1, caption:'Movimiento ilustrativo · los relojes conservan la proporción exacta', desc:'La Tierra y una nave con astronauta muestran relojes independientes. El intervalo terrestre es gamma veces el intervalo propio de la nave.' },
   length: { title:'La misma nave, dos longitudes', subtitle:'La contracción ocurre en la dirección del movimiento.', label:'Longitud propia L₀', unit:'m', own:100, beta:.8, min:1, max:1000, step:1, caption:'Esquema de medidas simultáneas · no es una fotografía', desc:'La longitud medida desde la Tierra es la longitud propia dividida entre gamma.' },
-  energy: { title:'Más rapidez, más energía', subtitle:'Un electrón conserva su masa en reposo.', label:'Partícula: electrón', own:1, beta:.9, caption:'Energías en el marco de la Tierra · movimiento ilustrativo', desc:'La energía total del electrón se divide entre energía en reposo y energía cinética.' }
+  energy: { title:'La energía se suma', subtitle:'Energía en reposo + energía del movimiento = total.', label:'Partícula: electrón', own:1, beta:.9, caption:'Electrón ampliado · movimiento ilustrativo, sin escala espacial', desc:'El mismo electrón conserva su masa en reposo. Al moverse, su energía total incluye además la energía cinética.' }
 };
 function physics(beta, own) { const square=beta*beta, diff=1-square, root=Math.sqrt(diff), gamma=1/root, e0=MASS*C*C; return {square,diff,root,gamma,time:gamma*own,length:own/gamma,e0,total:gamma*e0,kinetic:(gamma-1)*e0}; }
 function setMode(mode) {
@@ -19,6 +19,9 @@ function setMode(mode) {
   $('scene-title').textContent=s.title; $('scene-subtitle').textContent=s.subtitle;
   $('svg-title').textContent=s.title; $('svg-desc').textContent=s.desc;
   $('scene-caption').textContent=s.caption;
+  document.querySelector('.phenomenon').dataset.mode=mode;
+  $('energy-intuition').hidden=mode!=='energy';
+  $('scene-svg').setAttribute('viewBox',mode==='energy'?'70 50 560 240':'0 0 700 320');
   for (const m of Object.keys(scenarios)) $(`${m}-scene`).toggleAttribute('hidden',m!==mode);
   $('animate').hidden=mode==='length';
   document.querySelectorAll('[data-mode]').forEach(b=>b.setAttribute('aria-pressed',b.dataset.mode===mode));
@@ -44,10 +47,6 @@ function draw(p) {
   $('length-bracket').setAttribute('d',`M278 295v9H${278+width}v-9`);
   $('rest-length').textContent=`${fmt(state.own,1)} m`;
   $('measured-length').textContent=`${fmt(p.length,2)} m`;
-  $('rest-energy-bar').setAttribute('width',570/p.gamma);
-  $('energy-split').setAttribute('d',`M${60+570/p.gamma} 233v43`);
-  $('energy-rest-label').textContent=`E₀ · ${fmt(100/p.gamma,1)} %`;
-  $('energy-kinetic-label').textContent=`K · ${fmt(100*(1-1/p.gamma),1)} %`;
   $('electron').setAttribute('transform',`translate(${state.playing ? (t-.5)*160*state.beta : 0} 0)`);
 }
 function render() {
@@ -65,6 +64,13 @@ function render() {
   $('effect-title').textContent=state.beta===0?'γ = 1 · reposo relativo':`γ ≈ ${g} · ${fmt((p.gamma-1)*100,1)} % por encima de 1`;
   $('effect-detail').textContent=state.beta===0?'Sin diferencias por movimiento relativo.':state.mode==='length'?`La longitud medida es ${fmt((1-1/p.gamma)*100,1)} % menor que la propia.`:state.mode==='time'?`El intervalo terrestre es ${fmt((p.gamma-1)*100,1)} % mayor que el propio.`:`La energía total es ${fmt((p.gamma-1)*100,1)} % mayor que mc².`;
   document.querySelectorAll('[data-speed]').forEach(b=>b.setAttribute('aria-pressed',Number(b.dataset.speed)===state.beta));
+  $('energy-k-units').textContent=fmt(p.gamma-1,3);
+  $('energy-total-units').textContent=fmt(p.gamma,3);
+  $('energy-track').style.width=`${p.gamma*110}px`;
+  $('kinetic-block').style.width=`${(p.gamma-1)*110}px`;
+  $('kinetic-block').textContent=p.gamma>1.18?'K':'';
+  $('energy-story').innerHTML=state.beta===0?'<b>En reposo: 1 + 0 = 1.</b> La energía cinética es cero, pero el electrón conserva la energía asociada a su masa. Por eso γ = 1.':`<b>A ${b}c: 1 + ${fmt(p.gamma-1,3)} ≈ ${g}.</b> El total es ${g} veces la energía en reposo. Una unidad es la base; las ${fmt(p.gamma-1,3)} restantes corresponden al movimiento. Eso es lo que nos dice γ.`;
+  document.querySelectorAll('[data-energy-speed]').forEach(button=>button.setAttribute('aria-pressed',Number(button.dataset.energySpeed)===state.beta));
   explain(p); draw(p);
   let statement, steps, conclusion;
   if(state.mode==='time') {
@@ -91,7 +97,7 @@ function render() {
   }
   $('solution-content').innerHTML=`<p><b>Enunciado actual.</b> ${statement}</p><ol>${steps.map(s=>`<li>${s}</li>`).join('')}</ol><p>${conclusion}</p><p class="small">Las cifras mostradas están redondeadas; el cálculo conserva toda la precisión.</p>`;
 }
-function stopAnimation(){state.playing=false;state.progress=1;$('animate').textContent='Animar comparación';}
+function stopAnimation(){state.playing=false;state.progress=1;$('animate').textContent=state.mode==='energy'?'Animar electrón':'Animar comparación';}
 function animateFrame(now){
   if(!state.playing)return;
   if(!state.last)state.last=now;
@@ -105,6 +111,7 @@ function setSpeed(beta){
 }
 $('speed').addEventListener('input',e=>setSpeed(Number(e.target.value)));
 document.querySelectorAll('[data-speed]').forEach(b=>b.addEventListener('click',()=>setSpeed(Number(b.dataset.speed))));
+document.querySelectorAll('[data-energy-speed]').forEach(b=>b.addEventListener('click',()=>setSpeed(Number(b.dataset.energySpeed))));
 document.querySelectorAll('[data-mode]').forEach(b=>b.addEventListener('click',()=>setMode(b.dataset.mode)));
 document.querySelectorAll('[data-step]').forEach(b=>b.addEventListener('click',()=>{state.step=Number(b.dataset.step);explain(physics(state.beta,state.own));}));
 $('beta-info').addEventListener('click',()=>{state.step=0;explain(physics(state.beta,state.own));$('step-explanation').focus();});

@@ -68,3 +68,7 @@ Esta revisión se realizó sobre fuente y capturas, sin navegador. No constituye
 ## Revisión v2: lectura cualitativa e ilustraciones
 
 Se reemplazan los anillos abstractos por imágenes generadas independientes sobre el fondo azul existente. Los números y controles siguen siendo HTML/SVG dinámicos. Flechas y verbos indican el sentido de variación del último cambio de rapidez. El paso 5 tiene fondo ámbar y nombre explícito. La regla de interpretación de γ queda permanentemente junto al fenómeno; un porcentaje cuantifica la diferencia respecto al valor propio. La vista móvil mantiene el apilamiento y la vista compacta muestra los cinco pasos, regla y resultado numérico.
+
+## Revisión v3
+
+Dos pestañas principales: simulación y ejercicios. La energía usa tres cantidades en suma y una barra a escala fija: azul en reposo, naranja cinética, azul oscuro total. Se conservan imágenes por capas. Los ejercicios usan una tarjeta ilustrada de enunciado y una columna de pasos que se revelan progresivamente. Los campos admiten coma o punto decimal y dan retroalimentación local. En móvil se apilan tarjeta, pasos y comprobación.

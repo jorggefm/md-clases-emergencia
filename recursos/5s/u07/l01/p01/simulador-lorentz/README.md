@@ -33,3 +33,11 @@ Fuente canónica: `jorggefm/md-clases`. GitHub Pages autorizado por el docente e
 La cuenta añade flechas que se invierten al subir o bajar v: β y β² cambian en el mismo sentido que v; 1 − β² y su raíz en sentido contrario; γ cambia en el mismo sentido que v. El paso 5 se identifica expresamente como Factor de Lorentz. Se mantienen visibles las relaciones «γ cerca de 1: efectos pequeños» y «γ cada vez mayor: efectos más marcados». No se confunde β → 1 con γ → ∞.
 
 Tres ilustraciones transparentes generadas con image_gen: assets/tierra.png, assets/nave.png y assets/acelerador.png. Los prompts exactos están en assets/procedencia.json. La Tierra, nave, relojes numéricos y electrón son capas separadas. El esquema de longitud usa dos copias del mismo recurso gráfico y transforma horizontalmente solo la medida desde la Tierra. La imagen representa una medición esquemática, no una fotografía.
+
+## Revisión v3: energía como suma y tres ejercicios
+
+La energía se representa en unidades E₀ = mc²: una base fija de 1, una aportación cinética γ − 1 y un total γ. La barra tiene escala fija (110 px por E₀) y permite desplazamiento horizontal cerca de c. Se conservan las ilustraciones existentes. Los joules se explican en un detalle desplegable.
+
+La pestaña Resolver los 3 ejercicios contiene enunciados originales, datos, predicción inicial, 6/6/7 pasos desarrollados, verificación de respuestas con coma o punto y vuelta al caso correspondiente en el simulador. Los datos son fijos y no heredan cambios del simulador. El enlace #ejercicios abre directamente esta sección. No se guardan ni envían las respuestas a un servidor.
+
+Archivo para Drive: Quinto de secundaria - Factor de Lorentz.txt.

@@ -1,0 +1,3 @@
+# Exploradores de moléculas
+
+Aplicación web estática para 16 estudiantes de 2S, U7 L1 P03, 23 de octubre de 2026. El docente aprobó expresamente la maqueta de dos paneles y escena inferior. Se conserva su diseño, sin reabrir decisiones visuales. La actividad ofrece 40 moléculas reales por dificultad, contadores por elemento, pistas, fórmula construida y contexto biológico o ambiental. El usuario autorizó implementar, publicar en GitHub y subir un TXT con el enlace a Drive. Sin cuenta, sin cronómetro; uso táctil y teclado. Stack HTML/CSS/JS estático elegido para el alojamiento GitHub solicitado. Imágenes de contexto ilustrativas; estructuras químicas deterministas desde SDF de PubChem y conteos auditados con RDKit.

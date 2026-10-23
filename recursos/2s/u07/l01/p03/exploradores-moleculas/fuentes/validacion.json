@@ -1,0 +1,473 @@
+{
+  "date": "2026-10-23",
+  "rdkit": "2026.09.1",
+  "compounds": 40,
+  "checks": [
+    "PubChem identity and CID",
+    "PubChem formula = RDKit formula",
+    "Explicit atom expansion counts all hydrogens",
+    "Neutral representation",
+    "Carbon bond order sum plus H = 4",
+    "Sum of per-atom H = total H",
+    "SVG drawn from the validated molecule"
+  ],
+  "records": [
+    {
+      "name": "Metano",
+      "cid": 297,
+      "formula": "CH4",
+      "counts": {
+        "C": 1,
+        "H": 4
+      },
+      "sdf_sha256": "2453b8c436e3ab4cc6d630b4e6b2c390628d8985ea7b28c3e6827c62d221529e"
+    },
+    {
+      "name": "Etano",
+      "cid": 6324,
+      "formula": "C2H6",
+      "counts": {
+        "C": 2,
+        "H": 6
+      },
+      "sdf_sha256": "5f415657b6721d2b1756c5798db698ce800caa6f81bb89d4bdd18a6b7ceb39f9"
+    },
+    {
+      "name": "Propano",
+      "cid": 6334,
+      "formula": "C3H8",
+      "counts": {
+        "C": 3,
+        "H": 8
+      },
+      "sdf_sha256": "5266be96d5ae07d436592c490c7a43e81a56511d734c1ac9bf270244c16751b4"
+    },
+    {
+      "name": "Etanol",
+      "cid": 702,
+      "formula": "C2H6O",
+      "counts": {
+        "O": 1,
+        "C": 2,
+        "H": 6
+      },
+      "sdf_sha256": "052bfeb6e9fc27ea49bcc874b3452fb8aba92aff18d81ad2f3896dba5a76a05b"
+    },
+    {
+      "name": "Butano",
+      "cid": 7843,
+      "formula": "C4H10",
+      "counts": {
+        "C": 4,
+        "H": 10
+      },
+      "sdf_sha256": "5cb4aa6f5a810531040d7420810772f8cbce17376c0b3b94561c477b01bcf701"
+    },
+    {
+      "name": "Ácido acético",
+      "cid": 176,
+      "formula": "C2H4O2",
+      "counts": {
+        "O": 2,
+        "C": 2,
+        "H": 4
+      },
+      "sdf_sha256": "d8a33a5083c6b8a7e7ec2a5c3ce181d2aa81609c4c17359cc53480ef181d31a4"
+    },
+    {
+      "name": "Acetona",
+      "cid": 180,
+      "formula": "C3H6O",
+      "counts": {
+        "O": 1,
+        "C": 3,
+        "H": 6
+      },
+      "sdf_sha256": "9e9e7748fd4780a0d99d6a27733580c4f81817c8395fc6d0b4e7d3dd7e522113"
+    },
+    {
+      "name": "Urea",
+      "cid": 1176,
+      "formula": "CH4N2O",
+      "counts": {
+        "O": 1,
+        "N": 2,
+        "C": 1,
+        "H": 4
+      },
+      "sdf_sha256": "3f4c39f2f9ac9f0856ddd96da7e937804f4fef0ca7a729f78f4b93a2c6b33cec"
+    },
+    {
+      "name": "Glicina",
+      "cid": 750,
+      "formula": "C2H5NO2",
+      "counts": {
+        "O": 2,
+        "N": 1,
+        "C": 2,
+        "H": 5
+      },
+      "sdf_sha256": "65c2aa1cd056fc8ad77685021fa330cf08921884ea6845301cf4d8d0623e832b"
+    },
+    {
+      "name": "Glicerol",
+      "cid": 753,
+      "formula": "C3H8O3",
+      "counts": {
+        "O": 3,
+        "C": 3,
+        "H": 8
+      },
+      "sdf_sha256": "daeb735af4b183af67fa9a3cee623f29193ed22acf2dab3bb63920c19ee54a1a"
+    },
+    {
+      "name": "L-alanina",
+      "cid": 5950,
+      "formula": "C3H7NO2",
+      "counts": {
+        "O": 2,
+        "N": 1,
+        "C": 3,
+        "H": 7
+      },
+      "sdf_sha256": "2e255a279738ec8119f23cd320767dd1e84bd20dadc9217fa1e51e512bfa03db"
+    },
+    {
+      "name": "L-serina",
+      "cid": 5951,
+      "formula": "C3H7NO3",
+      "counts": {
+        "O": 3,
+        "N": 1,
+        "C": 3,
+        "H": 7
+      },
+      "sdf_sha256": "043b761279e83eb04201b48983ae364c235f4d9fa829d4bd41cbbe508c76cc55"
+    },
+    {
+      "name": "L-cisteína",
+      "cid": 5862,
+      "formula": "C3H7NO2S",
+      "counts": {
+        "S": 1,
+        "O": 2,
+        "N": 1,
+        "C": 3,
+        "H": 7
+      },
+      "sdf_sha256": "e42fd2c29c2ca3b71c32d24759b19f7fa51f98f66a752e76a384c143bd731a9f"
+    },
+    {
+      "name": "L-valina",
+      "cid": 6287,
+      "formula": "C5H11NO2",
+      "counts": {
+        "O": 2,
+        "N": 1,
+        "C": 5,
+        "H": 11
+      },
+      "sdf_sha256": "83ab046a2cd15f48241e0c0268114a78678eb46dbe926059ec5c82237b4b2f99"
+    },
+    {
+      "name": "L-leucina",
+      "cid": 6106,
+      "formula": "C6H13NO2",
+      "counts": {
+        "O": 2,
+        "N": 1,
+        "C": 6,
+        "H": 13
+      },
+      "sdf_sha256": "bc84876666402ecad85adc0aef95492172659ffc2cb81a8171a12c1b9e23458e"
+    },
+    {
+      "name": "L-metionina",
+      "cid": 6137,
+      "formula": "C5H11NO2S",
+      "counts": {
+        "S": 1,
+        "O": 2,
+        "N": 1,
+        "C": 5,
+        "H": 11
+      },
+      "sdf_sha256": "014e3d689519a868858756d84790c0b096d9f74b0016e3263cb5725bbdccca25"
+    },
+    {
+      "name": "Ácido L-aspártico",
+      "cid": 5960,
+      "formula": "C4H7NO4",
+      "counts": {
+        "O": 4,
+        "N": 1,
+        "C": 4,
+        "H": 7
+      },
+      "sdf_sha256": "33002382f1ff09f920d3ec32f8acccdebcd4c8661427e197881b127642ba54bb"
+    },
+    {
+      "name": "Glicilglicina",
+      "cid": 11163,
+      "formula": "C4H8N2O3",
+      "counts": {
+        "O": 3,
+        "N": 2,
+        "C": 4,
+        "H": 8
+      },
+      "sdf_sha256": "e988c2c8a2ccd6b1d9470dbe46a0ba7b036bd9ad2dc6209b3406215e445ee251"
+    },
+    {
+      "name": "Ácido L-glutámico",
+      "cid": 33032,
+      "formula": "C5H9NO4",
+      "counts": {
+        "O": 4,
+        "N": 1,
+        "C": 5,
+        "H": 9
+      },
+      "sdf_sha256": "72c717cdedbbfe314139b49b1b4983ff7ba81494dfc6a7215346774a0e40b3e9"
+    },
+    {
+      "name": "D-ribosa",
+      "cid": 10975657,
+      "formula": "C5H10O5",
+      "counts": {
+        "O": 5,
+        "C": 5,
+        "H": 10
+      },
+      "sdf_sha256": "f1a698bb52f75d8d02e9b784572cc36a9248ccbad15bf9294d5797d8f2a56ee5"
+    },
+    {
+      "name": "Adenina",
+      "cid": 190,
+      "formula": "C5H5N5",
+      "counts": {
+        "N": 5,
+        "C": 5,
+        "H": 5
+      },
+      "sdf_sha256": "a9cff31a04bf349468d44d2f13d5b9fe87eeae2354855af5619032f46ad6f43f"
+    },
+    {
+      "name": "L-fenilalanina",
+      "cid": 6140,
+      "formula": "C9H11NO2",
+      "counts": {
+        "O": 2,
+        "N": 1,
+        "C": 9,
+        "H": 11
+      },
+      "sdf_sha256": "9c2fd132ee4142384c9c88ee5b9f6aec02192f4873c46cf93950e60b814de19b"
+    },
+    {
+      "name": "D-glucosa",
+      "cid": 5793,
+      "formula": "C6H12O6",
+      "counts": {
+        "O": 6,
+        "C": 6,
+        "H": 12
+      },
+      "sdf_sha256": "5e50b7c5d6c0f0c4bd2dc904b49eb1a282ac599746a185ad1e5fe904f2c0d933"
+    },
+    {
+      "name": "D-fructosa",
+      "cid": 2723872,
+      "formula": "C6H12O6",
+      "counts": {
+        "O": 6,
+        "C": 6,
+        "H": 12
+      },
+      "sdf_sha256": "dcaa35df5d2fed57b27319d5bd21651c0b0b2dfe9b56a4b0f51c4b88352f0e7f"
+    },
+    {
+      "name": "Ácido ascórbico · vitamina C",
+      "cid": 54670067,
+      "formula": "C6H8O6",
+      "counts": {
+        "O": 6,
+        "C": 6,
+        "H": 8
+      },
+      "sdf_sha256": "966cd0bee1a674f245590cecc0925b7846d014b4f4c173969e913844fd8d52a6"
+    },
+    {
+      "name": "L-tirosina",
+      "cid": 6057,
+      "formula": "C9H11NO3",
+      "counts": {
+        "O": 3,
+        "N": 1,
+        "C": 9,
+        "H": 11
+      },
+      "sdf_sha256": "ecd7c6368e38d9e4691ba3bafd2187e87c055c0492bebe03ea3d07c26f4f4589"
+    },
+    {
+      "name": "Ácido láurico",
+      "cid": 3893,
+      "formula": "C12H24O2",
+      "counts": {
+        "O": 2,
+        "C": 12,
+        "H": 24
+      },
+      "sdf_sha256": "7abc23b99599ac09ec73c5220d61c9c766f01db86bce51f7828ad7c9e7ee6096"
+    },
+    {
+      "name": "Cafeína",
+      "cid": 2519,
+      "formula": "C8H10N4O2",
+      "counts": {
+        "O": 2,
+        "N": 4,
+        "C": 8,
+        "H": 10
+      },
+      "sdf_sha256": "e989c2f58168441c30012d281ae4c7fba122a389bcb26321eb53476b1afc015b"
+    },
+    {
+      "name": "L-triptófano",
+      "cid": 6305,
+      "formula": "C11H12N2O2",
+      "counts": {
+        "O": 2,
+        "N": 2,
+        "C": 11,
+        "H": 12
+      },
+      "sdf_sha256": "823234d405fb5a2c0b73d3a203dbd1ddf28f87b5ae1350cf792665ec41477f3c"
+    },
+    {
+      "name": "Ácido palmítico",
+      "cid": 985,
+      "formula": "C16H32O2",
+      "counts": {
+        "O": 2,
+        "C": 16,
+        "H": 32
+      },
+      "sdf_sha256": "a7f92cd737ec0006c0bef68cde8d672921300723594383cbd8ba5888f06e08da"
+    },
+    {
+      "name": "Ácido esteárico",
+      "cid": 5281,
+      "formula": "C18H36O2",
+      "counts": {
+        "O": 2,
+        "C": 18,
+        "H": 36
+      },
+      "sdf_sha256": "78c842ae37fe4d66a2790bbae6ac0bd3d0a0d1fa184ed059dfd3f5ef142cff6a"
+    },
+    {
+      "name": "Ácido oleico",
+      "cid": 445639,
+      "formula": "C18H34O2",
+      "counts": {
+        "O": 2,
+        "C": 18,
+        "H": 34
+      },
+      "sdf_sha256": "d69ee2b79c51c0c5291fcae23e6d5200589643766f4be91a556169ee73323b2f"
+    },
+    {
+      "name": "Ácido linoleico",
+      "cid": 5280450,
+      "formula": "C18H32O2",
+      "counts": {
+        "O": 2,
+        "C": 18,
+        "H": 32
+      },
+      "sdf_sha256": "69f660edabf86497f16ae0e6e54207183294cd437a1440194238af2a1695e8c1"
+    },
+    {
+      "name": "Glutatión reducido",
+      "cid": 124886,
+      "formula": "C10H17N3O6S",
+      "counts": {
+        "S": 1,
+        "O": 6,
+        "N": 3,
+        "C": 10,
+        "H": 17
+      },
+      "sdf_sha256": "dccdc2b9f18ad9459b718055d6ca45837dc688eabb0484088b37b0e2d6c6eee0"
+    },
+    {
+      "name": "Sacarosa",
+      "cid": 5988,
+      "formula": "C12H22O11",
+      "counts": {
+        "O": 11,
+        "C": 12,
+        "H": 22
+      },
+      "sdf_sha256": "d6ecf0484e6fa481756266a72d4edf0e90ae5e2c7adf42342e35c7b8c2c7c0ba"
+    },
+    {
+      "name": "Lactosa",
+      "cid": 6134,
+      "formula": "C12H22O11",
+      "counts": {
+        "O": 11,
+        "C": 12,
+        "H": 22
+      },
+      "sdf_sha256": "32872c5d84ca85df85288004a8e5b30318530948ebfbcb35361db44d39ab0db9"
+    },
+    {
+      "name": "Maltosa",
+      "cid": 439186,
+      "formula": "C12H22O11",
+      "counts": {
+        "O": 11,
+        "C": 12,
+        "H": 22
+      },
+      "sdf_sha256": "6dfbc3ee474a88f2fbffcc440aa375152afaffc0a6abcbbf5578eb5f0818615f"
+    },
+    {
+      "name": "Colesterol",
+      "cid": 5997,
+      "formula": "C27H46O",
+      "counts": {
+        "O": 1,
+        "C": 27,
+        "H": 46
+      },
+      "sdf_sha256": "d039147fec3cf7bf1932d87785cb42fc70d9da637d22c05e25293c2d702a5603"
+    },
+    {
+      "name": "ATP · ácido adenosín trifosfórico",
+      "cid": 5957,
+      "formula": "C10H16N5O13P3",
+      "counts": {
+        "P": 3,
+        "O": 13,
+        "N": 5,
+        "C": 10,
+        "H": 16
+      },
+      "sdf_sha256": "c4334b52cc5f6fac4aeff2cdbe28d5f38cb7fc85e6400ab669c335e0d52cc288"
+    },
+    {
+      "name": "Trioleína",
+      "cid": 5497163,
+      "formula": "C57H104O6",
+      "counts": {
+        "O": 6,
+        "C": 57,
+        "H": 104
+      },
+      "sdf_sha256": "37a2c5aeb0ade9c1c366470ce4addfa7fc33b24d2a26342c73de37189740edce"
+    }
+  ]
+}

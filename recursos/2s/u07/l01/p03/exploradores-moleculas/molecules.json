@@ -1,0 +1,5243 @@
+[
+  {
+    "id": "methane",
+    "name": "Metano",
+    "title": "Methane",
+    "iupac": "methane",
+    "cid": 297,
+    "formula": "CH4",
+    "counts": {
+      "C": 1,
+      "H": 4
+    },
+    "category": "Otras orgánicas",
+    "scene": "humedal",
+    "role": "Microorganismos de ambientes sin oxígeno producen metano al transformar materia orgánica. Puede llegar a la atmósfera como gas de efecto invernadero.",
+    "atoms": [
+      {
+        "index": 0,
+        "element": "C",
+        "h": 4,
+        "bonds": 0,
+        "x": 477.03266666666667,
+        "y": 232.51999999999998
+      }
+    ],
+    "width": 1000,
+    "height": 480,
+    "source": "https://pubchem.ncbi.nlm.nih.gov/compound/297",
+    "svg": "assets/methane.svg",
+    "smiles": "C",
+    "heavy": 1,
+    "stereo": false,
+    "level": "Inicio"
+  },
+  {
+    "id": "ethane",
+    "name": "Etano",
+    "title": "Ethane",
+    "iupac": "ethane",
+    "cid": 6324,
+    "formula": "C2H6",
+    "counts": {
+      "C": 2,
+      "H": 6
+    },
+    "category": "Otras orgánicas",
+    "scene": "gas",
+    "role": "Componente del gas natural de origen geológico. Se utiliza como materia prima para producir etileno; no es un nutriente celular.",
+    "atoms": [
+      {
+        "index": 0,
+        "element": "C",
+        "h": 3,
+        "bonds": 1.0,
+        "x": 409.0,
+        "y": 239.6
+      },
+      {
+        "index": 1,
+        "element": "C",
+        "h": 3,
+        "bonds": 1.0,
+        "x": 591.0,
+        "y": 239.6
+      }
+    ],
+    "width": 1000,
+    "height": 480,
+    "source": "https://pubchem.ncbi.nlm.nih.gov/compound/6324",
+    "svg": "assets/ethane.svg",
+    "smiles": "CC",
+    "heavy": 2,
+    "stereo": false,
+    "level": "Inicio"
+  },
+  {
+    "id": "propane",
+    "name": "Propano",
+    "title": "Propane",
+    "iupac": "propane",
+    "cid": 6334,
+    "formula": "C3H8",
+    "counts": {
+      "C": 3,
+      "H": 8
+    },
+    "category": "Otras orgánicas",
+    "scene": "gas",
+    "role": "Se obtiene del procesamiento de gas natural y petróleo. Su combustión permite cocinar y calentar; transforma energía química en calor.",
+    "atoms": [
+      {
+        "index": 0,
+        "element": "C",
+        "h": 2,
+        "bonds": 2.0,
+        "x": 499.9780613128573,
+        "y": 349.29343571387335
+      },
+      {
+        "index": 1,
+        "element": "C",
+        "h": 3,
+        "bonds": 1.0,
+        "x": 880.0,
+        "y": 129.90656428612667
+      },
+      {
+        "index": 2,
+        "element": "C",
+        "h": 3,
+        "bonds": 1.0,
+        "x": 120.0,
+        "y": 129.90656428612667
+      }
+    ],
+    "width": 1000,
+    "height": 480,
+    "source": "https://pubchem.ncbi.nlm.nih.gov/compound/6334",
+    "svg": "assets/propane.svg",
+    "smiles": "CCC",
+    "heavy": 3,
+    "stereo": false,
+    "level": "Inicio"
+  },
+  {
+    "id": "ethanol",
+    "name": "Etanol",
+    "title": "Ethanol",
+    "iupac": "ethanol",
+    "cid": 702,
+    "formula": "C2H6O",
+    "counts": {
+      "O": 1,
+      "C": 2,
+      "H": 6
+    },
+    "category": "Otras orgánicas",
+    "scene": "fermentacion",
+    "role": "Las levaduras transforman azúcares en etanol y dióxido de carbono durante la fermentación. En la masa de pan, el gas ayuda a que aumente de volumen.",
+    "atoms": [
+      {
+        "index": 0,
+        "element": "O",
+        "h": 1,
+        "bonds": 1.0,
+        "x": 731.2086097667004,
+        "y": 174.3067323576293
+      },
+      {
+        "index": 1,
+        "element": "C",
+        "h": 2,
+        "bonds": 2.0,
+        "x": 480.20150934647154,
+        "y": 319.2132676423706
+      },
+      {
+        "index": 2,
+        "element": "C",
+        "h": 3,
+        "bonds": 1.0,
+        "x": 229.22339023329948,
+        "y": 174.3067323576293
+      }
+    ],
+    "width": 1000,
+    "height": 480,
+    "source": "https://pubchem.ncbi.nlm.nih.gov/compound/702",
+    "svg": "assets/ethanol.svg",
+    "smiles": "CCO",
+    "heavy": 3,
+    "stereo": false,
+    "level": "Inicio"
+  },
+  {
+    "id": "butane",
+    "name": "Butano",
+    "title": "Butane",
+    "iupac": "butane",
+    "cid": 7843,
+    "formula": "C4H10",
+    "counts": {
+      "C": 4,
+      "H": 10
+    },
+    "category": "Otras orgánicas",
+    "scene": "gas",
+    "role": "Hidrocarburo usado como combustible. En el ambiente puede participar en reacciones atmosféricas; no es un alimento para las personas.",
+    "atoms": [
+      {
+        "index": 0,
+        "element": "C",
+        "h": 2,
+        "bonds": 2.0,
+        "x": 373.3235826180671,
+        "y": 312.73036449713254
+      },
+      {
+        "index": 1,
+        "element": "C",
+        "h": 2,
+        "bonds": 2.0,
+        "x": 626.6764173819331,
+        "y": 166.46963550286745
+      },
+      {
+        "index": 2,
+        "element": "C",
+        "h": 3,
+        "bonds": 1.0,
+        "x": 120.0,
+        "y": 166.46963550286745
+      },
+      {
+        "index": 3,
+        "element": "C",
+        "h": 3,
+        "bonds": 1.0,
+        "x": 880.0,
+        "y": 312.73036449713254
+      }
+    ],
+    "width": 1000,
+    "height": 480,
+    "source": "https://pubchem.ncbi.nlm.nih.gov/compound/7843",
+    "svg": "assets/butane.svg",
+    "smiles": "CCCC",
+    "heavy": 4,
+    "stereo": false,
+    "level": "Inicio"
+  },
+  {
+    "id": "acetic-acid",
+    "name": "Ácido acético",
+    "title": "Acetic Acid",
+    "iupac": "acetic acid",
+    "cid": 176,
+    "formula": "C2H4O2",
+    "counts": {
+      "O": 2,
+      "C": 2,
+      "H": 4
+    },
+    "category": "Otras orgánicas",
+    "scene": "vinagre",
+    "role": "Bacterias acéticas pueden oxidar etanol y formar ácido acético en presencia de oxígeno. Este ácido da al vinagre su acidez característica.",
+    "atoms": [
+      {
+        "index": 0,
+        "element": "O",
+        "h": 1,
+        "bonds": 1.0,
+        "x": 626.5476158380914,
+        "y": 112.65670240913519
+      },
+      {
+        "index": 1,
+        "element": "O",
+        "h": 0,
+        "bonds": 2.0,
+        "x": 480.20755178016066,
+        "y": 366.1032975908647
+      },
+      {
+        "index": 2,
+        "element": "C",
+        "h": 3,
+        "bonds": 1.0,
+        "x": 333.88438416190877,
+        "y": 112.65670240913519
+      },
+      {
+        "index": 3,
+        "element": "C",
+        "h": 0,
+        "bonds": 4.0,
+        "x": 480.20755178016066,
+        "y": 197.13890080304503
+      }
+    ],
+    "width": 1000,
+    "height": 480,
+    "source": "https://pubchem.ncbi.nlm.nih.gov/compound/176",
+    "svg": "assets/acetic-acid.svg",
+    "smiles": "CC(=O)O",
+    "heavy": 4,
+    "stereo": false,
+    "level": "Inicio"
+  },
+  {
+    "id": "acetone",
+    "name": "Acetona",
+    "title": "Acetone",
+    "iupac": "propan-2-one",
+    "cid": 180,
+    "formula": "C3H6O",
+    "counts": {
+      "O": 1,
+      "C": 3,
+      "H": 6
+    },
+    "category": "Otras orgánicas",
+    "scene": "energia",
+    "role": "Es uno de los cuerpos cetónicos que pueden formarse cuando el organismo utiliza grasas. También se usa como disolvente; no representa a todos los cuerpos cetónicos.",
+    "atoms": [
+      {
+        "index": 0,
+        "element": "O",
+        "h": 0,
+        "bonds": 2.0,
+        "x": 666.5008780594885,
+        "y": 96.94109976950938
+      },
+      {
+        "index": 1,
+        "element": "C",
+        "h": 0,
+        "bonds": 4.0,
+        "x": 493.490012073318,
+        "y": 196.82036658983645
+      },
+      {
+        "index": 2,
+        "element": "C",
+        "h": 3,
+        "bonds": 1.0,
+        "x": 320.4991219405115,
+        "y": 96.94109976950938
+      },
+      {
+        "index": 3,
+        "element": "C",
+        "h": 3,
+        "bonds": 1.0,
+        "x": 493.490012073318,
+        "y": 396.5789002304906
+      }
+    ],
+    "width": 1000,
+    "height": 480,
+    "source": "https://pubchem.ncbi.nlm.nih.gov/compound/180",
+    "svg": "assets/acetone.svg",
+    "smiles": "CC(C)=O",
+    "heavy": 4,
+    "stereo": false,
+    "level": "Inicio"
+  },
+  {
+    "id": "urea",
+    "name": "Urea",
+    "title": "Urea",
+    "iupac": "urea",
+    "cid": 1176,
+    "formula": "CH4N2O",
+    "counts": {
+      "O": 1,
+      "N": 2,
+      "C": 1,
+      "H": 4
+    },
+    "category": "Otras orgánicas",
+    "scene": "proteinas",
+    "role": "El hígado transforma nitrógeno de desecho en urea, que se elimina principalmente por la orina. Los microorganismos pueden reciclar su nitrógeno.",
+    "atoms": [
+      {
+        "index": 0,
+        "element": "O",
+        "h": 0,
+        "bonds": 2.0,
+        "x": 649.0075654875172,
+        "y": 121.5973164186387
+      },
+      {
+        "index": 1,
+        "element": "N",
+        "h": 2,
+        "bonds": 1.0,
+        "x": 392.6505678458161,
+        "y": 121.5973164186387
+      },
+      {
+        "index": 2,
+        "element": "N",
+        "h": 2,
+        "bonds": 1.0,
+        "x": 520.8364668455721,
+        "y": 343.6026835813613
+      },
+      {
+        "index": 3,
+        "element": "C",
+        "h": 0,
+        "bonds": 4.0,
+        "x": 520.8364668455721,
+        "y": 195.59910547287956
+      }
+    ],
+    "width": 1000,
+    "height": 480,
+    "source": "https://pubchem.ncbi.nlm.nih.gov/compound/1176",
+    "svg": "assets/urea.svg",
+    "smiles": "NC(N)=O",
+    "heavy": 4,
+    "stereo": false,
+    "level": "Inicio"
+  },
+  {
+    "id": "glycine",
+    "name": "Glicina",
+    "title": "Glycine",
+    "iupac": "2-aminoacetic acid",
+    "cid": 750,
+    "formula": "C2H5NO2",
+    "counts": {
+      "O": 2,
+      "N": 1,
+      "C": 2,
+      "H": 5
+    },
+    "category": "Aminoácidos y péptidos",
+    "scene": "proteinas",
+    "role": "Aminoácido que los ribosomas incorporan a proteínas. Es abundante en el colágeno, importante en tejidos de sostén.",
+    "atoms": [
+      {
+        "index": 0,
+        "element": "O",
+        "h": 1,
+        "bonds": 1.0,
+        "x": 286.1207287220236,
+        "y": 120.35097612987775
+      },
+      {
+        "index": 1,
+        "element": "O",
+        "h": 0,
+        "bonds": 2.0,
+        "x": 423.57544548724076,
+        "y": 358.4090238701222
+      },
+      {
+        "index": 2,
+        "element": "N",
+        "h": 2,
+        "bonds": 1.0,
+        "x": 698.453137944643,
+        "y": 199.70365870995923
+      },
+      {
+        "index": 3,
+        "element": "C",
+        "h": 2,
+        "bonds": 2.0,
+        "x": 561.0142917159419,
+        "y": 120.35097612987775
+      },
+      {
+        "index": 4,
+        "element": "C",
+        "h": 0,
+        "bonds": 4.0,
+        "x": 423.57544548724076,
+        "y": 199.70365870995923
+      }
+    ],
+    "width": 1000,
+    "height": 480,
+    "source": "https://pubchem.ncbi.nlm.nih.gov/compound/750",
+    "svg": "assets/glycine.svg",
+    "smiles": "NCC(=O)O",
+    "heavy": 5,
+    "stereo": false,
+    "level": "Inicio"
+  },
+  {
+    "id": "glycerol",
+    "name": "Glicerol",
+    "title": "Glycerol",
+    "iupac": "propane-1,2,3-triol",
+    "cid": 753,
+    "formula": "C3H8O3",
+    "counts": {
+      "O": 3,
+      "C": 3,
+      "H": 8
+    },
+    "category": "Lípidos y componentes",
+    "scene": "aceite",
+    "role": "Su estructura sirve como base para unir ácidos grasos en los triacilglicéridos. El glicerol aislado es un componente de estos lípidos.",
+    "atoms": [
+      {
+        "index": 0,
+        "element": "O",
+        "h": 1,
+        "bonds": 1.0,
+        "x": 500.70720220766617,
+        "y": 340.253114992722
+      },
+      {
+        "index": 1,
+        "element": "O",
+        "h": 1,
+        "bonds": 1.0,
+        "x": 750.191675764192,
+        "y": 196.20896166909267
+      },
+      {
+        "index": 2,
+        "element": "O",
+        "h": 1,
+        "bonds": 1.0,
+        "x": 251.20832423580785,
+        "y": 196.20896166909267
+      },
+      {
+        "index": 3,
+        "element": "C",
+        "h": 1,
+        "bonds": 3.0,
+        "x": 500.70720220766617,
+        "y": 196.20896166909267
+      },
+      {
+        "index": 4,
+        "element": "C",
+        "h": 2,
+        "bonds": 2.0,
+        "x": 625.4494389859291,
+        "y": 124.18688500727801
+      },
+      {
+        "index": 5,
+        "element": "C",
+        "h": 2,
+        "bonds": 2.0,
+        "x": 375.96496542940315,
+        "y": 124.18688500727801
+      }
+    ],
+    "width": 1000,
+    "height": 480,
+    "source": "https://pubchem.ncbi.nlm.nih.gov/compound/753",
+    "svg": "assets/glycerol.svg",
+    "smiles": "OCC(O)CO",
+    "heavy": 6,
+    "stereo": false,
+    "level": "Inicio"
+  },
+  {
+    "id": "l-alanine",
+    "name": "L-alanina",
+    "title": "L-Alanine",
+    "iupac": "(2S)-2-aminopropanoic acid",
+    "cid": 5950,
+    "formula": "C3H7NO2",
+    "counts": {
+      "O": 2,
+      "N": 1,
+      "C": 3,
+      "H": 7
+    },
+    "category": "Aminoácidos y péptidos",
+    "scene": "proteinas",
+    "role": "Aminoácido incorporado a proteínas. También participa en intercambios de carbono y nitrógeno entre tejidos, como músculo e hígado.",
+    "atoms": [
+      {
+        "index": 0,
+        "element": "O",
+        "h": 1,
+        "bonds": 1.0,
+        "x": 675.0931497224387,
+        "y": 279.0043483806959
+      },
+      {
+        "index": 1,
+        "element": "O",
+        "h": 0,
+        "bonds": 2.0,
+        "x": 563.3987269317081,
+        "y": 85.53825809652042
+      },
+      {
+        "index": 2,
+        "element": "N",
+        "h": 2,
+        "bonds": 1.0,
+        "x": 339.99698361089463,
+        "y": 214.51565161930407
+      },
+      {
+        "index": 3,
+        "element": "C",
+        "h": 1,
+        "bonds": 3.0,
+        "x": 451.70430414097757,
+        "y": 279.0043483806959
+      },
+      {
+        "index": 4,
+        "element": "C",
+        "h": 3,
+        "bonds": 1.0,
+        "x": 451.70430414097757,
+        "y": 407.9817419034796
+      },
+      {
+        "index": 5,
+        "element": "C",
+        "h": 0,
+        "bonds": 4.0,
+        "x": 563.3987269317081,
+        "y": 214.51565161930407
+      }
+    ],
+    "width": 1000,
+    "height": 480,
+    "source": "https://pubchem.ncbi.nlm.nih.gov/compound/5950",
+    "svg": "assets/l-alanine.svg",
+    "smiles": "C[C@H](N)C(=O)O",
+    "heavy": 6,
+    "stereo": true,
+    "level": "Exploración"
+  },
+  {
+    "id": "l-serine",
+    "name": "L-serina",
+    "title": "L-Serine",
+    "iupac": "(2S)-2-amino-3-hydroxypropanoic acid",
+    "cid": 5951,
+    "formula": "C3H7NO3",
+    "counts": {
+      "O": 3,
+      "N": 1,
+      "C": 3,
+      "H": 7
+    },
+    "category": "Aminoácidos y péptidos",
+    "scene": "proteinas",
+    "role": "Se incorpora a proteínas y sirve como materia prima para producir otras moléculas celulares, incluidos componentes de membranas.",
+    "atoms": [
+      {
+        "index": 0,
+        "element": "O",
+        "h": 1,
+        "bonds": 1.0,
+        "x": 378.14841067235864,
+        "y": 388.79302027748133
+      },
+      {
+        "index": 1,
+        "element": "O",
+        "h": 1,
+        "bonds": 1.0,
+        "x": 636.9417226609747,
+        "y": 239.38
+      },
+      {
+        "index": 2,
+        "element": "O",
+        "h": 0,
+        "bonds": 2.0,
+        "x": 550.6806056207756,
+        "y": 89.96697972251867
+      },
+      {
+        "index": 3,
+        "element": "N",
+        "h": 2,
+        "bonds": 1.0,
+        "x": 378.14841067235864,
+        "y": 189.57565990750624
+      },
+      {
+        "index": 4,
+        "element": "C",
+        "h": 1,
+        "bonds": 3.0,
+        "x": 464.41948858057634,
+        "y": 239.38
+      },
+      {
+        "index": 5,
+        "element": "C",
+        "h": 2,
+        "bonds": 2.0,
+        "x": 464.41948858057634,
+        "y": 338.9886801849876
+      },
+      {
+        "index": 6,
+        "element": "C",
+        "h": 0,
+        "bonds": 4.0,
+        "x": 550.6806056207756,
+        "y": 189.57565990750624
+      }
+    ],
+    "width": 1000,
+    "height": 480,
+    "source": "https://pubchem.ncbi.nlm.nih.gov/compound/5951",
+    "svg": "assets/l-serine.svg",
+    "smiles": "N[C@@H](CO)C(=O)O",
+    "heavy": 7,
+    "stereo": true,
+    "level": "Exploración"
+  },
+  {
+    "id": "l-cysteine",
+    "name": "L-cisteína",
+    "title": "L-(+)-Cysteine",
+    "iupac": "(2R)-2-amino-3-sulfanylpropanoic acid",
+    "cid": 5862,
+    "formula": "C3H7NO2S",
+    "counts": {
+      "S": 1,
+      "O": 2,
+      "N": 1,
+      "C": 3,
+      "H": 7
+    },
+    "category": "Aminoácidos y péptidos",
+    "scene": "azufre",
+    "role": "Su grupo con azufre permite formar enlaces disulfuro entre ciertas partes de proteínas. Estos enlaces contribuyen a estabilizar proteínas como las queratinas.",
+    "atoms": [
+      {
+        "index": 0,
+        "element": "S",
+        "h": 1,
+        "bonds": 1.0,
+        "x": 378.27575914049044,
+        "y": 388.5659722791766
+      },
+      {
+        "index": 1,
+        "element": "O",
+        "h": 1,
+        "bonds": 1.0,
+        "x": 636.8143741928428,
+        "y": 239.3
+      },
+      {
+        "index": 2,
+        "element": "O",
+        "h": 0,
+        "bonds": 2.0,
+        "x": 550.6381528636649,
+        "y": 90.03402772082342
+      },
+      {
+        "index": 3,
+        "element": "N",
+        "h": 2,
+        "bonds": 1.0,
+        "x": 378.27575914049044,
+        "y": 189.54467590694114
+      },
+      {
+        "index": 4,
+        "element": "C",
+        "h": 1,
+        "bonds": 3.0,
+        "x": 464.46193153448695,
+        "y": 239.3
+      },
+      {
+        "index": 5,
+        "element": "C",
+        "h": 2,
+        "bonds": 2.0,
+        "x": 464.46193153448695,
+        "y": 338.8106481861177
+      },
+      {
+        "index": 6,
+        "element": "C",
+        "h": 0,
+        "bonds": 4.0,
+        "x": 550.6381528636649,
+        "y": 189.54467590694114
+      }
+    ],
+    "width": 1000,
+    "height": 480,
+    "source": "https://pubchem.ncbi.nlm.nih.gov/compound/5862",
+    "svg": "assets/l-cysteine.svg",
+    "smiles": "N[C@@H](CS)C(=O)O",
+    "heavy": 7,
+    "stereo": true,
+    "level": "Exploración"
+  },
+  {
+    "id": "l-valine",
+    "name": "L-valina",
+    "title": "L-Valine",
+    "iupac": "(2S)-2-amino-3-methylbutanoic acid",
+    "cid": 6287,
+    "formula": "C5H11NO2",
+    "counts": {
+      "O": 2,
+      "N": 1,
+      "C": 5,
+      "H": 11
+    },
+    "category": "Aminoácidos y péptidos",
+    "scene": "proteinas",
+    "role": "Aminoácido esencial: las personas deben obtenerlo de la alimentación. Se incorpora a proteínas durante el crecimiento y la reparación de tejidos.",
+    "atoms": [
+      {
+        "index": 0,
+        "element": "O",
+        "h": 1,
+        "bonds": 1.0,
+        "x": 338.23673168757585,
+        "y": 258.9051396195872
+      },
+      {
+        "index": 1,
+        "element": "O",
+        "h": 0,
+        "bonds": 2.0,
+        "x": 429.3682573856738,
+        "y": 101.07430190206395
+      },
+      {
+        "index": 2,
+        "element": "N",
+        "h": 2,
+        "bonds": 1.0,
+        "x": 520.4892610279239,
+        "y": 364.12569809793604
+      },
+      {
+        "index": 3,
+        "element": "C",
+        "h": 1,
+        "bonds": 3.0,
+        "x": 611.6102646701739,
+        "y": 206.29486038041279
+      },
+      {
+        "index": 4,
+        "element": "C",
+        "h": 1,
+        "bonds": 3.0,
+        "x": 520.4892610279239,
+        "y": 258.9051396195872
+      },
+      {
+        "index": 5,
+        "element": "C",
+        "h": 3,
+        "bonds": 1.0,
+        "x": 702.7312683124242,
+        "y": 258.9051396195872
+      },
+      {
+        "index": 6,
+        "element": "C",
+        "h": 3,
+        "bonds": 1.0,
+        "x": 611.6102646701739,
+        "y": 101.07430190206395
+      },
+      {
+        "index": 7,
+        "element": "C",
+        "h": 0,
+        "bonds": 4.0,
+        "x": 429.3682573856738,
+        "y": 206.29486038041279
+      }
+    ],
+    "width": 1000,
+    "height": 480,
+    "source": "https://pubchem.ncbi.nlm.nih.gov/compound/6287",
+    "svg": "assets/l-valine.svg",
+    "smiles": "CC(C)[C@H](N)C(=O)O",
+    "heavy": 8,
+    "stereo": true,
+    "level": "Exploración"
+  },
+  {
+    "id": "l-leucine",
+    "name": "L-leucina",
+    "title": "L-Leucine",
+    "iupac": "(2S)-2-amino-4-methylpentanoic acid",
+    "cid": 6106,
+    "formula": "C6H13NO2",
+    "counts": {
+      "O": 2,
+      "N": 1,
+      "C": 6,
+      "H": 13
+    },
+    "category": "Aminoácidos y péptidos",
+    "scene": "proteinas",
+    "role": "Aminoácido esencial presente en alimentos con proteínas. Las células lo incorporan a nuevas proteínas, incluidas las del músculo.",
+    "atoms": [
+      {
+        "index": 0,
+        "element": "O",
+        "h": 1,
+        "bonds": 1.0,
+        "x": 626.0829658969969,
+        "y": 204.65181435380129
+      },
+      {
+        "index": 1,
+        "element": "O",
+        "h": 0,
+        "bonds": 2.0,
+        "x": 553.1515883577807,
+        "y": 78.32725741520522
+      },
+      {
+        "index": 2,
+        "element": "N",
+        "h": 2,
+        "bonds": 1.0,
+        "x": 407.28041164221924,
+        "y": 162.54362870760258
+      },
+      {
+        "index": 3,
+        "element": "C",
+        "h": 1,
+        "bonds": 3.0,
+        "x": 407.28041164221924,
+        "y": 330.97637129239735
+      },
+      {
+        "index": 4,
+        "element": "C",
+        "h": 2,
+        "bonds": 2.0,
+        "x": 480.2202108185646,
+        "y": 288.86818564619864
+      },
+      {
+        "index": 5,
+        "element": "C",
+        "h": 1,
+        "bonds": 3.0,
+        "x": 480.2202108185646,
+        "y": 204.65181435380129
+      },
+      {
+        "index": 6,
+        "element": "C",
+        "h": 3,
+        "bonds": 1.0,
+        "x": 407.28041164221924,
+        "y": 415.19274258479476
+      },
+      {
+        "index": 7,
+        "element": "C",
+        "h": 3,
+        "bonds": 1.0,
+        "x": 334.3490341030031,
+        "y": 288.86818564619864
+      },
+      {
+        "index": 8,
+        "element": "C",
+        "h": 0,
+        "bonds": 4.0,
+        "x": 553.1515883577807,
+        "y": 162.54362870760258
+      }
+    ],
+    "width": 1000,
+    "height": 480,
+    "source": "https://pubchem.ncbi.nlm.nih.gov/compound/6106",
+    "svg": "assets/l-leucine.svg",
+    "smiles": "CC(C)C[C@H](N)C(=O)O",
+    "heavy": 9,
+    "stereo": true,
+    "level": "Exploración"
+  },
+  {
+    "id": "l-methionine",
+    "name": "L-metionina",
+    "title": "L-Methionine",
+    "iupac": "(2S)-2-amino-4-methylsulfanylbutanoic acid",
+    "cid": 6137,
+    "formula": "C5H11NO2S",
+    "counts": {
+      "S": 1,
+      "O": 2,
+      "N": 1,
+      "C": 5,
+      "H": 11
+    },
+    "category": "Aminoácidos y péptidos",
+    "scene": "azufre",
+    "role": "Aminoácido esencial con azufre. Se incorpora a proteínas y participa, mediante sus derivados, en transferencias de grupos químicos en las células.",
+    "atoms": [
+      {
+        "index": 0,
+        "element": "S",
+        "h": 0,
+        "bonds": 2.0,
+        "x": 414.84289228982624,
+        "y": 378.85738293724853
+      },
+      {
+        "index": 1,
+        "element": "O",
+        "h": 1,
+        "bonds": 1.0,
+        "x": 610.9584412094065,
+        "y": 190.1468358840363
+      },
+      {
+        "index": 2,
+        "element": "O",
+        "h": 0,
+        "bonds": 2.0,
+        "x": 545.5891077101737,
+        "y": 76.920507652109
+      },
+      {
+        "index": 3,
+        "element": "N",
+        "h": 2,
+        "bonds": 1.0,
+        "x": 414.84289228982624,
+        "y": 152.40472647339388
+      },
+      {
+        "index": 4,
+        "element": "C",
+        "h": 2,
+        "bonds": 2.0,
+        "x": 480.21977421094107,
+        "y": 265.6310547053212
+      },
+      {
+        "index": 5,
+        "element": "C",
+        "h": 1,
+        "bonds": 3.0,
+        "x": 480.21977421094107,
+        "y": 190.1468358840363
+      },
+      {
+        "index": 6,
+        "element": "C",
+        "h": 2,
+        "bonds": 2.0,
+        "x": 414.84289228982624,
+        "y": 303.3731641159636
+      },
+      {
+        "index": 7,
+        "element": "C",
+        "h": 0,
+        "bonds": 4.0,
+        "x": 545.5891077101737,
+        "y": 152.40472647339388
+      },
+      {
+        "index": 8,
+        "element": "C",
+        "h": 3,
+        "bonds": 1.0,
+        "x": 349.47355879059353,
+        "y": 416.599492347891
+      }
+    ],
+    "width": 1000,
+    "height": 480,
+    "source": "https://pubchem.ncbi.nlm.nih.gov/compound/6137",
+    "svg": "assets/l-methionine.svg",
+    "smiles": "CSCC[C@H](N)C(=O)O",
+    "heavy": 9,
+    "stereo": true,
+    "level": "Exploración"
+  },
+  {
+    "id": "l-aspartic-acid",
+    "name": "Ácido L-aspártico",
+    "title": "L-Aspartic Acid",
+    "iupac": "(2S)-2-aminobutanedioic acid",
+    "cid": 5960,
+    "formula": "C4H7NO4",
+    "counts": {
+      "O": 4,
+      "N": 1,
+      "C": 4,
+      "H": 7
+    },
+    "category": "Aminoácidos y péptidos",
+    "scene": "proteinas",
+    "role": "Aminoácido que se incorpora a proteínas y participa en el metabolismo del nitrógeno. Se muestra su forma neutra para practicar el conteo.",
+    "atoms": [
+      {
+        "index": 0,
+        "element": "O",
+        "h": 1,
+        "bonds": 1.0,
+        "x": 728.513031161473,
+        "y": 258.9051396195872
+      },
+      {
+        "index": 1,
+        "element": "O",
+        "h": 1,
+        "bonds": 1.0,
+        "x": 272.88696883852697,
+        "y": 206.29486038041279
+      },
+      {
+        "index": 2,
+        "element": "O",
+        "h": 0,
+        "bonds": 2.0,
+        "x": 637.3815054633752,
+        "y": 101.07430190206395
+      },
+      {
+        "index": 3,
+        "element": "O",
+        "h": 0,
+        "bonds": 2.0,
+        "x": 364.01849453662487,
+        "y": 364.12569809793604
+      },
+      {
+        "index": 4,
+        "element": "N",
+        "h": 2,
+        "bonds": 1.0,
+        "x": 546.260501821125,
+        "y": 364.12569809793604
+      },
+      {
+        "index": 5,
+        "element": "C",
+        "h": 1,
+        "bonds": 3.0,
+        "x": 546.260501821125,
+        "y": 258.9051396195872
+      },
+      {
+        "index": 6,
+        "element": "C",
+        "h": 2,
+        "bonds": 2.0,
+        "x": 455.139498178875,
+        "y": 206.29486038041279
+      },
+      {
+        "index": 7,
+        "element": "C",
+        "h": 0,
+        "bonds": 4.0,
+        "x": 637.3815054633752,
+        "y": 206.29486038041279
+      },
+      {
+        "index": 8,
+        "element": "C",
+        "h": 0,
+        "bonds": 4.0,
+        "x": 364.01849453662487,
+        "y": 258.9051396195872
+      }
+    ],
+    "width": 1000,
+    "height": 480,
+    "source": "https://pubchem.ncbi.nlm.nih.gov/compound/5960",
+    "svg": "assets/l-aspartic-acid.svg",
+    "smiles": "N[C@@H](CC(=O)O)C(=O)O",
+    "heavy": 9,
+    "stereo": true,
+    "level": "Exploración"
+  },
+  {
+    "id": "glycylglycine",
+    "name": "Glicilglicina",
+    "title": "Glycylglycine",
+    "iupac": "2-[(2-aminoacetyl)amino]acetic acid",
+    "cid": 11163,
+    "formula": "C4H8N2O3",
+    "counts": {
+      "O": 3,
+      "N": 2,
+      "C": 4,
+      "H": 8
+    },
+    "category": "Aminoácidos y péptidos",
+    "scene": "proteinas",
+    "role": "Dipéptido de dos glicinas unidas por un enlace peptídico. Permite explorar cómo cambia el conteo al unir aminoácidos: no es una proteína completa.",
+    "atoms": [
+      {
+        "index": 0,
+        "element": "O",
+        "h": 0,
+        "bonds": 2.0,
+        "x": 417.58688022020635,
+        "y": 369.2272668107106
+      },
+      {
+        "index": 1,
+        "element": "O",
+        "h": 1,
+        "bonds": 1.0,
+        "x": 777.4300137873922,
+        "y": 265.34945336214207
+      },
+      {
+        "index": 2,
+        "element": "O",
+        "h": 0,
+        "bonds": 2.0,
+        "x": 687.471827340932,
+        "y": 109.53273318928942
+      },
+      {
+        "index": 3,
+        "element": "N",
+        "h": 1,
+        "bonds": 2.0,
+        "x": 507.5450666666666,
+        "y": 213.41054663785786
+      },
+      {
+        "index": 4,
+        "element": "N",
+        "h": 2,
+        "bonds": 1.0,
+        "x": 237.66011954594097,
+        "y": 265.34945336214207
+      },
+      {
+        "index": 5,
+        "element": "C",
+        "h": 2,
+        "bonds": 2.0,
+        "x": 597.5032531131269,
+        "y": 265.34945336214207
+      },
+      {
+        "index": 6,
+        "element": "C",
+        "h": 0,
+        "bonds": 4.0,
+        "x": 417.58688022020635,
+        "y": 265.34945336214207
+      },
+      {
+        "index": 7,
+        "element": "C",
+        "h": 2,
+        "bonds": 2.0,
+        "x": 327.6286937737461,
+        "y": 213.41054663785786
+      },
+      {
+        "index": 8,
+        "element": "C",
+        "h": 0,
+        "bonds": 4.0,
+        "x": 687.471827340932,
+        "y": 213.41054663785786
+      }
+    ],
+    "width": 1000,
+    "height": 480,
+    "source": "https://pubchem.ncbi.nlm.nih.gov/compound/11163",
+    "svg": "assets/glycylglycine.svg",
+    "smiles": "NCC(=O)NCC(=O)O",
+    "heavy": 9,
+    "stereo": false,
+    "level": "Exploración"
+  },
+  {
+    "id": "l-glutamic-acid",
+    "name": "Ácido L-glutámico",
+    "title": "L-Glutamic Acid",
+    "iupac": "(2S)-2-aminopentanedioic acid",
+    "cid": 33032,
+    "formula": "C5H9NO4",
+    "counts": {
+      "O": 4,
+      "N": 1,
+      "C": 5,
+      "H": 9
+    },
+    "category": "Aminoácidos y péptidos",
+    "scene": "proteinas",
+    "role": "Aminoácido de las proteínas. Su forma ionizada, glutamato, también actúa como mensajero entre neuronas; aquí se muestra la forma neutra.",
+    "atoms": [
+      {
+        "index": 0,
+        "element": "O",
+        "h": 1,
+        "bonds": 1.0,
+        "x": 623.0184913567314,
+        "y": 186.4145148710785
+      },
+      {
+        "index": 1,
+        "element": "O",
+        "h": 1,
+        "bonds": 1.0,
+        "x": 378.3815086432687,
+        "y": 398.2764553867644
+      },
+      {
+        "index": 2,
+        "element": "O",
+        "h": 0,
+        "bonds": 2.0,
+        "x": 561.8610111945366,
+        "y": 80.48354461323555
+      },
+      {
+        "index": 3,
+        "element": "O",
+        "h": 0,
+        "bonds": 2.0,
+        "x": 500.70353103234197,
+        "y": 398.2764553867644
+      },
+      {
+        "index": 4,
+        "element": "N",
+        "h": 2,
+        "bonds": 1.0,
+        "x": 439.5389888054634,
+        "y": 151.10419145179753
+      },
+      {
+        "index": 5,
+        "element": "C",
+        "h": 2,
+        "bonds": 2.0,
+        "x": 500.70353103234197,
+        "y": 257.03516170964053
+      },
+      {
+        "index": 6,
+        "element": "C",
+        "h": 1,
+        "bonds": 3.0,
+        "x": 500.70353103234197,
+        "y": 186.4145148710785
+      },
+      {
+        "index": 7,
+        "element": "C",
+        "h": 2,
+        "bonds": 2.0,
+        "x": 439.5389888054634,
+        "y": 292.3454851289215
+      },
+      {
+        "index": 8,
+        "element": "C",
+        "h": 0,
+        "bonds": 4.0,
+        "x": 561.8610111945366,
+        "y": 151.10419145179753
+      },
+      {
+        "index": 9,
+        "element": "C",
+        "h": 0,
+        "bonds": 4.0,
+        "x": 439.5389888054634,
+        "y": 362.9661319674834
+      }
+    ],
+    "width": 1000,
+    "height": 480,
+    "source": "https://pubchem.ncbi.nlm.nih.gov/compound/33032",
+    "svg": "assets/l-glutamic-acid.svg",
+    "smiles": "N[C@@H](CCC(=O)O)C(=O)O",
+    "heavy": 10,
+    "stereo": true,
+    "level": "Exploración"
+  },
+  {
+    "id": "d-ribose",
+    "name": "D-ribosa",
+    "title": "D-Ribose",
+    "iupac": "(3R,4R,5R)-oxane-2,3,4,5-tetrol",
+    "cid": 10975657,
+    "formula": "C5H10O5",
+    "counts": {
+      "O": 5,
+      "C": 5,
+      "H": 10
+    },
+    "category": "Carbohidratos",
+    "scene": "adn",
+    "role": "Azúcar de cinco carbonos que forma parte del ARN y de nucleótidos como ATP. La ribosa libre es la molécula mostrada; al unirse en otras estructuras se transforma.",
+    "atoms": [
+      {
+        "index": 0,
+        "element": "O",
+        "h": 0,
+        "bonds": 2.0,
+        "x": 586.9660974742085,
+        "y": 338.9886801849876
+      },
+      {
+        "index": 1,
+        "element": "O",
+        "h": 1,
+        "bonds": 1.0,
+        "x": 328.1727854855923,
+        "y": 189.57565990750624
+      },
+      {
+        "index": 2,
+        "element": "O",
+        "h": 1,
+        "bonds": 1.0,
+        "x": 500.70498043400926,
+        "y": 89.96697972251867
+      },
+      {
+        "index": 3,
+        "element": "O",
+        "h": 1,
+        "bonds": 1.0,
+        "x": 328.1727854855923,
+        "y": 388.79302027748133
+      },
+      {
+        "index": 4,
+        "element": "O",
+        "h": 1,
+        "bonds": 1.0,
+        "x": 673.2272145144077,
+        "y": 189.57565990750624
+      },
+      {
+        "index": 5,
+        "element": "C",
+        "h": 1,
+        "bonds": 3.0,
+        "x": 414.44386339381003,
+        "y": 239.38
+      },
+      {
+        "index": 6,
+        "element": "C",
+        "h": 1,
+        "bonds": 3.0,
+        "x": 500.70498043400926,
+        "y": 189.57565990750624
+      },
+      {
+        "index": 7,
+        "element": "C",
+        "h": 1,
+        "bonds": 3.0,
+        "x": 414.44386339381003,
+        "y": 338.9886801849876
+      },
+      {
+        "index": 8,
+        "element": "C",
+        "h": 1,
+        "bonds": 3.0,
+        "x": 586.9660974742085,
+        "y": 239.38
+      },
+      {
+        "index": 9,
+        "element": "C",
+        "h": 2,
+        "bonds": 2.0,
+        "x": 500.70498043400926,
+        "y": 388.79302027748133
+      }
+    ],
+    "width": 1000,
+    "height": 480,
+    "source": "https://pubchem.ncbi.nlm.nih.gov/compound/10975657",
+    "svg": "assets/d-ribose.svg",
+    "smiles": "OC1OC[C@@H](O)[C@@H](O)[C@H]1O",
+    "heavy": 10,
+    "stereo": true,
+    "level": "Exploración"
+  },
+  {
+    "id": "adenine",
+    "name": "Adenina",
+    "title": "Adenine",
+    "iupac": "7H-purin-6-amine",
+    "cid": 190,
+    "formula": "C5H5N5",
+    "counts": {
+      "N": 5,
+      "C": 5,
+      "H": 5
+    },
+    "category": "Nucleótidos y bases",
+    "scene": "adn",
+    "role": "Base nitrogenada presente en ADN, ARN y ATP. Aquí se cuenta la adenina libre; en los ácidos nucleicos está unida a un azúcar.",
+    "atoms": [
+      {
+        "index": 0,
+        "element": "N",
+        "h": 1,
+        "bonds": 2.0,
+        "x": 610.1856274056968,
+        "y": 209.10654349499615
+      },
+      {
+        "index": 1,
+        "element": "N",
+        "h": 0,
+        "bonds": 3.0,
+        "x": 610.1856274056968,
+        "y": 370.1704387990761
+      },
+      {
+        "index": 2,
+        "element": "N",
+        "h": 0,
+        "bonds": 3.0,
+        "x": 428.81611239414934,
+        "y": 389.71547344110854
+      },
+      {
+        "index": 3,
+        "element": "N",
+        "h": 0,
+        "bonds": 3.0,
+        "x": 342.14944572748266,
+        "y": 239.6
+      },
+      {
+        "index": 4,
+        "element": "N",
+        "h": 2,
+        "bonds": 1.0,
+        "x": 428.81611239414934,
+        "y": 89.48452655889145
+      },
+      {
+        "index": 5,
+        "element": "C",
+        "h": 0,
+        "bonds": 4.0,
+        "x": 515.4927867590454,
+        "y": 239.6
+      },
+      {
+        "index": 6,
+        "element": "C",
+        "h": 0,
+        "bonds": 4.0,
+        "x": 515.4927867590454,
+        "y": 339.67698229407233
+      },
+      {
+        "index": 7,
+        "element": "C",
+        "h": 0,
+        "bonds": 4.0,
+        "x": 428.81611239414934,
+        "y": 189.5615088529638
+      },
+      {
+        "index": 8,
+        "element": "C",
+        "h": 1,
+        "bonds": 3.0,
+        "x": 668.5905542725172,
+        "y": 289.63849114703623
+      },
+      {
+        "index": 9,
+        "element": "C",
+        "h": 1,
+        "bonds": 3.0,
+        "x": 342.14944572748266,
+        "y": 339.67698229407233
+      }
+    ],
+    "width": 1000,
+    "height": 480,
+    "source": "https://pubchem.ncbi.nlm.nih.gov/compound/190",
+    "svg": "assets/adenine.svg",
+    "smiles": "NC1=C2NC=NC2=NC=N1",
+    "heavy": 10,
+    "stereo": false,
+    "level": "Exploración"
+  },
+  {
+    "id": "l-phenylalanine",
+    "name": "L-fenilalanina",
+    "title": "L-Phenylalanine",
+    "iupac": "(2S)-2-amino-3-phenylpropanoic acid",
+    "cid": 6140,
+    "formula": "C9H11NO2",
+    "counts": {
+      "O": 2,
+      "N": 1,
+      "C": 9,
+      "H": 11
+    },
+    "category": "Aminoácidos y péptidos",
+    "scene": "proteinas",
+    "role": "Aminoácido esencial con un anillo aromático. Además de formar proteínas, puede convertirse en tirosina en el organismo.",
+    "atoms": [
+      {
+        "index": 0,
+        "element": "O",
+        "h": 1,
+        "bonds": 1.0,
+        "x": 560.6485610812572,
+        "y": 75.77807523204693
+      },
+      {
+        "index": 1,
+        "element": "O",
+        "h": 0,
+        "bonds": 2.0,
+        "x": 442.1854443250285,
+        "y": 75.77807523204693
+      },
+      {
+        "index": 2,
+        "element": "N",
+        "h": 2,
+        "bonds": 1.0,
+        "x": 560.6485610812572,
+        "y": 212.56361504640938
+      },
+      {
+        "index": 3,
+        "element": "C",
+        "h": 2,
+        "bonds": 2.0,
+        "x": 442.1854443250285,
+        "y": 212.56361504640938
+      },
+      {
+        "index": 4,
+        "element": "C",
+        "h": 1,
+        "bonds": 3.0,
+        "x": 501.4204223416382,
+        "y": 178.36723009281877
+      },
+      {
+        "index": 5,
+        "element": "C",
+        "h": 0,
+        "bonds": 4.0,
+        "x": 442.1854443250285,
+        "y": 280.9563849535906
+      },
+      {
+        "index": 6,
+        "element": "C",
+        "h": 1,
+        "bonds": 3.0,
+        "x": 382.9573055854096,
+        "y": 315.1527699071812
+      },
+      {
+        "index": 7,
+        "element": "C",
+        "h": 1,
+        "bonds": 3.0,
+        "x": 501.4204223416382,
+        "y": 315.1527699071812
+      },
+      {
+        "index": 8,
+        "element": "C",
+        "h": 0,
+        "bonds": 4.0,
+        "x": 501.4204223416382,
+        "y": 109.97446018563754
+      },
+      {
+        "index": 9,
+        "element": "C",
+        "h": 1,
+        "bonds": 3.0,
+        "x": 382.9573055854096,
+        "y": 383.5455398143624
+      },
+      {
+        "index": 10,
+        "element": "C",
+        "h": 1,
+        "bonds": 3.0,
+        "x": 501.4204223416382,
+        "y": 383.5455398143624
+      },
+      {
+        "index": 11,
+        "element": "C",
+        "h": 1,
+        "bonds": 3.0,
+        "x": 442.1854443250285,
+        "y": 417.74192476795304
+      }
+    ],
+    "width": 1000,
+    "height": 480,
+    "source": "https://pubchem.ncbi.nlm.nih.gov/compound/6140",
+    "svg": "assets/l-phenylalanine.svg",
+    "smiles": "N[C@@H](CC1=CC=CC=C1)C(=O)O",
+    "heavy": 12,
+    "stereo": true,
+    "level": "Exploración"
+  },
+  {
+    "id": "d-glucose",
+    "name": "D-glucosa",
+    "title": "D-Glucose",
+    "iupac": "(3R,4S,5S,6R)-6-(hydroxymethyl)oxane-2,3,4,5-tetrol",
+    "cid": 5793,
+    "formula": "C6H12O6",
+    "counts": {
+      "O": 6,
+      "C": 6,
+      "H": 12
+    },
+    "category": "Carbohidratos",
+    "scene": "azucares",
+    "role": "Las células transforman glucosa para obtener energía utilizable. Se muestra una forma cíclica: el oxígeno del anillo también cuenta.",
+    "atoms": [
+      {
+        "index": 0,
+        "element": "O",
+        "h": 0,
+        "bonds": 2.0,
+        "x": 500.70391036246053,
+        "y": 161.17275078959238
+      },
+      {
+        "index": 1,
+        "element": "O",
+        "h": 1,
+        "bonds": 1.0,
+        "x": 365.2411340051135,
+        "y": 317.58724921040755
+      },
+      {
+        "index": 2,
+        "element": "O",
+        "h": 1,
+        "bonds": 1.0,
+        "x": 500.70391036246053,
+        "y": 395.79449842081516
+      },
+      {
+        "index": 3,
+        "element": "O",
+        "h": 1,
+        "bonds": 1.0,
+        "x": 636.1588659948865,
+        "y": 317.58724921040755
+      },
+      {
+        "index": 4,
+        "element": "O",
+        "h": 1,
+        "bonds": 1.0,
+        "x": 636.1588659948865,
+        "y": 161.17275078959238
+      },
+      {
+        "index": 5,
+        "element": "O",
+        "h": 1,
+        "bonds": 1.0,
+        "x": 365.2411340051135,
+        "y": 82.9655015791848
+      },
+      {
+        "index": 6,
+        "element": "C",
+        "h": 1,
+        "bonds": 3.0,
+        "x": 432.97643254624757,
+        "y": 278.4836246052038
+      },
+      {
+        "index": 7,
+        "element": "C",
+        "h": 1,
+        "bonds": 3.0,
+        "x": 500.70391036246053,
+        "y": 317.58724921040755
+      },
+      {
+        "index": 8,
+        "element": "C",
+        "h": 1,
+        "bonds": 3.0,
+        "x": 432.97643254624757,
+        "y": 200.2763753947962
+      },
+      {
+        "index": 9,
+        "element": "C",
+        "h": 1,
+        "bonds": 3.0,
+        "x": 568.4313881786734,
+        "y": 278.4836246052038
+      },
+      {
+        "index": 10,
+        "element": "C",
+        "h": 1,
+        "bonds": 3.0,
+        "x": 568.4313881786734,
+        "y": 200.2763753947962
+      },
+      {
+        "index": 11,
+        "element": "C",
+        "h": 2,
+        "bonds": 2.0,
+        "x": 365.2411340051135,
+        "y": 161.17275078959238
+      }
+    ],
+    "width": 1000,
+    "height": 480,
+    "source": "https://pubchem.ncbi.nlm.nih.gov/compound/5793",
+    "svg": "assets/d-glucose.svg",
+    "smiles": "OC[C@H]1OC(O)[C@H](O)[C@@H](O)[C@@H]1O",
+    "heavy": 12,
+    "stereo": true,
+    "level": "Exploración"
+  },
+  {
+    "id": "d-fructose",
+    "name": "D-fructosa",
+    "title": "D-Fructose",
+    "iupac": "(3S,4R,5R)-2-(hydroxymethyl)oxane-2,3,4,5-tetrol",
+    "cid": 2723872,
+    "formula": "C6H12O6",
+    "counts": {
+      "O": 6,
+      "C": 6,
+      "H": 12
+    },
+    "category": "Carbohidratos",
+    "scene": "azucares",
+    "role": "Azúcar presente en muchas frutas. Los organismos pueden transformar sus átomos en procesos de obtención de energía y síntesis de otras sustancias.",
+    "atoms": [
+      {
+        "index": 0,
+        "element": "O",
+        "h": 0,
+        "bonds": 2.0,
+        "x": 600.8533863062528,
+        "y": 248.43201990197534
+      },
+      {
+        "index": 1,
+        "element": "O",
+        "h": 1,
+        "bonds": 1.0,
+        "x": 425.2800163374425,
+        "y": 282.2208213277885
+      },
+      {
+        "index": 2,
+        "element": "O",
+        "h": 1,
+        "bonds": 1.0,
+        "x": 576.1199836625576,
+        "y": 340.74302539729683
+      },
+      {
+        "index": 3,
+        "element": "O",
+        "h": 1,
+        "bonds": 1.0,
+        "x": 425.2800163374425,
+        "y": 147.06561562453584
+      },
+      {
+        "index": 4,
+        "element": "O",
+        "h": 1,
+        "bonds": 1.0,
+        "x": 542.3311822367443,
+        "y": 79.48801277290953
+      },
+      {
+        "index": 5,
+        "element": "O",
+        "h": 1,
+        "bonds": 1.0,
+        "x": 542.3311822367443,
+        "y": 399.27198722709045
+      },
+      {
+        "index": 6,
+        "element": "C",
+        "h": 1,
+        "bonds": 3.0,
+        "x": 483.808978167236,
+        "y": 248.43201990197534
+      },
+      {
+        "index": 7,
+        "element": "C",
+        "h": 0,
+        "bonds": 4.0,
+        "x": 542.3311822367443,
+        "y": 282.2208213277885
+      },
+      {
+        "index": 8,
+        "element": "C",
+        "h": 1,
+        "bonds": 3.0,
+        "x": 483.808978167236,
+        "y": 180.854417050349
+      },
+      {
+        "index": 9,
+        "element": "C",
+        "h": 1,
+        "bonds": 3.0,
+        "x": 542.3311822367443,
+        "y": 147.06561562453584
+      },
+      {
+        "index": 10,
+        "element": "C",
+        "h": 2,
+        "bonds": 2.0,
+        "x": 600.8533863062528,
+        "y": 180.854417050349
+      },
+      {
+        "index": 11,
+        "element": "C",
+        "h": 2,
+        "bonds": 2.0,
+        "x": 508.54238081093126,
+        "y": 340.74302539729683
+      }
+    ],
+    "width": 1000,
+    "height": 480,
+    "source": "https://pubchem.ncbi.nlm.nih.gov/compound/2723872",
+    "svg": "assets/d-fructose.svg",
+    "smiles": "OCC1(O)OC[C@@H](O)[C@@H](O)[C@@H]1O",
+    "heavy": 12,
+    "stereo": true,
+    "level": "Exploración"
+  },
+  {
+    "id": "ascorbic-acid",
+    "name": "Ácido ascórbico · vitamina C",
+    "title": "L-Ascorbic Acid",
+    "iupac": "(2R)-2-[(1S)-1,2-dihydroxyethyl]-3,4-dihydroxy-2H-furan-5-one",
+    "cid": 54670067,
+    "formula": "C6H8O6",
+    "counts": {
+      "O": 6,
+      "C": 6,
+      "H": 8
+    },
+    "category": "Otras orgánicas",
+    "scene": "vitamina",
+    "role": "Participa en reacciones necesarias para formar colágeno y actúa como antioxidante. Frutas y verduras permiten obtener vitamina C en la alimentación.",
+    "atoms": [
+      {
+        "index": 0,
+        "element": "O",
+        "h": 0,
+        "bonds": 2.0,
+        "x": 583.7893295287254,
+        "y": 283.3013391250613
+      },
+      {
+        "index": 1,
+        "element": "O",
+        "h": 1,
+        "bonds": 1.0,
+        "x": 472.9770942003962,
+        "y": 145.17967648715944
+      },
+      {
+        "index": 2,
+        "element": "O",
+        "h": 1,
+        "bonds": 1.0,
+        "x": 413.8331309863506,
+        "y": 262.8523469220843
+      },
+      {
+        "index": 3,
+        "element": "O",
+        "h": 1,
+        "bonds": 1.0,
+        "x": 587.5668690136492,
+        "y": 79.02311808218683
+      },
+      {
+        "index": 4,
+        "element": "O",
+        "h": 1,
+        "bonds": 1.0,
+        "x": 458.30356954617326,
+        "y": 399.7368819178132
+      },
+      {
+        "index": 5,
+        "element": "O",
+        "h": 0,
+        "bonds": 2.0,
+        "x": 602.2337780120317,
+        "y": 399.7368819178132
+      },
+      {
+        "index": 6,
+        "element": "C",
+        "h": 1,
+        "bonds": 3.0,
+        "x": 530.2686737791025,
+        "y": 244.41451409461843
+      },
+      {
+        "index": 7,
+        "element": "C",
+        "h": 1,
+        "bonds": 3.0,
+        "x": 530.2686737791025,
+        "y": 178.25795568964577
+      },
+      {
+        "index": 8,
+        "element": "C",
+        "h": 0,
+        "bonds": 4.0,
+        "x": 476.7480180294796,
+        "y": 283.3013391250613
+      },
+      {
+        "index": 9,
+        "element": "C",
+        "h": 2,
+        "bonds": 2.0,
+        "x": 587.5668690136492,
+        "y": 145.17967648715944
+      },
+      {
+        "index": 10,
+        "element": "C",
+        "h": 0,
+        "bonds": 4.0,
+        "x": 497.1903945766162,
+        "y": 346.21622616819025
+      },
+      {
+        "index": 11,
+        "element": "C",
+        "h": 0,
+        "bonds": 4.0,
+        "x": 563.3469529815889,
+        "y": 346.21622616819025
+      }
+    ],
+    "width": 1000,
+    "height": 480,
+    "source": "https://pubchem.ncbi.nlm.nih.gov/compound/54670067",
+    "svg": "assets/ascorbic-acid.svg",
+    "smiles": "O=C1O[C@H]([C@@H](O)CO)C(O)=C1O",
+    "heavy": 12,
+    "stereo": true,
+    "level": "Exploración"
+  },
+  {
+    "id": "l-tyrosine",
+    "name": "L-tirosina",
+    "title": "L-Tyrosine",
+    "iupac": "(2S)-2-amino-3-(4-hydroxyphenyl)propanoic acid",
+    "cid": 6057,
+    "formula": "C9H11NO3",
+    "counts": {
+      "O": 3,
+      "N": 1,
+      "C": 9,
+      "H": 11
+    },
+    "category": "Aminoácidos y péptidos",
+    "scene": "proteinas",
+    "role": "Aminoácido de las proteínas y precursor de otras sustancias, como melanina y determinadas moléculas de señalización.",
+    "atoms": [
+      {
+        "index": 0,
+        "element": "O",
+        "h": 1,
+        "bonds": 1.0,
+        "x": 542.8628795335347,
+        "y": 75.27558631260989
+      },
+      {
+        "index": 1,
+        "element": "O",
+        "h": 1,
+        "bonds": 1.0,
+        "x": 448.1144612175586,
+        "y": 403.4844136873901
+      },
+      {
+        "index": 2,
+        "element": "O",
+        "h": 0,
+        "bonds": 2.0,
+        "x": 448.1144612175586,
+        "y": 75.27558631260989
+      },
+      {
+        "index": 3,
+        "element": "N",
+        "h": 2,
+        "bonds": 1.0,
+        "x": 542.8628795335347,
+        "y": 184.67852877086995
+      },
+      {
+        "index": 4,
+        "element": "C",
+        "h": 2,
+        "bonds": 2.0,
+        "x": 448.1144612175586,
+        "y": 184.67852877086995
+      },
+      {
+        "index": 5,
+        "element": "C",
+        "h": 1,
+        "bonds": 3.0,
+        "x": 495.49140544910813,
+        "y": 157.32779315630495
+      },
+      {
+        "index": 6,
+        "element": "C",
+        "h": 0,
+        "bonds": 4.0,
+        "x": 448.1144612175586,
+        "y": 239.38
+      },
+      {
+        "index": 7,
+        "element": "C",
+        "h": 1,
+        "bonds": 3.0,
+        "x": 400.742987133132,
+        "y": 266.730735614565
+      },
+      {
+        "index": 8,
+        "element": "C",
+        "h": 1,
+        "bonds": 3.0,
+        "x": 495.49140544910813,
+        "y": 266.730735614565
+      },
+      {
+        "index": 9,
+        "element": "C",
+        "h": 0,
+        "bonds": 4.0,
+        "x": 495.49140544910813,
+        "y": 102.6263219271749
+      },
+      {
+        "index": 10,
+        "element": "C",
+        "h": 1,
+        "bonds": 3.0,
+        "x": 400.742987133132,
+        "y": 321.4322068436951
+      },
+      {
+        "index": 11,
+        "element": "C",
+        "h": 1,
+        "bonds": 3.0,
+        "x": 495.49140544910813,
+        "y": 321.4322068436951
+      },
+      {
+        "index": 12,
+        "element": "C",
+        "h": 0,
+        "bonds": 4.0,
+        "x": 448.1144612175586,
+        "y": 348.7829424582601
+      }
+    ],
+    "width": 1000,
+    "height": 480,
+    "source": "https://pubchem.ncbi.nlm.nih.gov/compound/6057",
+    "svg": "assets/l-tyrosine.svg",
+    "smiles": "N[C@@H](CC1=CC=C(O)C=C1)C(=O)O",
+    "heavy": 13,
+    "stereo": true,
+    "level": "Desafío"
+  },
+  {
+    "id": "lauric-acid",
+    "name": "Ácido láurico",
+    "title": "Lauric Acid",
+    "iupac": "dodecanoic acid",
+    "cid": 3893,
+    "formula": "C12H24O2",
+    "counts": {
+      "O": 2,
+      "C": 12,
+      "H": 24
+    },
+    "category": "Lípidos y componentes",
+    "scene": "aceite",
+    "role": "Ácido graso saturado presente, unido a otras moléculas, en grasas como el aceite de coco. Los ácidos grasos sirven para almacenamiento de energía y síntesis de lípidos.",
+    "atoms": [
+      {
+        "index": 0,
+        "element": "O",
+        "h": 1,
+        "bonds": 1.0,
+        "x": 171.44333562428415,
+        "y": 189.00029612659625
+      },
+      {
+        "index": 1,
+        "element": "O",
+        "h": 0,
+        "bonds": 2.0,
+        "x": 229.62181765729082,
+        "y": 289.75970387340374
+      },
+      {
+        "index": 2,
+        "element": "C",
+        "h": 2,
+        "bonds": 2.0,
+        "x": 578.6591233860818,
+        "y": 222.58676537553208
+      },
+      {
+        "index": 3,
+        "element": "C",
+        "h": 2,
+        "bonds": 2.0,
+        "x": 520.4873586469249,
+        "y": 189.00029612659625
+      },
+      {
+        "index": 4,
+        "element": "C",
+        "h": 2,
+        "bonds": 2.0,
+        "x": 636.8308881252385,
+        "y": 189.00029612659625
+      },
+      {
+        "index": 5,
+        "element": "C",
+        "h": 2,
+        "bonds": 2.0,
+        "x": 462.31559390776806,
+        "y": 222.58676537553208
+      },
+      {
+        "index": 6,
+        "element": "C",
+        "h": 2,
+        "bonds": 2.0,
+        "x": 695.0093701582454,
+        "y": 222.58676537553208
+      },
+      {
+        "index": 7,
+        "element": "C",
+        "h": 2,
+        "bonds": 2.0,
+        "x": 404.13711187476144,
+        "y": 189.00029612659625
+      },
+      {
+        "index": 8,
+        "element": "C",
+        "h": 2,
+        "bonds": 2.0,
+        "x": 753.1811348974022,
+        "y": 189.00029612659625
+      },
+      {
+        "index": 9,
+        "element": "C",
+        "h": 2,
+        "bonds": 2.0,
+        "x": 345.96534713560453,
+        "y": 222.58676537553208
+      },
+      {
+        "index": 10,
+        "element": "C",
+        "h": 2,
+        "bonds": 2.0,
+        "x": 811.352899636559,
+        "y": 222.58676537553208
+      },
+      {
+        "index": 11,
+        "element": "C",
+        "h": 2,
+        "bonds": 2.0,
+        "x": 287.7935823964477,
+        "y": 189.00029612659625
+      },
+      {
+        "index": 12,
+        "element": "C",
+        "h": 3,
+        "bonds": 1.0,
+        "x": 869.5246643757158,
+        "y": 189.00029612659625
+      },
+      {
+        "index": 13,
+        "element": "C",
+        "h": 0,
+        "bonds": 4.0,
+        "x": 229.62181765729082,
+        "y": 222.58676537553208
+      }
+    ],
+    "width": 1000,
+    "height": 480,
+    "source": "https://pubchem.ncbi.nlm.nih.gov/compound/3893",
+    "svg": "assets/lauric-acid.svg",
+    "smiles": "CCCCCCCCCCCC(=O)O",
+    "heavy": 14,
+    "stereo": false,
+    "level": "Desafío"
+  },
+  {
+    "id": "caffeine",
+    "name": "Cafeína",
+    "title": "Caffeine",
+    "iupac": "1,3,7-trimethylpurine-2,6-dione",
+    "cid": 2519,
+    "formula": "C8H10N4O2",
+    "counts": {
+      "O": 2,
+      "N": 4,
+      "C": 8,
+      "H": 10
+    },
+    "category": "Otras orgánicas",
+    "scene": "cafe",
+    "role": "Algunas plantas producen cafeína, que puede intervenir en sus relaciones con otros organismos. En personas actúa como estimulante al interferir con receptores de adenosina.",
+    "atoms": [
+      {
+        "index": 0,
+        "element": "O",
+        "h": 0,
+        "bonds": 2.0,
+        "x": 478.5527971866179,
+        "y": 78.32725741520522
+      },
+      {
+        "index": 1,
+        "element": "O",
+        "h": 0,
+        "bonds": 2.0,
+        "x": 332.6816204710564,
+        "y": 330.97637129239735
+      },
+      {
+        "index": 2,
+        "element": "N",
+        "h": 0,
+        "bonds": 3.0,
+        "x": 478.5527971866179,
+        "y": 330.97637129239735
+      },
+      {
+        "index": 3,
+        "element": "N",
+        "h": 0,
+        "bonds": 3.0,
+        "x": 631.1697052427005,
+        "y": 178.99108602100782
+      },
+      {
+        "index": 4,
+        "element": "N",
+        "h": 0,
+        "bonds": 3.0,
+        "x": 405.6129980102726,
+        "y": 204.65181435380129
+      },
+      {
+        "index": 5,
+        "element": "N",
+        "h": 0,
+        "bonds": 3.0,
+        "x": 631.1697052427005,
+        "y": 314.52891397899214
+      },
+      {
+        "index": 6,
+        "element": "C",
+        "h": 0,
+        "bonds": 4.0,
+        "x": 551.484174725834,
+        "y": 204.65181435380129
+      },
+      {
+        "index": 7,
+        "element": "C",
+        "h": 0,
+        "bonds": 4.0,
+        "x": 551.484174725834,
+        "y": 288.86818564619864
+      },
+      {
+        "index": 8,
+        "element": "C",
+        "h": 0,
+        "bonds": 4.0,
+        "x": 478.5527971866179,
+        "y": 162.54362870760258
+      },
+      {
+        "index": 9,
+        "element": "C",
+        "h": 0,
+        "bonds": 4.0,
+        "x": 405.6129980102726,
+        "y": 288.86818564619864
+      },
+      {
+        "index": 10,
+        "element": "C",
+        "h": 1,
+        "bonds": 3.0,
+        "x": 680.3183795289435,
+        "y": 246.76
+      },
+      {
+        "index": 11,
+        "element": "C",
+        "h": 3,
+        "bonds": 1.0,
+        "x": 478.5527971866179,
+        "y": 415.19274258479476
+      },
+      {
+        "index": 12,
+        "element": "C",
+        "h": 3,
+        "bonds": 1.0,
+        "x": 657.3357318032483,
+        "y": 98.93500347045486
+      },
+      {
+        "index": 13,
+        "element": "C",
+        "h": 3,
+        "bonds": 1.0,
+        "x": 332.6816204710564,
+        "y": 162.54362870760258
+      }
+    ],
+    "width": 1000,
+    "height": 480,
+    "source": "https://pubchem.ncbi.nlm.nih.gov/compound/2519",
+    "svg": "assets/caffeine.svg",
+    "smiles": "CN1C=NC2=C1C(=O)N(C)C(=O)N2C",
+    "heavy": 14,
+    "stereo": false,
+    "level": "Desafío"
+  },
+  {
+    "id": "l-tryptophan",
+    "name": "L-triptófano",
+    "title": "L-Tryptophan",
+    "iupac": "(2S)-2-amino-3-(1H-indol-3-yl)propanoic acid",
+    "cid": 6305,
+    "formula": "C11H12N2O2",
+    "counts": {
+      "O": 2,
+      "N": 2,
+      "C": 11,
+      "H": 12
+    },
+    "category": "Aminoácidos y péptidos",
+    "scene": "proteinas",
+    "role": "Aminoácido esencial con dos anillos unidos. Forma parte de proteínas y es precursor de sustancias como la serotonina.",
+    "atoms": [
+      {
+        "index": 0,
+        "element": "O",
+        "h": 1,
+        "bonds": 1.0,
+        "x": 645.0843226431286,
+        "y": 117.93979018477225
+      },
+      {
+        "index": 1,
+        "element": "O",
+        "h": 0,
+        "bonds": 2.0,
+        "x": 541.8150156510111,
+        "y": 84.18578782040458
+      },
+      {
+        "index": 2,
+        "element": "N",
+        "h": 1,
+        "bonds": 2.0,
+        "x": 483.35240609221034,
+        "y": 364.02221217959544
+      },
+      {
+        "index": 3,
+        "element": "N",
+        "h": 2,
+        "bonds": 1.0,
+        "x": 606.111340541323,
+        "y": 237.19222262279376
+      },
+      {
+        "index": 4,
+        "element": "C",
+        "h": 0,
+        "bonds": 4.0,
+        "x": 483.35240609221034,
+        "y": 263.0613000713446
+      },
+      {
+        "index": 5,
+        "element": "C",
+        "h": 2,
+        "bonds": 2.0,
+        "x": 502.835760737021,
+        "y": 203.4382202584261
+      },
+      {
+        "index": 6,
+        "element": "C",
+        "h": 0,
+        "bonds": 4.0,
+        "x": 423.9990572032219,
+        "y": 282.1745587972744
+      },
+      {
+        "index": 7,
+        "element": "C",
+        "h": 1,
+        "bonds": 3.0,
+        "x": 564.2152279615773,
+        "y": 190.50368153415064
+      },
+      {
+        "index": 8,
+        "element": "C",
+        "h": 0,
+        "bonds": 4.0,
+        "x": 423.9990572032219,
+        "y": 344.9026806414812
+      },
+      {
+        "index": 9,
+        "element": "C",
+        "h": 1,
+        "bonds": 3.0,
+        "x": 519.9605380004895,
+        "y": 313.53861971937783
+      },
+      {
+        "index": 10,
+        "element": "C",
+        "h": 1,
+        "bonds": 3.0,
+        "x": 369.67023087395444,
+        "y": 250.81049787517102
+      },
+      {
+        "index": 11,
+        "element": "C",
+        "h": 1,
+        "bonds": 3.0,
+        "x": 369.67023087395444,
+        "y": 376.26674156358456
+      },
+      {
+        "index": 12,
+        "element": "C",
+        "h": 0,
+        "bonds": 4.0,
+        "x": 583.7048554185724,
+        "y": 130.87432890904768
+      },
+      {
+        "index": 13,
+        "element": "C",
+        "h": 1,
+        "bonds": 3.0,
+        "x": 315.3476773568714,
+        "y": 282.1745587972744
+      },
+      {
+        "index": 14,
+        "element": "C",
+        "h": 1,
+        "bonds": 3.0,
+        "x": 315.3476773568714,
+        "y": 344.9026806414812
+      }
+    ],
+    "width": 1000,
+    "height": 480,
+    "source": "https://pubchem.ncbi.nlm.nih.gov/compound/6305",
+    "svg": "assets/l-tryptophan.svg",
+    "smiles": "N[C@@H](CC1=CNC2=CC=CC=C12)C(=O)O",
+    "heavy": 15,
+    "stereo": true,
+    "level": "Desafío"
+  },
+  {
+    "id": "palmitic-acid",
+    "name": "Ácido palmítico",
+    "title": "Palmitic Acid",
+    "iupac": "hexadecanoic acid",
+    "cid": 985,
+    "formula": "C16H32O2",
+    "counts": {
+      "O": 2,
+      "C": 16,
+      "H": 32
+    },
+    "category": "Lípidos y componentes",
+    "scene": "aceite",
+    "role": "Ácido graso saturado frecuente en grasas animales y vegetales. Las células pueden incorporarlo a lípidos o degradarlo para obtener energía.",
+    "atoms": [
+      {
+        "index": 0,
+        "element": "O",
+        "h": 1,
+        "bonds": 1.0,
+        "x": 164.18626915628317,
+        "y": 200.80962123888057
+      },
+      {
+        "index": 1,
+        "element": "O",
+        "h": 0,
+        "bonds": 2.0,
+        "x": 208.72734254962387,
+        "y": 277.9503787611194
+      },
+      {
+        "index": 2,
+        "element": "C",
+        "h": 2,
+        "bonds": 2.0,
+        "x": 565.0250733933408,
+        "y": 226.52320707962684
+      },
+      {
+        "index": 3,
+        "element": "C",
+        "h": 2,
+        "bonds": 2.0,
+        "x": 520.4839999999999,
+        "y": 200.80962123888057
+      },
+      {
+        "index": 4,
+        "element": "C",
+        "h": 2,
+        "bonds": 2.0,
+        "x": 609.5610040695133,
+        "y": 200.80962123888057
+      },
+      {
+        "index": 5,
+        "element": "C",
+        "h": 2,
+        "bonds": 2.0,
+        "x": 475.94806932382744,
+        "y": 226.52320707962684
+      },
+      {
+        "index": 6,
+        "element": "C",
+        "h": 2,
+        "bonds": 2.0,
+        "x": 654.096934745686,
+        "y": 226.52320707962684
+      },
+      {
+        "index": 7,
+        "element": "C",
+        "h": 2,
+        "bonds": 2.0,
+        "x": 431.4121386476549,
+        "y": 200.80962123888057
+      },
+      {
+        "index": 8,
+        "element": "C",
+        "h": 2,
+        "bonds": 2.0,
+        "x": 698.6328654218585,
+        "y": 200.80962123888057
+      },
+      {
+        "index": 9,
+        "element": "C",
+        "h": 2,
+        "bonds": 2.0,
+        "x": 386.8762079714823,
+        "y": 226.52320707962684
+      },
+      {
+        "index": 10,
+        "element": "C",
+        "h": 2,
+        "bonds": 2.0,
+        "x": 743.1739388151991,
+        "y": 226.52320707962684
+      },
+      {
+        "index": 11,
+        "element": "C",
+        "h": 2,
+        "bonds": 2.0,
+        "x": 342.3351345781416,
+        "y": 200.80962123888057
+      },
+      {
+        "index": 12,
+        "element": "C",
+        "h": 2,
+        "bonds": 2.0,
+        "x": 787.7098694913718,
+        "y": 200.80962123888057
+      },
+      {
+        "index": 13,
+        "element": "C",
+        "h": 2,
+        "bonds": 2.0,
+        "x": 297.799203901969,
+        "y": 226.52320707962684
+      },
+      {
+        "index": 14,
+        "element": "C",
+        "h": 2,
+        "bonds": 2.0,
+        "x": 832.2458001675443,
+        "y": 226.52320707962684
+      },
+      {
+        "index": 15,
+        "element": "C",
+        "h": 2,
+        "bonds": 2.0,
+        "x": 253.26327322579647,
+        "y": 200.80962123888057
+      },
+      {
+        "index": 16,
+        "element": "C",
+        "h": 3,
+        "bonds": 1.0,
+        "x": 876.7817308437168,
+        "y": 200.80962123888057
+      },
+      {
+        "index": 17,
+        "element": "C",
+        "h": 0,
+        "bonds": 4.0,
+        "x": 208.72734254962387,
+        "y": 226.52320707962684
+      }
+    ],
+    "width": 1000,
+    "height": 480,
+    "source": "https://pubchem.ncbi.nlm.nih.gov/compound/985",
+    "svg": "assets/palmitic-acid.svg",
+    "smiles": "CCCCCCCCCCCCCCCC(=O)O",
+    "heavy": 18,
+    "stereo": false,
+    "level": "Desafío"
+  },
+  {
+    "id": "stearic-acid",
+    "name": "Ácido esteárico",
+    "title": "Stearic Acid",
+    "iupac": "octadecanoic acid",
+    "cid": 5281,
+    "formula": "C18H36O2",
+    "counts": {
+      "O": 2,
+      "C": 18,
+      "H": 36
+    },
+    "category": "Lípidos y componentes",
+    "scene": "aceite",
+    "role": "Ácido graso saturado de cadena larga presente en diversas grasas. Se incorpora a lípidos que almacenan energía.",
+    "atoms": [
+      {
+        "index": 0,
+        "element": "O",
+        "h": 1,
+        "bonds": 1.0,
+        "x": 161.6996547314764,
+        "y": 204.85605491851138
+      },
+      {
+        "index": 1,
+        "element": "O",
+        "h": 0,
+        "bonds": 2.0,
+        "x": 201.56790651157945,
+        "y": 273.90394508148864
+      },
+      {
+        "index": 2,
+        "element": "C",
+        "h": 2,
+        "bonds": 2.0,
+        "x": 560.3499501837643,
+        "y": 204.85605491851138
+      },
+      {
+        "index": 3,
+        "element": "C",
+        "h": 2,
+        "bonds": 2.0,
+        "x": 520.4863015963389,
+        "y": 227.87201830617047
+      },
+      {
+        "index": 4,
+        "element": "C",
+        "h": 2,
+        "bonds": 2.0,
+        "x": 600.2135987711899,
+        "y": 227.87201830617047
+      },
+      {
+        "index": 5,
+        "element": "C",
+        "h": 2,
+        "bonds": 2.0,
+        "x": 480.61804981623567,
+        "y": 204.85605491851138
+      },
+      {
+        "index": 6,
+        "element": "C",
+        "h": 2,
+        "bonds": 2.0,
+        "x": 640.0772473586154,
+        "y": 204.85605491851138
+      },
+      {
+        "index": 7,
+        "element": "C",
+        "h": 2,
+        "bonds": 2.0,
+        "x": 440.7544012288102,
+        "y": 227.87201830617047
+      },
+      {
+        "index": 8,
+        "element": "C",
+        "h": 2,
+        "bonds": 2.0,
+        "x": 679.9454991387184,
+        "y": 227.87201830617047
+      },
+      {
+        "index": 9,
+        "element": "C",
+        "h": 2,
+        "bonds": 2.0,
+        "x": 400.89075264138467,
+        "y": 204.85605491851138
+      },
+      {
+        "index": 10,
+        "element": "C",
+        "h": 2,
+        "bonds": 2.0,
+        "x": 719.8091477261439,
+        "y": 204.85605491851138
+      },
+      {
+        "index": 11,
+        "element": "C",
+        "h": 2,
+        "bonds": 2.0,
+        "x": 361.0271040539591,
+        "y": 227.87201830617047
+      },
+      {
+        "index": 12,
+        "element": "C",
+        "h": 2,
+        "bonds": 2.0,
+        "x": 759.6727963135695,
+        "y": 227.87201830617047
+      },
+      {
+        "index": 13,
+        "element": "C",
+        "h": 2,
+        "bonds": 2.0,
+        "x": 321.15885227385604,
+        "y": 204.85605491851138
+      },
+      {
+        "index": 14,
+        "element": "C",
+        "h": 2,
+        "bonds": 2.0,
+        "x": 799.536444900995,
+        "y": 204.85605491851138
+      },
+      {
+        "index": 15,
+        "element": "C",
+        "h": 2,
+        "bonds": 2.0,
+        "x": 281.2952036864305,
+        "y": 227.87201830617047
+      },
+      {
+        "index": 16,
+        "element": "C",
+        "h": 2,
+        "bonds": 2.0,
+        "x": 839.404696681098,
+        "y": 227.87201830617047
+      },
+      {
+        "index": 17,
+        "element": "C",
+        "h": 2,
+        "bonds": 2.0,
+        "x": 241.43155509900498,
+        "y": 204.85605491851138
+      },
+      {
+        "index": 18,
+        "element": "C",
+        "h": 3,
+        "bonds": 1.0,
+        "x": 879.2683452685236,
+        "y": 204.85605491851138
+      },
+      {
+        "index": 19,
+        "element": "C",
+        "h": 0,
+        "bonds": 4.0,
+        "x": 201.56790651157945,
+        "y": 227.87201830617047
+      }
+    ],
+    "width": 1000,
+    "height": 480,
+    "source": "https://pubchem.ncbi.nlm.nih.gov/compound/5281",
+    "svg": "assets/stearic-acid.svg",
+    "smiles": "CCCCCCCCCCCCCCCCCC(=O)O",
+    "heavy": 20,
+    "stereo": false,
+    "level": "Desafío"
+  },
+  {
+    "id": "oleic-acid",
+    "name": "Ácido oleico",
+    "title": "Oleic Acid",
+    "iupac": "(Z)-octadec-9-enoic acid",
+    "cid": 445639,
+    "formula": "C18H34O2",
+    "counts": {
+      "O": 2,
+      "C": 18,
+      "H": 34
+    },
+    "category": "Lípidos y componentes",
+    "scene": "aceite",
+    "role": "Ácido graso con un doble enlace cis, abundante en el aceite de oliva. Puede incorporarse a grasas de reserva y a lípidos de membranas.",
+    "atoms": [
+      {
+        "index": 0,
+        "element": "O",
+        "h": 1,
+        "bonds": 1.0,
+        "x": 238.74081490277192,
+        "y": 336.78965564791054
+      },
+      {
+        "index": 1,
+        "element": "O",
+        "h": 0,
+        "bonds": 2.0,
+        "x": 278.99316101684093,
+        "y": 406.5027594131842
+      },
+      {
+        "index": 2,
+        "element": "C",
+        "h": 2,
+        "bonds": 2.0,
+        "x": 721.727140409341,
+        "y": 197.36344811736316
+      },
+      {
+        "index": 3,
+        "element": "C",
+        "h": 2,
+        "bonds": 2.0,
+        "x": 681.4794418355231,
+        "y": 220.6011493724544
+      },
+      {
+        "index": 4,
+        "element": "C",
+        "h": 2,
+        "bonds": 2.0,
+        "x": 721.727140409341,
+        "y": 150.8880456071807
+      },
+      {
+        "index": 5,
+        "element": "C",
+        "h": 2,
+        "bonds": 2.0,
+        "x": 480.236301426182,
+        "y": 336.78965564791054
+      },
+      {
+        "index": 6,
+        "element": "C",
+        "h": 2,
+        "bonds": 2.0,
+        "x": 439.988602852364,
+        "y": 360.02735690300176
+      },
+      {
+        "index": 7,
+        "element": "C",
+        "h": 2,
+        "bonds": 2.0,
+        "x": 681.4794418355231,
+        "y": 267.07655188263686
+      },
+      {
+        "index": 8,
+        "element": "C",
+        "h": 2,
+        "bonds": 2.0,
+        "x": 520.4839999999999,
+        "y": 360.02735690300176
+      },
+      {
+        "index": 9,
+        "element": "C",
+        "h": 2,
+        "bonds": 2.0,
+        "x": 399.73625673829497,
+        "y": 336.78965564791054
+      },
+      {
+        "index": 10,
+        "element": "C",
+        "h": 2,
+        "bonds": 2.0,
+        "x": 761.9794865234101,
+        "y": 127.65034435208948
+      },
+      {
+        "index": 11,
+        "element": "C",
+        "h": 2,
+        "bonds": 2.0,
+        "x": 641.2317432617051,
+        "y": 290.3142531377281
+      },
+      {
+        "index": 12,
+        "element": "C",
+        "h": 2,
+        "bonds": 2.0,
+        "x": 560.731698573818,
+        "y": 336.78965564791054
+      },
+      {
+        "index": 13,
+        "element": "C",
+        "h": 2,
+        "bonds": 2.0,
+        "x": 359.48855816447696,
+        "y": 360.02735690300176
+      },
+      {
+        "index": 14,
+        "element": "C",
+        "h": 2,
+        "bonds": 2.0,
+        "x": 761.9794865234101,
+        "y": 81.17494184190701
+      },
+      {
+        "index": 15,
+        "element": "C",
+        "h": 1,
+        "bonds": 3.0,
+        "x": 641.2317432617051,
+        "y": 336.78965564791054
+      },
+      {
+        "index": 16,
+        "element": "C",
+        "h": 1,
+        "bonds": 3.0,
+        "x": 600.984044687887,
+        "y": 360.02735690300176
+      },
+      {
+        "index": 17,
+        "element": "C",
+        "h": 2,
+        "bonds": 2.0,
+        "x": 319.24085959065894,
+        "y": 336.78965564791054
+      },
+      {
+        "index": 18,
+        "element": "C",
+        "h": 3,
+        "bonds": 1.0,
+        "x": 802.2271850972281,
+        "y": 57.93724058681579
+      },
+      {
+        "index": 19,
+        "element": "C",
+        "h": 0,
+        "bonds": 4.0,
+        "x": 278.99316101684093,
+        "y": 360.02735690300176
+      }
+    ],
+    "width": 1000,
+    "height": 480,
+    "source": "https://pubchem.ncbi.nlm.nih.gov/compound/445639",
+    "svg": "assets/oleic-acid.svg",
+    "smiles": "CCCCCCCC/C=C\\CCCCCCCC(=O)O",
+    "heavy": 20,
+    "stereo": false,
+    "level": "Desafío"
+  },
+  {
+    "id": "linoleic-acid",
+    "name": "Ácido linoleico",
+    "title": "Linoleic Acid",
+    "iupac": "(9Z,12Z)-octadeca-9,12-dienoic acid",
+    "cid": 5280450,
+    "formula": "C18H32O2",
+    "counts": {
+      "O": 2,
+      "C": 18,
+      "H": 32
+    },
+    "category": "Lípidos y componentes",
+    "scene": "aceite",
+    "role": "Ácido graso esencial con dos dobles enlaces. Las personas deben obtenerlo de la dieta; participa en la formación de lípidos celulares.",
+    "atoms": [
+      {
+        "index": 0,
+        "element": "O",
+        "h": 1,
+        "bonds": 1.0,
+        "x": 299.1146865336245,
+        "y": 336.78965564791054
+      },
+      {
+        "index": 1,
+        "element": "O",
+        "h": 0,
+        "bonds": 2.0,
+        "x": 339.36703264769346,
+        "y": 406.5027594131842
+      },
+      {
+        "index": 2,
+        "element": "C",
+        "h": 2,
+        "bonds": 2.0,
+        "x": 500.3624744832165,
+        "y": 360.02735690300176
+      },
+      {
+        "index": 3,
+        "element": "C",
+        "h": 2,
+        "bonds": 2.0,
+        "x": 540.6101730570346,
+        "y": 336.78965564791054
+      },
+      {
+        "index": 4,
+        "element": "C",
+        "h": 2,
+        "bonds": 2.0,
+        "x": 460.1101283691475,
+        "y": 336.78965564791054
+      },
+      {
+        "index": 5,
+        "element": "C",
+        "h": 2,
+        "bonds": 2.0,
+        "x": 580.8578716308525,
+        "y": 360.02735690300176
+      },
+      {
+        "index": 6,
+        "element": "C",
+        "h": 2,
+        "bonds": 2.0,
+        "x": 419.8624297953295,
+        "y": 360.02735690300176
+      },
+      {
+        "index": 7,
+        "element": "C",
+        "h": 2,
+        "bonds": 2.0,
+        "x": 621.1055702046706,
+        "y": 336.78965564791054
+      },
+      {
+        "index": 8,
+        "element": "C",
+        "h": 2,
+        "bonds": 2.0,
+        "x": 379.6147312215115,
+        "y": 336.78965564791054
+      },
+      {
+        "index": 9,
+        "element": "C",
+        "h": 2,
+        "bonds": 2.0,
+        "x": 701.6056148925576,
+        "y": 150.8880456071807
+      },
+      {
+        "index": 10,
+        "element": "C",
+        "h": 2,
+        "bonds": 2.0,
+        "x": 661.3579163187396,
+        "y": 127.65034435208948
+      },
+      {
+        "index": 11,
+        "element": "C",
+        "h": 1,
+        "bonds": 3.0,
+        "x": 661.3579163187396,
+        "y": 360.02735690300176
+      },
+      {
+        "index": 12,
+        "element": "C",
+        "h": 2,
+        "bonds": 2.0,
+        "x": 701.6056148925576,
+        "y": 197.36344811736316
+      },
+      {
+        "index": 13,
+        "element": "C",
+        "h": 2,
+        "bonds": 2.0,
+        "x": 661.3579163187396,
+        "y": 81.17494184190701
+      },
+      {
+        "index": 14,
+        "element": "C",
+        "h": 1,
+        "bonds": 3.0,
+        "x": 701.6056148925576,
+        "y": 336.78965564791054
+      },
+      {
+        "index": 15,
+        "element": "C",
+        "h": 2,
+        "bonds": 2.0,
+        "x": 701.6056148925576,
+        "y": 290.3142531377281
+      },
+      {
+        "index": 16,
+        "element": "C",
+        "h": 1,
+        "bonds": 3.0,
+        "x": 741.8533134663755,
+        "y": 220.6011493724544
+      },
+      {
+        "index": 17,
+        "element": "C",
+        "h": 0,
+        "bonds": 4.0,
+        "x": 339.36703264769346,
+        "y": 360.02735690300176
+      },
+      {
+        "index": 18,
+        "element": "C",
+        "h": 1,
+        "bonds": 3.0,
+        "x": 741.8533134663755,
+        "y": 267.07655188263686
+      },
+      {
+        "index": 19,
+        "element": "C",
+        "h": 3,
+        "bonds": 1.0,
+        "x": 621.1055702046706,
+        "y": 57.93724058681579
+      }
+    ],
+    "width": 1000,
+    "height": 480,
+    "source": "https://pubchem.ncbi.nlm.nih.gov/compound/5280450",
+    "svg": "assets/linoleic-acid.svg",
+    "smiles": "CCCCC/C=C\\C/C=C\\CCCCCCCC(=O)O",
+    "heavy": 20,
+    "stereo": false,
+    "level": "Desafío"
+  },
+  {
+    "id": "glutathione",
+    "name": "Glutatión reducido",
+    "title": "Glutathione",
+    "iupac": "(2S)-2-amino-5-[[(2R)-1-(carboxymethylamino)-1-oxo-3-sulfanylpropan-2-yl]amino]-5-oxopentanoic acid",
+    "cid": 124886,
+    "formula": "C10H17N3O6S",
+    "counts": {
+      "S": 1,
+      "O": 6,
+      "N": 3,
+      "C": 10,
+      "H": 17
+    },
+    "category": "Aminoácidos y péptidos",
+    "scene": "vitamina",
+    "role": "Pequeño péptido de tres aminoácidos. Participa en la defensa antioxidante de las células y puede alternar entre formas reducida y oxidada.",
+    "atoms": [
+      {
+        "index": 0,
+        "element": "S",
+        "h": 1,
+        "bonds": 1.0,
+        "x": 500.7031136413544,
+        "y": 332.7092406320364
+      },
+      {
+        "index": 1,
+        "element": "O",
+        "h": 0,
+        "bonds": 2.0,
+        "x": 446.77484538312535,
+        "y": 301.57282708802427
+      },
+      {
+        "index": 2,
+        "element": "O",
+        "h": 0,
+        "bonds": 2.0,
+        "x": 608.5596501578125,
+        "y": 145.8907593679636
+      },
+      {
+        "index": 3,
+        "element": "O",
+        "h": 1,
+        "bonds": 1.0,
+        "x": 177.12104952656267,
+        "y": 208.16358645598788
+      },
+      {
+        "index": 4,
+        "element": "O",
+        "h": 0,
+        "bonds": 2.0,
+        "x": 231.05554506750047,
+        "y": 301.57282708802427
+      },
+      {
+        "index": 5,
+        "element": "O",
+        "h": 1,
+        "bonds": 1.0,
+        "x": 824.2789504734372,
+        "y": 208.16358645598788
+      },
+      {
+        "index": 6,
+        "element": "O",
+        "h": 0,
+        "bonds": 2.0,
+        "x": 770.3506822152083,
+        "y": 301.57282708802427
+      },
+      {
+        "index": 7,
+        "element": "N",
+        "h": 1,
+        "bonds": 2.0,
+        "x": 500.7031136413544,
+        "y": 208.16358645598788
+      },
+      {
+        "index": 8,
+        "element": "N",
+        "h": 2,
+        "bonds": 1.0,
+        "x": 284.9838133257295,
+        "y": 145.8907593679636
+      },
+      {
+        "index": 9,
+        "element": "N",
+        "h": 1,
+        "bonds": 2.0,
+        "x": 662.4941456987502,
+        "y": 239.3
+      },
+      {
+        "index": 10,
+        "element": "C",
+        "h": 2,
+        "bonds": 2.0,
+        "x": 338.9120815839585,
+        "y": 239.3
+      },
+      {
+        "index": 11,
+        "element": "C",
+        "h": 2,
+        "bonds": 2.0,
+        "x": 392.84034984218755,
+        "y": 208.16358645598788
+      },
+      {
+        "index": 12,
+        "element": "C",
+        "h": 1,
+        "bonds": 3.0,
+        "x": 554.6313818995834,
+        "y": 239.3
+      },
+      {
+        "index": 13,
+        "element": "C",
+        "h": 1,
+        "bonds": 3.0,
+        "x": 284.9838133257295,
+        "y": 208.16358645598788
+      },
+      {
+        "index": 14,
+        "element": "C",
+        "h": 0,
+        "bonds": 4.0,
+        "x": 446.77484538312535,
+        "y": 239.3
+      },
+      {
+        "index": 15,
+        "element": "C",
+        "h": 2,
+        "bonds": 2.0,
+        "x": 554.6313818995834,
+        "y": 301.57282708802427
+      },
+      {
+        "index": 16,
+        "element": "C",
+        "h": 0,
+        "bonds": 4.0,
+        "x": 608.5596501578125,
+        "y": 208.16358645598788
+      },
+      {
+        "index": 17,
+        "element": "C",
+        "h": 0,
+        "bonds": 4.0,
+        "x": 231.05554506750047,
+        "y": 239.3
+      },
+      {
+        "index": 18,
+        "element": "C",
+        "h": 2,
+        "bonds": 2.0,
+        "x": 716.4224139569792,
+        "y": 208.16358645598788
+      },
+      {
+        "index": 19,
+        "element": "C",
+        "h": 0,
+        "bonds": 4.0,
+        "x": 770.3506822152083,
+        "y": 239.3
+      }
+    ],
+    "width": 1000,
+    "height": 480,
+    "source": "https://pubchem.ncbi.nlm.nih.gov/compound/124886",
+    "svg": "assets/glutathione.svg",
+    "smiles": "N[C@@H](CCC(=O)N[C@@H](CS)C(=O)NCC(=O)O)C(=O)O",
+    "heavy": 20,
+    "stereo": true,
+    "level": "Desafío"
+  },
+  {
+    "id": "sucrose",
+    "name": "Sacarosa",
+    "title": "Sucrose",
+    "iupac": "(2R,3R,4S,5S,6R)-2-[(2S,3S,4S,5R)-3,4-dihydroxy-2,5-bis(hydroxymethyl)oxolan-2-yl]oxy-6-(hydroxymethyl)oxane-3,4,5-triol",
+    "cid": 5988,
+    "formula": "C12H22O11",
+    "counts": {
+      "O": 11,
+      "C": 12,
+      "H": 22
+    },
+    "category": "Carbohidratos",
+    "scene": "azucares",
+    "role": "Azúcar de mesa y forma importante de transporte de azúcares en muchas plantas. Su hidrólisis produce glucosa y fructosa.",
+    "atoms": [
+      {
+        "index": 0,
+        "element": "O",
+        "h": 0,
+        "bonds": 2.0,
+        "x": 516.7920882512408,
+        "y": 202.40868026302988
+      },
+      {
+        "index": 1,
+        "element": "O",
+        "h": 0,
+        "bonds": 2.0,
+        "x": 567.3961393557715,
+        "y": 253.0127313675606
+      },
+      {
+        "index": 2,
+        "element": "O",
+        "h": 0,
+        "bonds": 2.0,
+        "x": 479.74486243761385,
+        "y": 253.0127313675606
+      },
+      {
+        "index": 3,
+        "element": "O",
+        "h": 1,
+        "bonds": 1.0,
+        "x": 631.1572437474804,
+        "y": 138.6425154662107
+      },
+      {
+        "index": 4,
+        "element": "O",
+        "h": 1,
+        "bonds": 1.0,
+        "x": 542.0941138035062,
+        "y": 73.93511531884725
+      },
+      {
+        "index": 5,
+        "element": "O",
+        "h": 1,
+        "bonds": 1.0,
+        "x": 567.3961393557715,
+        "y": 354.22083357662206
+      },
+      {
+        "index": 6,
+        "element": "O",
+        "h": 1,
+        "bonds": 1.0,
+        "x": 479.74486243761385,
+        "y": 404.82488468115275
+      },
+      {
+        "index": 7,
+        "element": "O",
+        "h": 1,
+        "bonds": 1.0,
+        "x": 392.09864592456665,
+        "y": 354.22083357662206
+      },
+      {
+        "index": 8,
+        "element": "O",
+        "h": 1,
+        "bonds": 1.0,
+        "x": 653.1295227370674,
+        "y": 184.18616146028836
+      },
+      {
+        "index": 9,
+        "element": "O",
+        "h": 1,
+        "bonds": 1.0,
+        "x": 442.5053412297897,
+        "y": 89.1466930808692
+      },
+      {
+        "index": 10,
+        "element": "O",
+        "h": 1,
+        "bonds": 1.0,
+        "x": 348.2704772629326,
+        "y": 278.314756919826
+      },
+      {
+        "index": 11,
+        "element": "C",
+        "h": 0,
+        "bonds": 4.0,
+        "x": 567.3961393557715,
+        "y": 202.40868026302988
+      },
+      {
+        "index": 12,
+        "element": "C",
+        "h": 1,
+        "bonds": 3.0,
+        "x": 583.0327911470715,
+        "y": 154.28422766262116
+      },
+      {
+        "index": 13,
+        "element": "C",
+        "h": 1,
+        "bonds": 3.0,
+        "x": 542.0941138035062,
+        "y": 124.53916642337798
+      },
+      {
+        "index": 14,
+        "element": "C",
+        "h": 1,
+        "bonds": 3.0,
+        "x": 501.1554364599408,
+        "y": 154.28422766262116
+      },
+      {
+        "index": 15,
+        "element": "C",
+        "h": 1,
+        "bonds": 3.0,
+        "x": 523.5679706941374,
+        "y": 278.314756919826
+      },
+      {
+        "index": 16,
+        "element": "C",
+        "h": 1,
+        "bonds": 3.0,
+        "x": 523.5679706941374,
+        "y": 328.9188080243567
+      },
+      {
+        "index": 17,
+        "element": "C",
+        "h": 1,
+        "bonds": 3.0,
+        "x": 479.74486243761385,
+        "y": 354.22083357662206
+      },
+      {
+        "index": 18,
+        "element": "C",
+        "h": 1,
+        "bonds": 3.0,
+        "x": 435.92175418109025,
+        "y": 328.9188080243567
+      },
+      {
+        "index": 19,
+        "element": "C",
+        "h": 1,
+        "bonds": 3.0,
+        "x": 435.92175418109025,
+        "y": 278.314756919826
+      },
+      {
+        "index": 20,
+        "element": "C",
+        "h": 2,
+        "bonds": 2.0,
+        "x": 615.5205919561802,
+        "y": 218.04533205432986
+      },
+      {
+        "index": 21,
+        "element": "C",
+        "h": 2,
+        "bonds": 2.0,
+        "x": 453.0259234544217,
+        "y": 138.6425154662107
+      },
+      {
+        "index": 22,
+        "element": "C",
+        "h": 2,
+        "bonds": 2.0,
+        "x": 392.09864592456665,
+        "y": 253.0127313675606
+      }
+    ],
+    "width": 1000,
+    "height": 480,
+    "source": "https://pubchem.ncbi.nlm.nih.gov/compound/5988",
+    "svg": "assets/sucrose.svg",
+    "smiles": "OC[C@H]1O[C@@](CO)(O[C@H]2O[C@H](CO)[C@@H](O)[C@H](O)[C@H]2O)[C@@H](O)[C@@H]1O",
+    "heavy": 23,
+    "stereo": true,
+    "level": "Desafío"
+  },
+  {
+    "id": "lactose",
+    "name": "Lactosa",
+    "title": "beta-Lactose",
+    "iupac": "(2R,3R,4S,5R,6S)-2-(hydroxymethyl)-6-[(2R,3S,4R,5R,6R)-4,5,6-trihydroxy-2-(hydroxymethyl)oxan-3-yl]oxyoxane-3,4,5-triol",
+    "cid": 6134,
+    "formula": "C12H22O11",
+    "counts": {
+      "O": 11,
+      "C": 12,
+      "H": 22
+    },
+    "category": "Carbohidratos",
+    "scene": "azucares",
+    "role": "Azúcar de la leche. La enzima lactasa rompe su enlace y permite obtener glucosa y galactosa.",
+    "atoms": [
+      {
+        "index": 0,
+        "element": "O",
+        "h": 0,
+        "bonds": 2.0,
+        "x": 562.4786603608429,
+        "y": 263.15748455116733
+      },
+      {
+        "index": 1,
+        "element": "O",
+        "h": 0,
+        "bonds": 2.0,
+        "x": 480.10869837868904,
+        "y": 263.15748455116733
+      },
+      {
+        "index": 2,
+        "element": "O",
+        "h": 0,
+        "bonds": 2.0,
+        "x": 521.2913016213108,
+        "y": 144.27006179533075
+      },
+      {
+        "index": 3,
+        "element": "O",
+        "h": 1,
+        "bonds": 1.0,
+        "x": 644.8438668460865,
+        "y": 215.6025154488327
+      },
+      {
+        "index": 4,
+        "element": "O",
+        "h": 1,
+        "bonds": 1.0,
+        "x": 562.4786603608429,
+        "y": 358.2674227558366
+      },
+      {
+        "index": 5,
+        "element": "O",
+        "h": 1,
+        "bonds": 1.0,
+        "x": 480.10869837868904,
+        "y": 405.8223918581712
+      },
+      {
+        "index": 6,
+        "element": "O",
+        "h": 1,
+        "bonds": 1.0,
+        "x": 397.7434918934455,
+        "y": 358.2674227558366
+      },
+      {
+        "index": 7,
+        "element": "O",
+        "h": 1,
+        "bonds": 1.0,
+        "x": 644.8438668460865,
+        "y": 120.49257724416343
+      },
+      {
+        "index": 8,
+        "element": "O",
+        "h": 1,
+        "bonds": 1.0,
+        "x": 562.4786603608429,
+        "y": 72.93760814182879
+      },
+      {
+        "index": 9,
+        "element": "O",
+        "h": 1,
+        "bonds": 1.0,
+        "x": 438.92609513606726,
+        "y": 191.82503089766539
+      },
+      {
+        "index": 10,
+        "element": "O",
+        "h": 1,
+        "bonds": 1.0,
+        "x": 356.5561331539135,
+        "y": 286.93496910233466
+      },
+      {
+        "index": 11,
+        "element": "C",
+        "h": 1,
+        "bonds": 3.0,
+        "x": 562.4786603608429,
+        "y": 215.6025154488327
+      },
+      {
+        "index": 12,
+        "element": "C",
+        "h": 1,
+        "bonds": 3.0,
+        "x": 603.6612636034647,
+        "y": 191.82503089766539
+      },
+      {
+        "index": 13,
+        "element": "C",
+        "h": 1,
+        "bonds": 3.0,
+        "x": 521.2913016213108,
+        "y": 286.93496910233466
+      },
+      {
+        "index": 14,
+        "element": "C",
+        "h": 1,
+        "bonds": 3.0,
+        "x": 521.2913016213108,
+        "y": 191.82503089766539
+      },
+      {
+        "index": 15,
+        "element": "C",
+        "h": 1,
+        "bonds": 3.0,
+        "x": 521.2913016213108,
+        "y": 334.4899382046693
+      },
+      {
+        "index": 16,
+        "element": "C",
+        "h": 1,
+        "bonds": 3.0,
+        "x": 480.10869837868904,
+        "y": 358.2674227558366
+      },
+      {
+        "index": 17,
+        "element": "C",
+        "h": 1,
+        "bonds": 3.0,
+        "x": 438.92609513606726,
+        "y": 334.4899382046693
+      },
+      {
+        "index": 18,
+        "element": "C",
+        "h": 1,
+        "bonds": 3.0,
+        "x": 438.92609513606726,
+        "y": 286.93496910233466
+      },
+      {
+        "index": 19,
+        "element": "C",
+        "h": 1,
+        "bonds": 3.0,
+        "x": 603.6612636034647,
+        "y": 144.27006179533075
+      },
+      {
+        "index": 20,
+        "element": "C",
+        "h": 1,
+        "bonds": 3.0,
+        "x": 562.4786603608429,
+        "y": 120.49257724416343
+      },
+      {
+        "index": 21,
+        "element": "C",
+        "h": 2,
+        "bonds": 2.0,
+        "x": 480.10869837868904,
+        "y": 215.6025154488327
+      },
+      {
+        "index": 22,
+        "element": "C",
+        "h": 2,
+        "bonds": 2.0,
+        "x": 397.7434918934455,
+        "y": 263.15748455116733
+      }
+    ],
+    "width": 1000,
+    "height": 480,
+    "source": "https://pubchem.ncbi.nlm.nih.gov/compound/6134",
+    "svg": "assets/lactose.svg",
+    "smiles": "OC[C@H]1O[C@@H](O[C@H]2[C@H](O)[C@@H](O)[C@H](O)O[C@@H]2CO)[C@H](O)[C@@H](O)[C@H]1O",
+    "heavy": 23,
+    "stereo": true,
+    "level": "Experto"
+  },
+  {
+    "id": "maltose",
+    "name": "Maltosa",
+    "title": "Maltose",
+    "iupac": "(2R,3S,4S,5R,6R)-2-(hydroxymethyl)-6-[(2R,3S,4R,5R)-4,5,6-trihydroxy-2-(hydroxymethyl)oxan-3-yl]oxyoxane-3,4,5-triol",
+    "cid": 439186,
+    "formula": "C12H22O11",
+    "counts": {
+      "O": 11,
+      "C": 12,
+      "H": 22
+    },
+    "category": "Carbohidratos",
+    "scene": "azucares",
+    "role": "Puede formarse durante la degradación del almidón. Su hidrólisis produce dos unidades de glucosa.",
+    "atoms": [
+      {
+        "index": 0,
+        "element": "O",
+        "h": 0,
+        "bonds": 2.0,
+        "x": 562.4786603608429,
+        "y": 263.15748455116733
+      },
+      {
+        "index": 1,
+        "element": "O",
+        "h": 0,
+        "bonds": 2.0,
+        "x": 480.10869837868904,
+        "y": 263.15748455116733
+      },
+      {
+        "index": 2,
+        "element": "O",
+        "h": 0,
+        "bonds": 2.0,
+        "x": 521.2913016213108,
+        "y": 144.27006179533075
+      },
+      {
+        "index": 3,
+        "element": "O",
+        "h": 1,
+        "bonds": 1.0,
+        "x": 644.8438668460865,
+        "y": 215.6025154488327
+      },
+      {
+        "index": 4,
+        "element": "O",
+        "h": 1,
+        "bonds": 1.0,
+        "x": 562.4786603608429,
+        "y": 358.2674227558366
+      },
+      {
+        "index": 5,
+        "element": "O",
+        "h": 1,
+        "bonds": 1.0,
+        "x": 480.10869837868904,
+        "y": 405.8223918581712
+      },
+      {
+        "index": 6,
+        "element": "O",
+        "h": 1,
+        "bonds": 1.0,
+        "x": 397.7434918934455,
+        "y": 358.2674227558366
+      },
+      {
+        "index": 7,
+        "element": "O",
+        "h": 1,
+        "bonds": 1.0,
+        "x": 644.8438668460865,
+        "y": 120.49257724416343
+      },
+      {
+        "index": 8,
+        "element": "O",
+        "h": 1,
+        "bonds": 1.0,
+        "x": 562.4786603608429,
+        "y": 72.93760814182879
+      },
+      {
+        "index": 9,
+        "element": "O",
+        "h": 1,
+        "bonds": 1.0,
+        "x": 438.92609513606726,
+        "y": 191.82503089766539
+      },
+      {
+        "index": 10,
+        "element": "O",
+        "h": 1,
+        "bonds": 1.0,
+        "x": 356.5561331539135,
+        "y": 286.93496910233466
+      },
+      {
+        "index": 11,
+        "element": "C",
+        "h": 1,
+        "bonds": 3.0,
+        "x": 562.4786603608429,
+        "y": 215.6025154488327
+      },
+      {
+        "index": 12,
+        "element": "C",
+        "h": 1,
+        "bonds": 3.0,
+        "x": 603.6612636034647,
+        "y": 191.82503089766539
+      },
+      {
+        "index": 13,
+        "element": "C",
+        "h": 1,
+        "bonds": 3.0,
+        "x": 521.2913016213108,
+        "y": 286.93496910233466
+      },
+      {
+        "index": 14,
+        "element": "C",
+        "h": 1,
+        "bonds": 3.0,
+        "x": 521.2913016213108,
+        "y": 191.82503089766539
+      },
+      {
+        "index": 15,
+        "element": "C",
+        "h": 1,
+        "bonds": 3.0,
+        "x": 521.2913016213108,
+        "y": 334.4899382046693
+      },
+      {
+        "index": 16,
+        "element": "C",
+        "h": 1,
+        "bonds": 3.0,
+        "x": 480.10869837868904,
+        "y": 358.2674227558366
+      },
+      {
+        "index": 17,
+        "element": "C",
+        "h": 1,
+        "bonds": 3.0,
+        "x": 438.92609513606726,
+        "y": 334.4899382046693
+      },
+      {
+        "index": 18,
+        "element": "C",
+        "h": 1,
+        "bonds": 3.0,
+        "x": 603.6612636034647,
+        "y": 144.27006179533075
+      },
+      {
+        "index": 19,
+        "element": "C",
+        "h": 1,
+        "bonds": 3.0,
+        "x": 438.92609513606726,
+        "y": 286.93496910233466
+      },
+      {
+        "index": 20,
+        "element": "C",
+        "h": 1,
+        "bonds": 3.0,
+        "x": 562.4786603608429,
+        "y": 120.49257724416343
+      },
+      {
+        "index": 21,
+        "element": "C",
+        "h": 2,
+        "bonds": 2.0,
+        "x": 480.10869837868904,
+        "y": 215.6025154488327
+      },
+      {
+        "index": 22,
+        "element": "C",
+        "h": 2,
+        "bonds": 2.0,
+        "x": 397.7434918934455,
+        "y": 263.15748455116733
+      }
+    ],
+    "width": 1000,
+    "height": 480,
+    "source": "https://pubchem.ncbi.nlm.nih.gov/compound/439186",
+    "svg": "assets/maltose.svg",
+    "smiles": "OC[C@H]1O[C@H](O[C@H]2[C@H](O)[C@@H](O)C(O)O[C@@H]2CO)[C@H](O)[C@@H](O)[C@@H]1O",
+    "heavy": 23,
+    "stereo": true,
+    "level": "Experto"
+  },
+  {
+    "id": "cholesterol",
+    "name": "Colesterol",
+    "title": "Cholesterol",
+    "iupac": "(3S,8S,9S,10R,13R,14S,17R)-10,13-dimethyl-17-[(2R)-6-methylheptan-2-yl]-2,3,4,7,8,9,11,12,14,15,16,17-dodecahydro-1H-cyclopenta[a]phenanthren-3-ol",
+    "cid": 5997,
+    "formula": "C27H46O",
+    "counts": {
+      "O": 1,
+      "C": 27,
+      "H": 46
+    },
+    "category": "Lípidos y componentes",
+    "scene": "membrana",
+    "role": "Se intercala en membranas de células animales y ayuda a regular sus propiedades. También es precursor de hormonas esteroideas y otras sustancias.",
+    "atoms": [
+      {
+        "index": 0,
+        "element": "O",
+        "h": 1,
+        "bonds": 1.0,
+        "x": 279.15400974342316,
+        "y": 406.36781422539786
+      },
+      {
+        "index": 1,
+        "element": "C",
+        "h": 0,
+        "bonds": 4.0,
+        "x": 534.1833569340695,
+        "y": 262.0256771679117
+      },
+      {
+        "index": 2,
+        "element": "C",
+        "h": 1,
+        "bonds": 3.0,
+        "x": 534.1833569340695,
+        "y": 309.31375771354334
+      },
+      {
+        "index": 3,
+        "element": "C",
+        "h": 1,
+        "bonds": 3.0,
+        "x": 493.2318791815524,
+        "y": 332.95779798635925
+      },
+      {
+        "index": 4,
+        "element": "C",
+        "h": 1,
+        "bonds": 3.0,
+        "x": 452.28040142903535,
+        "y": 309.31375771354334
+      },
+      {
+        "index": 5,
+        "element": "C",
+        "h": 1,
+        "bonds": 3.0,
+        "x": 578.9273387463462,
+        "y": 247.6169990256577
+      },
+      {
+        "index": 6,
+        "element": "C",
+        "h": 2,
+        "bonds": 2.0,
+        "x": 493.2318791815524,
+        "y": 238.38163689509582
+      },
+      {
+        "index": 7,
+        "element": "C",
+        "h": 0,
+        "bonds": 4.0,
+        "x": 409.2482481325105,
+        "y": 333.2840857421241
+      },
+      {
+        "index": 8,
+        "element": "C",
+        "h": 2,
+        "bonds": 2.0,
+        "x": 578.9273387463462,
+        "y": 323.7271646638519
+      },
+      {
+        "index": 9,
+        "element": "C",
+        "h": 2,
+        "bonds": 2.0,
+        "x": 452.28040142903535,
+        "y": 262.0256771679117
+      },
+      {
+        "index": 10,
+        "element": "C",
+        "h": 2,
+        "bonds": 2.0,
+        "x": 606.5293913608314,
+        "y": 285.6697174407275
+      },
+      {
+        "index": 11,
+        "element": "C",
+        "h": 2,
+        "bonds": 2.0,
+        "x": 493.99321727833706,
+        "y": 382.2083338746346
+      },
+      {
+        "index": 12,
+        "element": "C",
+        "h": 1,
+        "bonds": 3.0,
+        "x": 593.6197453718739,
+        "y": 202.66967846703474
+      },
+      {
+        "index": 13,
+        "element": "C",
+        "h": 3,
+        "bonds": 1.0,
+        "x": 534.1833569340695,
+        "y": 214.73759662227997
+      },
+      {
+        "index": 14,
+        "element": "C",
+        "h": 0,
+        "bonds": 4.0,
+        "x": 408.8652146800909,
+        "y": 382.53935043845405
+      },
+      {
+        "index": 15,
+        "element": "C",
+        "h": 2,
+        "bonds": 2.0,
+        "x": 365.4169262747645,
+        "y": 306.6088795063332
+      },
+      {
+        "index": 16,
+        "element": "C",
+        "h": 1,
+        "bonds": 3.0,
+        "x": 451.5237921403052,
+        "y": 407.16698278661903
+      },
+      {
+        "index": 17,
+        "element": "C",
+        "h": 3,
+        "bonds": 1.0,
+        "x": 409.6123663527119,
+        "y": 285.99600519649243
+      },
+      {
+        "index": 18,
+        "element": "C",
+        "h": 2,
+        "bonds": 2.0,
+        "x": 364.631944137707,
+        "y": 408.5336083143878
+      },
+      {
+        "index": 19,
+        "element": "C",
+        "h": 2,
+        "bonds": 2.0,
+        "x": 320.59728353361476,
+        "y": 331.5722572263722
+      },
+      {
+        "index": 20,
+        "element": "C",
+        "h": 2,
+        "bonds": 2.0,
+        "x": 639.8911321857745,
+        "y": 192.91887625852547
+      },
+      {
+        "index": 21,
+        "element": "C",
+        "h": 1,
+        "bonds": 3.0,
+        "x": 320.2000636570315,
+        "y": 382.8798246183826
+      },
+      {
+        "index": 22,
+        "element": "C",
+        "h": 3,
+        "bonds": 1.0,
+        "x": 562.040765183501,
+        "y": 167.4731601169211
+      },
+      {
+        "index": 23,
+        "element": "C",
+        "h": 2,
+        "bonds": 2.0,
+        "x": 654.5835388113023,
+        "y": 147.966826891848
+      },
+      {
+        "index": 24,
+        "element": "C",
+        "h": 2,
+        "bonds": 2.0,
+        "x": 700.8549256252029,
+        "y": 138.21602468333873
+      },
+      {
+        "index": 25,
+        "element": "C",
+        "h": 1,
+        "bonds": 3.0,
+        "x": 715.5426034426762,
+        "y": 93.26870412471581
+      },
+      {
+        "index": 26,
+        "element": "C",
+        "h": 3,
+        "bonds": 1.0,
+        "x": 761.8139902565769,
+        "y": 83.51790191620655
+      },
+      {
+        "index": 27,
+        "element": "C",
+        "h": 3,
+        "bonds": 1.0,
+        "x": 683.9636232543033,
+        "y": 58.07218577460213
+      }
+    ],
+    "width": 1000,
+    "height": 480,
+    "source": "https://pubchem.ncbi.nlm.nih.gov/compound/5997",
+    "svg": "assets/cholesterol.svg",
+    "smiles": "CC(C)CCC[C@@H](C)[C@H]1CC[C@H]2[C@@H]3CC=C4C[C@@H](O)CC[C@]4(C)[C@H]3CC[C@]12C",
+    "heavy": 28,
+    "stereo": true,
+    "level": "Experto"
+  },
+  {
+    "id": "adenosine-triphosphate",
+    "name": "ATP · ácido adenosín trifosfórico",
+    "title": "5'-Atp",
+    "iupac": "[[(2R,3S,4R,5R)-5-(6-aminopurin-9-yl)-3,4-dihydroxyoxolan-2-yl]methoxy-hydroxyphosphoryl] phosphono hydrogen phosphate",
+    "cid": 5957,
+    "formula": "C10H16N5O13P3",
+    "counts": {
+      "P": 3,
+      "O": 13,
+      "N": 5,
+      "C": 10,
+      "H": 16
+    },
+    "category": "Nucleótidos y bases",
+    "scene": "energia",
+    "role": "Las células acoplan transformaciones de ATP con procesos como movimiento y transporte. Se muestra la forma ácida sin cargas; en las células predominan formas ionizadas, a menudo asociadas con magnesio.",
+    "atoms": [
+      {
+        "index": 0,
+        "element": "P",
+        "h": 0,
+        "bonds": 5.0,
+        "x": 509.48322694982204,
+        "y": 185.00519351786494
+      },
+      {
+        "index": 1,
+        "element": "P",
+        "h": 0,
+        "bonds": 5.0,
+        "x": 519.4083129327306,
+        "y": 138.71181532823692
+      },
+      {
+        "index": 2,
+        "element": "P",
+        "h": 0,
+        "bonds": 5.0,
+        "x": 529.3306654851839,
+        "y": 92.41843713860894
+      },
+      {
+        "index": 3,
+        "element": "O",
+        "h": 0,
+        "bonds": 2.0,
+        "x": 491.85806737455505,
+        "y": 279.3932805671118
+      },
+      {
+        "index": 4,
+        "element": "O",
+        "h": 1,
+        "bonds": 1.0,
+        "x": 555.9816124235916,
+        "y": 309.23960770767314
+      },
+      {
+        "index": 5,
+        "element": "O",
+        "h": 1,
+        "bonds": 1.0,
+        "x": 556.0854827808901,
+        "y": 249.7710947238785
+      },
+      {
+        "index": 6,
+        "element": "O",
+        "h": 0,
+        "bonds": 2.0,
+        "x": 517.8857921691723,
+        "y": 211.01651772975083
+      },
+      {
+        "index": 7,
+        "element": "O",
+        "h": 0,
+        "bonds": 2.0,
+        "x": 501.0806617304718,
+        "y": 158.993869305979
+      },
+      {
+        "index": 8,
+        "element": "O",
+        "h": 1,
+        "bonds": 1.0,
+        "x": 535.4945511617079,
+        "y": 176.60262829851465
+      },
+      {
+        "index": 9,
+        "element": "O",
+        "h": 0,
+        "bonds": 2.0,
+        "x": 483.4719027379361,
+        "y": 193.40502530675997
+      },
+      {
+        "index": 10,
+        "element": "O",
+        "h": 0,
+        "bonds": 2.0,
+        "x": 537.7332307045342,
+        "y": 118.42976135049486
+      },
+      {
+        "index": 11,
+        "element": "O",
+        "h": 1,
+        "bonds": 1.0,
+        "x": 499.12625895498854,
+        "y": 120.38689755643333
+      },
+      {
+        "index": 12,
+        "element": "O",
+        "h": 0,
+        "bonds": 2.0,
+        "x": 539.6876334800174,
+        "y": 157.03673310004055
+      },
+      {
+        "index": 13,
+        "element": "O",
+        "h": 1,
+        "bonds": 1.0,
+        "x": 520.9281002658337,
+        "y": 66.40711292672302
+      },
+      {
+        "index": 14,
+        "element": "O",
+        "h": 1,
+        "bonds": 1.0,
+        "x": 555.3419896970698,
+        "y": 84.01587191925867
+      },
+      {
+        "index": 15,
+        "element": "O",
+        "h": 0,
+        "bonds": 2.0,
+        "x": 503.319341273298,
+        "y": 100.82100235795923
+      },
+      {
+        "index": 16,
+        "element": "N",
+        "h": 0,
+        "bonds": 3.0,
+        "x": 499.3941351396002,
+        "y": 327.51805716173806
+      },
+      {
+        "index": 17,
+        "element": "N",
+        "h": 0,
+        "bonds": 3.0,
+        "x": 499.3941351396002,
+        "y": 371.5098869080697
+      },
+      {
+        "index": 18,
+        "element": "N",
+        "h": 0,
+        "bonds": 3.0,
+        "x": 449.85617499962456,
+        "y": 322.1796674826908
+      },
+      {
+        "index": 19,
+        "element": "N",
+        "h": 0,
+        "bonds": 3.0,
+        "x": 426.1846672574081,
+        "y": 363.1811243110103
+      },
+      {
+        "index": 20,
+        "element": "N",
+        "h": 2,
+        "bonds": 1.0,
+        "x": 449.85617499962456,
+        "y": 404.18258113932984
+      },
+      {
+        "index": 21,
+        "element": "C",
+        "h": 1,
+        "bonds": 3.0,
+        "x": 533.8954943454034,
+        "y": 293.1342354655092
+      },
+      {
+        "index": 22,
+        "element": "C",
+        "h": 1,
+        "bonds": 3.0,
+        "x": 533.9446960935975,
+        "y": 265.7999309132962
+      },
+      {
+        "index": 23,
+        "element": "C",
+        "h": 1,
+        "bonds": 3.0,
+        "x": 507.8841701335176,
+        "y": 301.5368006848595
+      },
+      {
+        "index": 24,
+        "element": "C",
+        "h": 1,
+        "bonds": 3.0,
+        "x": 507.9607061862638,
+        "y": 257.3071624889236
+      },
+      {
+        "index": 25,
+        "element": "C",
+        "h": 2,
+        "bonds": 2.0,
+        "x": 499.5608743973687,
+        "y": 231.2958382770377
+      },
+      {
+        "index": 26,
+        "element": "C",
+        "h": 0,
+        "bonds": 4.0,
+        "x": 473.5304161722962,
+        "y": 335.8468197587973
+      },
+      {
+        "index": 27,
+        "element": "C",
+        "h": 1,
+        "bonds": 3.0,
+        "x": 515.3464352762717,
+        "y": 349.51397203490376
+      },
+      {
+        "index": 28,
+        "element": "C",
+        "h": 0,
+        "bonds": 4.0,
+        "x": 473.5304161722962,
+        "y": 363.1811243110103
+      },
+      {
+        "index": 29,
+        "element": "C",
+        "h": 0,
+        "bonds": 4.0,
+        "x": 449.85617499962456,
+        "y": 376.84827658711686
+      },
+      {
+        "index": 30,
+        "element": "C",
+        "h": 1,
+        "bonds": 3.0,
+        "x": 426.1846672574081,
+        "y": 335.8468197587973
+      }
+    ],
+    "width": 1000,
+    "height": 480,
+    "source": "https://pubchem.ncbi.nlm.nih.gov/compound/5957",
+    "svg": "assets/adenosine-triphosphate.svg",
+    "smiles": "NC1=C2N=CN([C@@H]3O[C@H](COP(=O)(O)OP(=O)(O)OP(=O)(O)O)[C@@H](O)[C@H]3O)C2=NC=N1",
+    "heavy": 31,
+    "stereo": true,
+    "level": "Experto"
+  },
+  {
+    "id": "triolein",
+    "name": "Trioleína",
+    "title": "Triolein",
+    "iupac": "2,3-bis[[(Z)-octadec-9-enoyl]oxy]propyl (Z)-octadec-9-enoate",
+    "cid": 5497163,
+    "formula": "C57H104O6",
+    "counts": {
+      "O": 6,
+      "C": 57,
+      "H": 104
+    },
+    "category": "Lípidos y componentes",
+    "scene": "aceite",
+    "role": "Triacilglicérido formado por glicerol y tres restos de ácido oleico. Es una molécula de reserva de energía presente en aceites; se muestra la molécula completa.",
+    "atoms": [
+      {
+        "index": 0,
+        "element": "O",
+        "h": 0,
+        "bonds": 2.0,
+        "x": 739.4728387096775,
+        "y": 256.72258064516126
+      },
+      {
+        "index": 1,
+        "element": "O",
+        "h": 0,
+        "bonds": 2.0,
+        "x": 660.5271612903225,
+        "y": 271.916129032258
+      },
+      {
+        "index": 2,
+        "element": "O",
+        "h": 0,
+        "bonds": 2.0,
+        "x": 686.8423870967742,
+        "y": 317.4967741935484
+      },
+      {
+        "index": 3,
+        "element": "O",
+        "h": 0,
+        "bonds": 2.0,
+        "x": 765.7911032258064,
+        "y": 302.3032258064516
+      },
+      {
+        "index": 4,
+        "element": "O",
+        "h": 0,
+        "bonds": 2.0,
+        "x": 634.2088967741936,
+        "y": 226.33548387096772
+      },
+      {
+        "index": 5,
+        "element": "O",
+        "h": 0,
+        "bonds": 2.0,
+        "x": 713.1576129032258,
+        "y": 363.0774193548387
+      },
+      {
+        "index": 6,
+        "element": "C",
+        "h": 2,
+        "bonds": 2.0,
+        "x": 871.0550451612903,
+        "y": 271.916129032258
+      },
+      {
+        "index": 7,
+        "element": "C",
+        "h": 2,
+        "bonds": 2.0,
+        "x": 897.370270967742,
+        "y": 256.72258064516126
+      },
+      {
+        "index": 8,
+        "element": "C",
+        "h": 2,
+        "bonds": 2.0,
+        "x": 528.9449548387097,
+        "y": 256.72258064516126
+      },
+      {
+        "index": 9,
+        "element": "C",
+        "h": 2,
+        "bonds": 2.0,
+        "x": 634.2088967741936,
+        "y": 439.04516129032254
+      },
+      {
+        "index": 10,
+        "element": "C",
+        "h": 2,
+        "bonds": 2.0,
+        "x": 844.7367806451612,
+        "y": 256.72258064516126
+      },
+      {
+        "index": 11,
+        "element": "C",
+        "h": 2,
+        "bonds": 2.0,
+        "x": 502.62972903225807,
+        "y": 271.916129032258
+      },
+      {
+        "index": 12,
+        "element": "C",
+        "h": 2,
+        "bonds": 2.0,
+        "x": 607.893670967742,
+        "y": 454.2387096774193
+      },
+      {
+        "index": 13,
+        "element": "C",
+        "h": 2,
+        "bonds": 2.0,
+        "x": 1028.9494387096775,
+        "y": 180.75483870967744
+      },
+      {
+        "index": 14,
+        "element": "C",
+        "h": 2,
+        "bonds": 2.0,
+        "x": 1055.264664516129,
+        "y": 165.56129032258065
+      },
+      {
+        "index": 15,
+        "element": "C",
+        "h": 2,
+        "bonds": 2.0,
+        "x": 923.6854967741936,
+        "y": 271.916129032258
+      },
+      {
+        "index": 16,
+        "element": "C",
+        "h": 2,
+        "bonds": 2.0,
+        "x": 344.735335483871,
+        "y": 363.0774193548387
+      },
+      {
+        "index": 17,
+        "element": "C",
+        "h": 2,
+        "bonds": 2.0,
+        "x": 449.9992774193548,
+        "y": 545.4
+      },
+      {
+        "index": 18,
+        "element": "C",
+        "h": 2,
+        "bonds": 2.0,
+        "x": 371.05056129032255,
+        "y": 347.8838709677419
+      },
+      {
+        "index": 19,
+        "element": "C",
+        "h": 2,
+        "bonds": 2.0,
+        "x": 476.31450322580645,
+        "y": 530.2064516129033
+      },
+      {
+        "index": 20,
+        "element": "C",
+        "h": 2,
+        "bonds": 2.0,
+        "x": 555.2632193548386,
+        "y": 271.916129032258
+      },
+      {
+        "index": 21,
+        "element": "C",
+        "h": 2,
+        "bonds": 2.0,
+        "x": 634.2088967741936,
+        "y": 408.658064516129
+      },
+      {
+        "index": 22,
+        "element": "C",
+        "h": 2,
+        "bonds": 2.0,
+        "x": 476.31450322580645,
+        "y": 256.72258064516126
+      },
+      {
+        "index": 23,
+        "element": "C",
+        "h": 2,
+        "bonds": 2.0,
+        "x": 607.893670967742,
+        "y": 484.6258064516129
+      },
+      {
+        "index": 24,
+        "element": "C",
+        "h": 2,
+        "bonds": 2.0,
+        "x": 1028.9494387096775,
+        "y": 211.14193548387095
+      },
+      {
+        "index": 25,
+        "element": "C",
+        "h": 2,
+        "bonds": 2.0,
+        "x": 1055.264664516129,
+        "y": 135.1741935483871
+      },
+      {
+        "index": 26,
+        "element": "C",
+        "h": 2,
+        "bonds": 2.0,
+        "x": 344.735335483871,
+        "y": 393.46451612903223
+      },
+      {
+        "index": 27,
+        "element": "C",
+        "h": 2,
+        "bonds": 2.0,
+        "x": 423.6810129032258,
+        "y": 530.2064516129033
+      },
+      {
+        "index": 28,
+        "element": "C",
+        "h": 2,
+        "bonds": 2.0,
+        "x": 371.05056129032255,
+        "y": 317.4967741935484
+      },
+      {
+        "index": 29,
+        "element": "C",
+        "h": 2,
+        "bonds": 2.0,
+        "x": 502.62972903225807,
+        "y": 545.4
+      },
+      {
+        "index": 30,
+        "element": "C",
+        "h": 2,
+        "bonds": 2.0,
+        "x": 818.4215548387097,
+        "y": 271.916129032258
+      },
+      {
+        "index": 31,
+        "element": "C",
+        "h": 2,
+        "bonds": 2.0,
+        "x": 581.5784451612903,
+        "y": 256.72258064516126
+      },
+      {
+        "index": 32,
+        "element": "C",
+        "h": 2,
+        "bonds": 2.0,
+        "x": 660.5271612903225,
+        "y": 393.46451612903223
+      },
+      {
+        "index": 33,
+        "element": "C",
+        "h": 2,
+        "bonds": 2.0,
+        "x": 950.0007225806453,
+        "y": 256.72258064516126
+      },
+      {
+        "index": 34,
+        "element": "C",
+        "h": 2,
+        "bonds": 2.0,
+        "x": 449.9992774193548,
+        "y": 271.916129032258
+      },
+      {
+        "index": 35,
+        "element": "C",
+        "h": 2,
+        "bonds": 2.0,
+        "x": 581.5784451612903,
+        "y": 499.81935483870967
+      },
+      {
+        "index": 36,
+        "element": "C",
+        "h": 2,
+        "bonds": 2.0,
+        "x": 1002.6342129032257,
+        "y": 226.33548387096772
+      },
+      {
+        "index": 37,
+        "element": "C",
+        "h": 2,
+        "bonds": 2.0,
+        "x": 1081.582929032258,
+        "y": 119.98064516129034
+      },
+      {
+        "index": 38,
+        "element": "C",
+        "h": 2,
+        "bonds": 2.0,
+        "x": 318.41707096774195,
+        "y": 408.658064516129
+      },
+      {
+        "index": 39,
+        "element": "C",
+        "h": 2,
+        "bonds": 2.0,
+        "x": 397.36578709677417,
+        "y": 545.4
+      },
+      {
+        "index": 40,
+        "element": "C",
+        "h": 2,
+        "bonds": 2.0,
+        "x": 397.36578709677417,
+        "y": 302.3032258064516
+      },
+      {
+        "index": 41,
+        "element": "C",
+        "h": 2,
+        "bonds": 2.0,
+        "x": 528.9449548387097,
+        "y": 530.2064516129033
+      },
+      {
+        "index": 42,
+        "element": "C",
+        "h": 2,
+        "bonds": 2.0,
+        "x": 792.106329032258,
+        "y": 256.72258064516126
+      },
+      {
+        "index": 43,
+        "element": "C",
+        "h": 2,
+        "bonds": 2.0,
+        "x": 607.893670967742,
+        "y": 271.916129032258
+      },
+      {
+        "index": 44,
+        "element": "C",
+        "h": 2,
+        "bonds": 2.0,
+        "x": 660.5271612903225,
+        "y": 363.0774193548387
+      },
+      {
+        "index": 45,
+        "element": "C",
+        "h": 1,
+        "bonds": 3.0,
+        "x": 976.3189870967742,
+        "y": 271.916129032258
+      },
+      {
+        "index": 46,
+        "element": "C",
+        "h": 1,
+        "bonds": 3.0,
+        "x": 1002.6342129032257,
+        "y": 256.72258064516126
+      },
+      {
+        "index": 47,
+        "element": "C",
+        "h": 2,
+        "bonds": 2.0,
+        "x": 1081.582929032258,
+        "y": 89.59354838709679
+      },
+      {
+        "index": 48,
+        "element": "C",
+        "h": 2,
+        "bonds": 2.0,
+        "x": 318.41707096774195,
+        "y": 439.04516129032254
+      },
+      {
+        "index": 49,
+        "element": "C",
+        "h": 2,
+        "bonds": 2.0,
+        "x": 371.05056129032255,
+        "y": 530.2064516129033
+      },
+      {
+        "index": 50,
+        "element": "C",
+        "h": 1,
+        "bonds": 3.0,
+        "x": 423.6810129032258,
+        "y": 256.72258064516126
+      },
+      {
+        "index": 51,
+        "element": "C",
+        "h": 1,
+        "bonds": 3.0,
+        "x": 581.5784451612903,
+        "y": 530.2064516129033
+      },
+      {
+        "index": 52,
+        "element": "C",
+        "h": 1,
+        "bonds": 3.0,
+        "x": 397.36578709677417,
+        "y": 271.916129032258
+      },
+      {
+        "index": 53,
+        "element": "C",
+        "h": 1,
+        "bonds": 3.0,
+        "x": 555.2632193548386,
+        "y": 545.4
+      },
+      {
+        "index": 54,
+        "element": "C",
+        "h": 1,
+        "bonds": 3.0,
+        "x": 713.1576129032258,
+        "y": 271.916129032258
+      },
+      {
+        "index": 55,
+        "element": "C",
+        "h": 2,
+        "bonds": 2.0,
+        "x": 686.8423870967742,
+        "y": 256.72258064516126
+      },
+      {
+        "index": 56,
+        "element": "C",
+        "h": 2,
+        "bonds": 2.0,
+        "x": 713.1576129032258,
+        "y": 302.3032258064516
+      },
+      {
+        "index": 57,
+        "element": "C",
+        "h": 0,
+        "bonds": 4.0,
+        "x": 765.7911032258064,
+        "y": 271.916129032258
+      },
+      {
+        "index": 58,
+        "element": "C",
+        "h": 0,
+        "bonds": 4.0,
+        "x": 634.2088967741936,
+        "y": 256.72258064516126
+      },
+      {
+        "index": 59,
+        "element": "C",
+        "h": 0,
+        "bonds": 4.0,
+        "x": 686.8423870967742,
+        "y": 347.8838709677419
+      },
+      {
+        "index": 60,
+        "element": "C",
+        "h": 3,
+        "bonds": 1.0,
+        "x": 1107.8981548387096,
+        "y": 74.39999999999999
+      },
+      {
+        "index": 61,
+        "element": "C",
+        "h": 3,
+        "bonds": 1.0,
+        "x": 292.1018451612903,
+        "y": 454.2387096774193
+      },
+      {
+        "index": 62,
+        "element": "C",
+        "h": 3,
+        "bonds": 1.0,
+        "x": 344.735335483871,
+        "y": 545.4
+      }
+    ],
+    "width": 1400,
+    "height": 620,
+    "source": "https://pubchem.ncbi.nlm.nih.gov/compound/5497163",
+    "svg": "assets/triolein.svg",
+    "smiles": "CCCCCCCC/C=C\\CCCCCCCC(=O)OCC(COC(=O)CCCCCCC/C=C\\CCCCCCCC)OC(=O)CCCCCCC/C=C\\CCCCCCCC",
+    "heavy": 63,
+    "stereo": false,
+    "level": "Experto"
+  }
+]

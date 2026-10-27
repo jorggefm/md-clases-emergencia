@@ -2,7 +2,7 @@
 <html lang="es">
 <head>
  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
- <meta name="description" content="Siete preguntas para debatir sobre la vida, el ser humano y Dios. Respuestas de 45 segundos y réplicas de 30 segundos.">
+ <meta name="description" content="Tres preguntas sobre evolución para el 29 de octubre, feedback del debate anterior y archivo de preguntas. Respuestas de 45 segundos y réplicas de 30 segundos.">
  <meta name="referrer" content="no-referrer">
  <title>Debate · Orígenes | MD Clases</title>
  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%231a303b'/%3E%3Cpath d='M16 18h32v21H29l-10 9v-9h-3z' fill='%23f3efe5'/%3E%3C/svg%3E">
@@ -11,12 +11,13 @@
 </head>
 <body>
  <a class="skip" href="#question">Ir a la pregunta</a>
- <header class="topbar"><a class="brand" href="./"><svg aria-hidden="true" width="28" height="28" viewBox="0 0 28 28"><path d="M3 4h22v15H12l-7 6v-6H3z" fill="none" stroke="currentColor" stroke-width="1.8"/></svg><strong>Debate <span>· Orígenes</span></strong></a><div class="header-actions"><span class="course">4.º secundaria · Piloto</span><button id="project" class="quiet">Proyectar</button></div></header>
+ <header class="topbar"><a class="brand" href="./"><svg aria-hidden="true" width="28" height="28" viewBox="0 0 28 28"><path d="M3 4h22v15H12l-7 6v-6H3z" fill="none" stroke="currentColor" stroke-width="1.8"/></svg><strong>Debate <span>· Orígenes</span></strong></a><div class="header-actions"><span class="course">4.º secundaria · U7 L2</span><button id="project" class="quiet">Proyectar</button></div></header>
  <main class="layout">
-  <aside class="sidebar" aria-label="Preguntas del debate"><h2>Las siete preguntas</h2><nav id="question-nav" aria-label="Elegir pregunta"></nav><p class="sidebar-note">Escucha. Fundamenta.<br>Responde a la idea.</p></aside>
+  <aside class="sidebar" aria-label="Preguntas del debate"><label class="round-select" for="debate-round">Ronda<select id="debate-round"><option value="evolucion">29 oct. · Evolución</option><option value="archivo">Archivo · Orígenes</option></select></label><h2 id="nav-title">Las tres preguntas</h2><nav id="question-nav" aria-label="Elegir pregunta"></nav><p class="sidebar-note">Escucha. Fundamenta.<br>Responde a la idea.</p></aside>
   <div class="workspace">
    <div class="tabs" role="tablist" aria-label="Vista del debate">
     <button id="tab-debate" role="tab" aria-selected="true" aria-controls="panel-debate" data-tab="debate">Debate</button>
+    <button id="tab-feedback" role="tab" aria-selected="false" aria-controls="panel-feedback" data-tab="feedback" tabindex="-1">Feedback del debate</button>
     <button id="tab-ciencia" role="tab" aria-selected="false" aria-controls="panel-private" data-tab="ciencia" tabindex="-1"><svg aria-hidden="true" viewBox="0 0 20 20"><rect x="4" y="8" width="12" height="9" rx="2"/><path d="M7 8V5a3 3 0 016 0v3"/></svg>Argumentos · Ciencia</button>
     <button id="tab-religion" role="tab" aria-selected="false" aria-controls="panel-private" data-tab="religion" tabindex="-1"><svg aria-hidden="true" viewBox="0 0 20 20"><rect x="4" y="8" width="12" height="9" rx="2"/><path d="M7 8V5a3 3 0 016 0v3"/></svg>Argumentos · Religión</button>
    </div>
@@ -37,6 +38,17 @@
      </section>
     </div>
     <footer class="debate-footer"><p><strong>Una idea. Una razón. Un ejemplo.</strong> En la réplica, responde al argumento que acabas de escuchar.</p><span>45 s respuesta / 30 s réplica</span></footer>
+   </section>
+   <section id="panel-feedback" class="feedback-sheet" role="tabpanel" aria-labelledby="tab-feedback" hidden>
+    <h1>Cómo mejorar nuestros argumentos</h1>
+    <p>Feedback para el miércoles 28 de octubre. Revisamos las ideas y la forma de argumentar, no las creencias personales ni el valor de quien participa.</p>
+    <p class="transcript-note"><strong>Sobre las citas:</strong> fragmentos literales de la transcripción automática de YouTube, con minuto aproximado. Pueden contener errores de reconocimiento; deben contrastarse con el audio antes de atribuir una formulación exacta. No se identifican estudiantes ni se reproducen relatos personales sensibles.</p>
+    <div id="feedback-summary"></div>
+    <div id="feedback-examples"></div>
+    <h2>Para el próximo debate</h2>
+    <p>Una afirmación precisa, una evidencia identificable y una explicación de cómo se relacionan. En la réplica, responde a una sola idea. Puedes corregirte o reconocer que aún falta verificar algo.</p>
+    <p>Dos equipos de siete, con roles de proponer y examinar argumentos, no de representar creencias personales. Se evalúa C2: conceptos, evidencia y razonamiento; el respeto es una condición para participar.</p>
+    <p><a href="https://openstax.org/books/biology-2e/pages/19-2-population-genetics" target="_blank" rel="noopener noreferrer">OpenStax: selección, deriva y flujo génico</a> · <a href="https://openstax.org/books/biology-2e/pages/18-2-formation-of-new-species" target="_blank" rel="noopener noreferrer">OpenStax: formación de especies</a> · <a href="https://www.nationalacademies.org/evolution-resources" target="_blank" rel="noopener noreferrer">National Academies: ciencia, evolución y religión</a></p>
    </section>
    <section id="panel-private" role="tabpanel" aria-labelledby="tab-ciencia" hidden>
     <div class="private-top"><div><h1 id="private-title">Argumentos del bando</h1><p id="private-question"></p></div><button id="lock" class="secondary" hidden>Bloquear argumentos</button></div>

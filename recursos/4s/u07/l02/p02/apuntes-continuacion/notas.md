@@ -6,19 +6,27 @@
 
 **Afirmación:** lo que propongo. **Evidencia:** observación o información pertinente que la respalda. **Razonamiento:** explicación de cómo esa evidencia apoya la afirmación. Una experiencia personal no basta por sí sola para justificar una afirmación general.
 
-**Pregunta 1:** ¿más diversidad genética garantiza sobrevivir a cualquier cambio ambiental?
+La ronda actual y el [feedback con citas, correcciones y ejemplos](https://jorggefm.github.io/md-clases-emergencia/recursos/4s/u07/l01/p00/debate-origenes/#feedback) están en la plataforma de debate. Las citas proceden de transcripción automática y deben contrastarse con el audio antes de atribuir una expresión exacta. No se identifican estudiantes ni se reproducen relatos sensibles.
 
-Punto de partida: puede aportar variantes heredables, pero no garantiza adaptación a cualquier condición. Mi argumento debe relacionar variantes, ambiente y reproducción; no basta con decir que algo es más fuerte.
+**Pregunta 1:** ¿la diversidad de especies exige una creación separada de cada especie o puede explicarse por descendencia común y cambios heredables?
 
-**Pregunta 2:** ¿una variante puede aumentar aunque no dé ventaja?
+Punto de partida: distinguir el origen de la primera vida de la diversificación posterior. Comparar evidencias de parentesco y mecanismos; no evaluar creencias ni presentar creacionismo como teoría científica equivalente. Humanos y otros simios comparten antepasados: no descendemos de chimpancés actuales.
 
-Punto de partida: sí; la deriva cambia frecuencias por azar. Fundador y cuello de botella son ejemplos de deriva, no automáticamente tipos de especiación.
+**Pregunta 2:** si una variante se vuelve más frecuente, ¿significa que está mejor adaptada o pudo aumentar por azar?
+
+Punto de partida: la selección relaciona variantes heredables con éxito reproductivo; la deriva cambia frecuencias por azar. Fundador y cuello de botella son ejemplos de deriva, no automáticamente tipos de especiación. No basta mirar la frecuencia final para decidir siempre el mecanismo.
+
+**Pregunta 3:** ¿basta separar dos poblaciones para que se conviertan en especies distintas?
+
+Punto de partida: puede disminuir el flujo génico y acumularse divergencia, pero la distancia o el aspecto no bastan para demostrar aislamiento reproductivo. La separación no forma especies instantáneamente.
 
 **Ejemplos didácticos, no datos del aula:** un cambio de alimento puede favorecer variantes de pico que ya existían; una pérdida aleatoria de individuos puede cambiar frecuencias sin seleccionar la mejor adaptación.
 
 **Antes del debate:** preparo afirmación, evidencia o ejemplo pertinente y razonamiento. Cada estudiante aporta una razón o pregunta. Escucho una objeción, respondo sobre la idea y al final reviso mi afirmación. No debo defender una falsedad para ganar.
 
 Se valora concepto, evidencia, conexión y respeto. No se califican creencias religiosas. El debate aporta evidencia C2; no sustituye una indagación C1.
+
+El miércoles se preparan las preguntas en veinte minutos; el jueves hay tres bloques de quince minutos, más preparación, revisión individual y síntesis hasta completar sesenta y cinco minutos. Dos equipos de siete con roles alternos, no identidades religiosas. Las siete preguntas originales permanecen en Archivo, no se suman a las tres activas.
 
 ## Viernes 30 de octubre
 

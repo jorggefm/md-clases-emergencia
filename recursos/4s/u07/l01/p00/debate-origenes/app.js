@@ -1,5 +1,5 @@
 import { questions as archivedQuestions } from './questions.js';
-import { evolutionQuestions, feedback, feedbackSummary } from './evolucion.js';
+import { evolutionQuestions, feedback, feedbackSummary, teacherFeedback } from './evolucion.js?v=20261027b';
 let round = 'evolucion', questions = evolutionQuestions;
 const $ = id => document.getElementById(id);
 let names = { ciencia: 'Equipo A', religion: 'Equipo B' };
@@ -64,7 +64,7 @@ function selectTab(value) {
  lockPrivate();tab=value;if(tab!=='debate'){if(running){pause();notify('Cronómetro en pausa.');}if(tab!=='feedback')renderPrivate();}
  tabs.forEach(b=>{const active=b.dataset.tab===tab;b.setAttribute('aria-selected',String(active));b.tabIndex=active?0:-1;});
  $('panel-debate').hidden=tab!=='debate';$('panel-feedback').hidden=tab!=='feedback';$('panel-private').hidden=!['ciencia','religion'].includes(tab);if(['ciencia','religion'].includes(tab))$('panel-private').setAttribute('aria-labelledby',`tab-${tab}`);
- history.replaceState(null,'',tab==='feedback'?'#feedback':location.pathname+location.search);
+ history.replaceState(null,'',tab==='feedback'?(/^#fragmento-\d+-\d+$/.test(location.hash)?location.hash:'#feedback'):location.pathname+location.search);
 }
 function textBlock(tag,text,className=''){const node=document.createElement(tag);node.textContent=text;if(className)node.className=className;return node;}
 function renderPrivate() {
@@ -109,7 +109,7 @@ document.addEventListener('keydown',event=>{if(['INPUT','TEXTAREA','SELECT','BUT
 document.addEventListener('visibilitychange',()=>{if(document.hidden){lockPrivate();}else tick();});
 window.addEventListener('pagehide',()=>{lockPrivate();pause();});
 document.addEventListener('pointerdown',refreshLock,{passive:true});document.addEventListener('keydown',refreshLock);
-window.addEventListener('hashchange',()=>{if(location.hash==='#feedback')selectTab('feedback');else if(tab==='feedback')selectTab('debate');});
+window.addEventListener('hashchange',()=>{if(location.hash==='#feedback'||/^#fragmento-\d+-\d+$/.test(location.hash))selectTab('feedback');else if(tab==='feedback')selectTab('debate');});
 function renderRound() {
  $('debate-round').value=round;$('nav-title').textContent=round==='evolucion'?'Las tres preguntas':'Siete preguntas anteriores';
  for(const side of ['ciencia','religion']) {const button=$('tab-'+side);button.lastChild.textContent='Argumentos · '+(round==='evolucion'?names[side]:(side==='ciencia'?'Ciencia':'Religión'));document.querySelector(`#starter option[value="${side}"]`).textContent=names[side];}
@@ -117,5 +117,12 @@ function renderRound() {
 }
 $('debate-round').onchange=()=>{lockPrivate();round=$('debate-round').value;questions=round==='evolucion'?evolutionQuestions:archivedQuestions;names=round==='evolucion'?{ciencia:'Equipo A',religion:'Equipo B'}:{ciencia:'Bando científico',religion:'Bando religioso'};q=0;phase=0;first='ciencia';reset();selectTab('debate');renderRound();save();};
 feedbackSummary.forEach(line=>$('feedback-summary').append(textBlock('p',line)));
-feedback.forEach((item,index)=>{const article=document.createElement('article');article.className='feedback-example';article.append(textBlock('h2',`${index+1}. ${item.title}`),textBlock('p',`Minuto aproximado ${item.time} · transcripción automática`,'quote-time'),textBlock('blockquote',item.quote),textBlock('h3','Qué conservar o corregir'),textBlock('p',item.observation),textBlock('h3','Una respuesta mejor'),textBlock('p',item.response),textBlock('h3','Una repregunta mejor'),textBlock('p',item.question),textBlock('p',item.practice,'feedback-practice'));$('feedback-examples').append(article);});
-setInterval(tick,100);renderRound();drawClock();$('sound').textContent=`Sonido: ${sound?'sí':'no'}`;$('sound').setAttribute('aria-pressed',String(sound));if(location.hash==='#feedback')selectTab('feedback');
+feedback.forEach((item,index)=>{
+ const article=document.createElement('article');article.className='feedback-example';article.id='fragmento-'+item.time.replace(':','-');
+ const literal=item.time==='6:26'?'Los seres vivos estamos hechos completamente de materia y no hay ninguna dimensión divina':item.quote;
+ article.append(textBlock('h2',`${index+1}. ${item.title}`),textBlock('p',`Minuto ${item.time} aprox. · CITA LITERAL (fragmento)`,'quote-time'),textBlock('p','Texto de la transcripción automática, no una corrección nuestra.','quote-source'),textBlock('blockquote','«'+literal+'»'),textBlock('h3','Lo que puedes decirles ahora'),textBlock('p',teacherFeedback[item.time],'teacher-speech'),textBlock('h3','Así podría responder un estudiante'),textBlock('p','Ejemplo propuesto; no es una cita del video.','example-note'),textBlock('p',item.response,'model-response'),textBlock('h3','Así podría hacer una repregunta'),textBlock('p','Ejemplo propuesto; no es una cita del video.','example-note'),textBlock('p',item.question,'model-question'));
+ const detail=document.createElement('details');detail.className='feedback-detail';detail.append(textBlock('summary','Nota adicional para el docente'),textBlock('p',item.observation),textBlock('p',item.practice));article.append(detail);
+ const link=textBlock('a',item.time);link.href='#'+article.id;link.setAttribute('aria-label',`Ir a la cita del minuto ${item.time}`);$('feedback-index').append(link);
+ $('feedback-examples').append(article);
+});
+setInterval(tick,100);renderRound();drawClock();$('sound').textContent=`Sonido: ${sound?'sí':'no'}`;$('sound').setAttribute('aria-pressed',String(sound));if(location.hash==='#feedback'||/^#fragmento-\d+-\d+$/.test(location.hash)){selectTab('feedback');document.getElementById(location.hash.slice(1))?.scrollIntoView();}

@@ -21,4 +21,15 @@
 .feedback-practice{font-weight:600}
 .feedback-sheet a{color:#17675f;text-underline-offset:3px}
 .feedback-sheet *{letter-spacing:0}
+#feedback-index{display:flex;flex-wrap:wrap;gap:12px 22px;margin:26px 0}
+#feedback-index a{font-variant-numeric:tabular-nums;font-weight:600}
+.feedback-example{scroll-margin-top:20px}
+.feedback-example .quote-time{font-size:17px;font-weight:700;color:var(--ink);margin:24px 0 6px}
+.feedback-example .quote-source,.feedback-example .example-note{font-size:14px;color:var(--muted);margin:4px 0 10px}
+.feedback-example blockquote{background:#fff2ca;padding:18px 20px;font-size:24px;color:#352d16;quotes:none}
+.feedback-example h3{font-size:19px;margin-top:28px}
+.feedback-example .teacher-speech,.feedback-example .model-response,.feedback-example .model-question{font-size:18px;line-height:1.65;margin-top:10px}
+.feedback-detail{margin-top:24px;font-size:15px;line-height:1.6}
+.feedback-detail summary{cursor:pointer;text-decoration:underline;text-underline-offset:4px;color:var(--teal)}
+.feedback-detail summary:focus-visible{outline:3px solid #bd631e;outline-offset:4px}
 @media(max-width:850px){.round-select{max-width:280px;margin-bottom:16px}.feedback-sheet{padding:22px 18px}}

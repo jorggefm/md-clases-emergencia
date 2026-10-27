@@ -1,0 +1,22 @@
+{
+  "date": "2026-10-27",
+  "method": "Interfaz real de PhET en Edge, conexión de navegador, controles y arrastres; sin alterar el código ni el estado interno del simulador.",
+  "proteins": "Tres bombas Na+/K+, un cotransportador Na+/glucosa y un canal de fuga de K+. Sin canal de fuga de Na+.",
+  "settings": "Pausa al configurar; velocidad Normal; potencial seleccionado -70 mV; Metabolismo de la glucosa activado.",
+  "recipe_clicks": {
+    "Na_outside": 6,
+    "Na_inside": 3,
+    "K_outside": 1,
+    "K_inside": 20,
+    "ATP_inside": 3,
+    "glucose_outside": 3
+  },
+  "click_control": "Flecha sencilla hacia la derecha (triángulo único), no la doble. Clics desde ningún soluto añadido. Son cantidades visuales del modelo, no concentraciones fisiológicas en mM.",
+  "warning": "Advertencia, sodio exterior demasiado bajo para unión, abierta hacia el exterior.",
+  "working_cotransporter": "Bombeando sodio y glucosa al interior, abierta hacia el interior.",
+  "final_sodium": "Iones de sodio: mucho más fuera que dentro; cruces mayormente hacia afuera; varias fuera, algunas dentro.",
+  "final_potassium": "Iones de potasio: muchísimo más dentro que fuera; cruces hacia afuera; algunas fuera, enorme cantidad dentro.",
+  "final_glucose": "Moléculas de glucosa: muchísimo más fuera que dentro; cruces hacia adentro; pequeña cantidad fuera, unas pocas dentro.",
+  "metabolism_ui": "Las moléculas de glucosa se desvanecen dentro de la célula para simular la conversión para el metabolismo celular.",
+  "limit": "La interfaz representa consumo de glucosa y reacción de ATP a ADP y fosfato. No se observó una ruta de respiración que convierta la glucosa en ATP nuevo. El potencial se elige en el control; no se demuestra su generación autónoma ni un estado estacionario cuantitativo. No se prometen tiempos exactos o equilibrio de concentraciones."
+}

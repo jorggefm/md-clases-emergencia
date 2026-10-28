@@ -58,6 +58,12 @@ components:
 
 # Diseño aprobado · Exploradores de moléculas
 
+## Extension de reacciones del 28/10/2026
+
+Se hereda la composicion aprobada, no se abre rediseño. Un selector de modo conserva Moleculas (40) y suma Reacciones (5). En el modo nuevo, el panel izquierdo contiene coeficientes y copias de las estructuras ya verificadas; el derecho, tabla de atomos antes/despues, comprobacion y ayudas. Se conserva la region inferior de imagen contextual y explicacion. El contexto de fotosintesis reutiliza el esquema de la clase; las otras cuatro imagenes ya pertenecian al juego. Agua/O2/CO2 se representan mediante diagramas de enlaces deterministas, sin pretender ser fotografias.
+
+Los controles nuevos usan fuente fija, espaciado entre letras cero y respuesta tactil. Los pasos guiados son propios del aprendizaje, no instrucciones de la interfaz. Se mantiene la familia cromatica e identidad existente. Los avisos del detector sobre colores, fuentes y radios corresponden a valores heredados o a densidad de coeficientes: entre ellos #b9d1d2, #486970, #547881, #8c3d24, #d9f1e4, #115d3c y #fff0e8; campos de 8px y tipo de 12-28px. No se rediseña la app historica para hacer desaparecer esos avisos.
+
 ## Overview
 
 Modo Operate. La autoridad visual sigue siendo la maqueta `glucosa.html` aprobada por el docente en este chat. Este documento registra su implementación final y la revisión final aprobada; no abre un rediseño ni sustituye la maqueta.

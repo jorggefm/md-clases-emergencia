@@ -12,10 +12,12 @@ function renderLibrary(filter='Todas'){
  $('#filters').innerHTML=['Todas','Inicio','Exploración','Desafío','Experto'].map(x=>`<button class="quiet" aria-pressed="${x===filter}" data-filter="${x}">${x}</button>`).join('');
  $('#library').innerHTML=data.map((m,i)=>filter==='Todas'||m.level===filter?`<button class="molecule-link" data-molecule="${i}"><span class="order">${String(i+1).padStart(2,'0')}</span><span><b>${m.name}</b><small>${m.level} · ${m.category}</small></span>${progress.solved.includes(m.id)?'<span class="done" aria-label="Resuelta">✓</span>':''}</button>`:'').join('');
 }
-function showHome(){ $('#landing').hidden=false;$('#activity').hidden=true;renderLibrary();$('#resume').hidden=!progress.last;window.scrollTo(0,0);}
-function route(){const match=location.hash.match(/^#m-(.+)$/);if(match){const i=data.findIndex(m=>m.id===match[1]);if(i>=0){openMolecule(i);return;}}showHome();}
+function moleculeMode(){ $('#reactionActivity').hidden=true;$('#certificateBtn').hidden=false;$('#reset').hidden=false;$('#activityFooter').textContent='Cuenta átomos dentro de una molécula · Ciencia y Tecnología · U7 · L1 · P03';$('#modeMolecules').setAttribute('aria-pressed','true');$('#modeReactions').setAttribute('aria-pressed','false');}
+function showHome(){moleculeMode(); $('#landing').hidden=false;$('#activity').hidden=true;renderLibrary();$('#resume').hidden=!progress.last;window.scrollTo(0,0);}
+function route(){const reaction=location.hash.match(/^#r-(.+)$/);if(reaction){window.openReaction(reaction[1]);return;}const match=location.hash.match(/^#m-(.+)$/);if(match){const i=data.findIndex(m=>m.id===match[1]);if(i>=0){openMolecule(i);return;}}showHome();}
 function go(i){location.hash='m-'+data[Math.max(0,Math.min(data.length-1,i))].id;}
 async function openMolecule(i){
+ moleculeMode();
  current=i;const m=data[i];const token=++loadToken;progress.last=i;save();zoom=1;hintStage=0;answers={};
  $('#landing').hidden=true;$('#activity').hidden=false;$('#name').textContent=m.name;$('#category').textContent=m.category;$('#level').textContent=`${i+1} / 40 · ${m.level}`;$('#moleculeSelect').value=i;$('#prev').disabled=i===0;$('#next').disabled=i===data.length-1;
  $('#role').textContent=m.role;$('#contextImage').src=`assets/${m.scene}.webp`;$('#contextImage').alt=`Contexto de ${m.name}: ${m.role}`;$('#source').href=m.source;$('#source').textContent=`PubChem · CID ${m.cid} ↗`;
@@ -54,6 +56,7 @@ function hint(solution=false){const m=data[current];hintStage++;$('#hintText').h
  $('#hintText').textContent=list[Math.min(hintStage-1,list.length-1)];
 }
 $('#start').onclick=()=>go(0);$('#resume').onclick=()=>go(Math.min(progress.last,39));$('#homeBtn').onclick=()=>{location.hash='inicio';};$('#prev').onclick=()=>go(current-1);$('#next').onclick=()=>go(current+1);$('#continue').onclick=()=>go(current+1);$('#moleculeSelect').onchange=e=>go(Number(e.target.value));
+$('#modeMolecules').onclick=()=>{location.hash='inicio';};
 $('#filters').onclick=e=>{const b=e.target.closest('[data-filter]');if(b)renderLibrary(b.dataset.filter);};$('#library').onclick=e=>{const b=e.target.closest('[data-molecule]');if(b)go(Number(b.dataset.molecule));};
 $('#counters').onclick=e=>{const b=e.target.closest('[data-step]');if(!b)return;const input=$('#count-'+b.dataset.el);input.value=Math.max(0,Math.min(999,(Number(input.value)||0)+Number(b.dataset.step)));clearFeedback();};$('#counters').oninput=clearFeedback;$('#check').onclick=check;$('#hint').onclick=()=>hint();$('#solution').onclick=()=>hint(true);
 $('#clearMarks').onclick=()=>{$$('.atom-hit.marked').forEach(el=>{el.classList.remove('marked');el.setAttribute('aria-pressed','false');});$('#atomInfo').textContent='Marcas borradas. Puedes volver a contar desde cualquier átomo.';};$('#stereoBtn').onclick=()=>{$('#stereo').hidden=!$('#stereo').hidden;};$('#zoomIn').onclick=()=>{zoom=Math.min(3,zoom+.5);updateZoom();};$('#zoomOut').onclick=()=>{zoom=Math.max(1,zoom-.5);updateZoom();};

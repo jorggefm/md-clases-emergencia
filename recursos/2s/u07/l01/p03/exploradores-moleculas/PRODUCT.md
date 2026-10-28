@@ -1,3 +1,7 @@
 # Exploradores de moléculas
 
+## Extension autorizada el 28/10/2026
+
+El docente pide complementar esta misma app, no crear otra: piloto de cinco reacciones con imagen, explicacion e importancia, reutilizando moleculas del catalogo y manteniendo su interfaz. La extension sirve a U7 L2, tras el avance real de reactivos/productos y una introduccion a estequiometria. No dar por trabajada RuBisCO. Dos primeras reacciones con guia retirable; tres de aplicacion. Sin cronometro ni notas, sin cambios en el progreso/constancia de las 40 moleculas. Progreso separado en `2s-exploradores-reacciones-piloto-v1`. La URL anterior permanece; `#r-metano` abre el piloto directamente. No crear otra aplicacion, otra ruta de publicacion o servicio Railway.
+
 Aplicación web estática para 16 estudiantes de 2S, U7 L1 P03, 23 de octubre de 2026. El docente aprobó expresamente la maqueta de dos paneles y escena inferior. Se conserva su diseño, sin reabrir decisiones visuales. La actividad ofrece 40 moléculas reales por dificultad, contadores por elemento, pistas, fórmula construida y contexto biológico o ambiental. El usuario autorizó implementar, publicar en GitHub y subir un TXT con el enlace a Drive. Sin cuenta, sin cronómetro; uso táctil y teclado. Stack HTML/CSS/JS estático elegido para el alojamiento GitHub solicitado. Imágenes de contexto ilustrativas; estructuras químicas deterministas desde SDF de PubChem y conteos auditados con RDKit.

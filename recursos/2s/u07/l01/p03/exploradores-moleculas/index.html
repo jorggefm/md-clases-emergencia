@@ -1,9 +1,10 @@
 <!doctype html>
 <html lang="es">
-<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#087e7b"><title>Exploradores de moléculas · 2S</title><link rel="stylesheet" href="style.css?v=constancia-1"></head>
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#087e7b"><title>Exploradores de moléculas · 2S</title><link rel="stylesheet" href="style.css?v=constancia-1"><link rel="stylesheet" href="reactions.css?v=piloto-1"></head>
 <body>
 <main>
 <header><a class="brand" href="#inicio" aria-label="Ir al inicio"><svg viewBox="0 0 40 40" aria-hidden="true"><path d="M20 5L34 13v16L20 37 6 29V13Z M20 5v16m14-8-14 8L6 13m14 8v16"/></svg><span>Exploradores de moléculas<small>2.º secundaria · 23 de octubre de 2026</small></span></a><div class="header-actions"><button id="certificateBtn" class="quiet" disabled>Mi constancia</button><button id="homeBtn" class="quiet">Inicio</button></div></header>
+<nav class="mode-switch" aria-label="Actividad"><button id="modeMolecules" aria-pressed="true">Moléculas · 40</button><button id="modeReactions" aria-pressed="false">Reacciones · piloto de 5</button></nav>
 <section id="landing">
  <div class="welcome"><div><h1>Una estructura.<br>Muchos átomos por descubrir.</h1><p>Explora 40 moléculas, desde el metano hasta una grasa de 167 átomos. Cuenta, comprueba tu fórmula y descubre qué hacen en la vida.</p><button id="start" class="primary">Empezar a explorar <span aria-hidden="true">→</span></button><button id="resume" class="quiet" hidden>Continuar</button><p class="soft">Sin cronómetro. Con pistas y a tu ritmo.</p></div><img src="assets/azucares.webp" alt="Frutas, miel y cereales como contexto de los carbohidratos"></div>
  <section class="rules"><h2>Las claves del dibujo</h2><div class="rules-grid"><p><b>1. Encuentra los carbonos</b>En una estructura esquelética, los extremos, vértices y uniones sin letra representan C. Un cruce sin unión no añade un átomo.</p><p><b>2. Completa cuatro enlaces</b>Para un C neutro: H implícitos = 4 − suma de enlaces dibujados. Simple = 1; doble = 2; triple = 3.</p><p><b>3. Cuenta también las letras</b>O, N, S y P se escriben. Cuenta los H de OH, NH₂ o SH. No sumes otra vez un H que ya está escrito.</p><p><b>4. Construye la fórmula</b>Ajusta los números con + y − o escríbelos. «Comprobar fórmula» muestra lo que contaste y orienta la revisión.</p></div></section>
@@ -19,6 +20,16 @@
  </div>
  <section class="panel context"><div class="context-copy"><h2>¿Qué hace en la vida?</h2><p id="role"></p></div><img id="contextImage" src="assets/humedal.webp" alt="" loading="lazy"><div class="context-source"><span>Ilustración de contexto</span><a id="source" target="_blank" rel="noopener">Identidad y estructura en PubChem ↗</a></div></section>
 </section>
+<section id="reactionActivity" aria-labelledby="rxName" hidden>
+ <nav class="activity-nav" aria-label="Navegación de reacciones"><button id="rxPrev" class="quiet">← Anterior</button><label class="choose">Reacción <select id="rxSelect" aria-label="Elegir reacción"></select></label><button id="rxNext" class="quiet">Siguiente →</button></nav>
+ <div class="activity-title"><div><h1 id="rxName" tabindex="-1">Cargando reacciones…</h1><p id="rxCategory"></p></div><span id="rxProgress" class="pill">0 / 5 resueltas</span></div><button id="rxRetry" class="primary" hidden>Reintentar carga</button>
+ <div class="work-grid">
+  <section class="panel structure-panel"><div class="section-head"><h2>Observa y equilibra</h2><label class="rx-guide"><input id="rxGuide" type="checkbox"> Con guía</label></div><p id="rxInstruction" class="atom-info" role="status" aria-live="polite"></p><div id="rxEquation" class="rx-equation" aria-label="Ecuación química"></div><p id="rxCondition" class="soft"></p><div id="rxCopies" class="rx-copies"></div><p class="soft rx-key">Cambia el número grande: añade moléculas completas. Los subíndices y las sustancias no cambian.</p></section>
+  <section class="panel count-panel"><h2>Cuenta en ambos lados</h2><table class="rx-counts"><caption class="soft">Átomos de cada elemento</caption><thead><tr><th>Elemento</th><th>Reactivos</th><th>Productos</th><th>Balance</th></tr></thead><tbody id="rxTotals"></tbody></table><button id="rxCheck" class="primary">Comprobar balance →</button><div id="rxFeedback" role="status" aria-live="polite"></div><button id="rxContinue" class="primary" hidden>Siguiente reacción →</button><button id="rxSimplify" class="quiet" hidden>Simplificar coeficientes</button><div class="hint-actions"><button id="rxHint" class="quiet">Ver pista</button><button id="rxSolution" class="quiet">Ver solución explicada</button></div><div id="rxHintText" class="explanation" hidden></div><button id="rxRestart" class="quiet rx-restart">Reiniciar esta reacción</button></section>
+ </div>
+ <section class="panel context rx-context"><div class="context-copy"><h2>¿Qué ocurre y por qué importa?</h2><p id="rxExplanation"></p><p id="rxImportance"></p><p id="rxLimit" class="soft"></p><div id="rxCatalog" class="rx-catalog"></div></div><img id="rxImage" alt="" loading="lazy"><div class="context-source"><span id="rxImageCaption"></span><a id="rxSource" target="_blank" rel="noopener">Fuente científica ↗</a></div></section>
+ <details class="rx-teacher"><summary>Para el docente · alcance del piloto</summary><p>Cinco ecuaciones elegidas, no un motor de química general. El conteo usa los datos verificados del catálogo y las fórmulas de agua, oxígeno y dióxido de carbono. Las ecuaciones biológicas globales resumen muchas etapas; balancear no demuestra que una reacción ocurra espontáneamente. Las imágenes de contexto son ilustraciones, no registros del aula. La combustión es solo virtual: no encender gas ni hacer mezclas.</p><p>Las ayudas se pueden retirar. Ver una solución no marca el ejercicio como resuelto. El avance se guarda solo en este navegador y separado del conteo de las 40 moléculas; no es una calificación.</p><button id="rxResetProgress" class="quiet">Reiniciar avance de reacciones</button></details>
+</section>
 <section id="certificatePanel" class="panel certificate-panel" aria-labelledby="certificateHeading" hidden>
  <div class="section-head"><h2 id="certificateHeading" tabindex="-1">Mi constancia</h2><button id="closeCertificate" class="quiet">Cerrar constancia</button></div>
  <p id="certificateSummary" role="status"></p>
@@ -26,6 +37,6 @@
  <p id="certificateMessage" role="status" aria-live="polite"></p><details><summary>Ver las moléculas incluidas</summary><ol id="certificateMolecules"></ol></details>
 </section>
 <p id="loadStatus" role="status">Cargando las moléculas…</p>
-<footer>Cuenta átomos dentro de una molécula · Ciencia y Tecnología · U7 · L1 · P03 <button id="reset" class="quiet">Reiniciar mi progreso</button></footer>
-</main><script src="app.js?v=constancia-1" defer></script>
+<footer><span id="activityFooter">Cuenta átomos dentro de una molécula · Ciencia y Tecnología · U7 · L1 · P03</span> <button id="reset" class="quiet">Reiniciar mi progreso</button></footer>
+</main><script src="reaction-core.js?v=piloto-1" defer></script><script src="reactions.js?v=piloto-1" defer></script><script src="app.js?v=reacciones-1" defer></script>
 </body></html>

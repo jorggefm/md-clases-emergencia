@@ -1,5 +1,9 @@
 # Exploradores de moléculas
 
+## Ampliacion autorizada: 30 ecuaciones (28/10/2026)
+
+El piloto ahora incluye 30 reacciones, seis niveles de cinco, en la misma app y URL. La entrada gradual empieza en `#r-agua`; los cinco enlaces previos siguen vivos. Las 40 moleculas y su constancia no se modifican. Se mantiene la clave de progreso del piloto para migrar sin perder resultados. Cada reto tiene una imagen de contexto, explicacion, importancia, condiciones, limites, dos pistas y solucion explicada. Las reacciones peligrosas son exclusivamente virtuales. Los niveles orientan la progresion, no son calificaciones ni obligan a terminar treinta en una clase. La preparacion del recurso no acredita que el docente ya lo utilizo.
+
 ## Extension autorizada el 28/10/2026
 
 El docente pide complementar esta misma app, no crear otra: piloto de cinco reacciones con imagen, explicacion e importancia, reutilizando moleculas del catalogo y manteniendo su interfaz. La extension sirve a U7 L2, tras el avance real de reactivos/productos y una introduccion a estequiometria. No dar por trabajada RuBisCO. Dos primeras reacciones con guia retirable; tres de aplicacion. Sin cronometro ni notas, sin cambios en el progreso/constancia de las 40 moleculas. Progreso separado en `2s-exploradores-reacciones-piloto-v1`. La URL anterior permanece; `#r-metano` abre el piloto directamente. No crear otra aplicacion, otra ruta de publicacion o servicio Railway.

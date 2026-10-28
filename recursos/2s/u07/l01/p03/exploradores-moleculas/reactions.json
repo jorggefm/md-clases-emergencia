@@ -1,7 +1,1274 @@
 [
- {"id":"metano","title":"El metano se transforma al arder","category":"1 de 5 · Lo hacemos juntos","left":["methane","oxygen"],"right":["carbon-dioxide","water"],"solution":[1,2,1,2],"initial":[1,1,1,1],"guide":"steps","guideIndexes":[3,1],"condition":"Combustión completa · requiere encendido y suficiente oxígeno. Solo modelo virtual.","explanation":"El metano reacciona con oxígeno. En la combustión completa, sus átomos se reorganizan en dióxido de carbono y agua, y se transfiere energía al entorno.","importance":"Importancia: el metano es un componente principal del gas natural. El ejemplo relaciona un combustible conocido con la conservación de los átomos; no es una práctica con fuego.","limit":"Balancear cuenta átomos; no mide la energía liberada ni representa una llama real.","scene":"assets/gas.webp","imageAlt":"Ilustración de una instalación de gas con una llama en una antorcha industrial","caption":"Ilustración de contexto: uso de combustibles gaseosos.","source":"https://openstax.org/books/chemistry-2e/pages/4-1-writing-and-balancing-chemical-equations","hints":["El C ya coincide. Hay 4 H en el metano y 2 H en cada agua. ¿Cuántas aguas necesitas?","Con 2 aguas, los productos tienen 4 O: 2 en CO₂ y 2 en las aguas. Cada O₂ aporta 2 O."],"reading":"Una molécula de metano y dos de oxígeno se corresponden con una de dióxido de carbono y dos de agua."},
- {"id":"maltosa","title":"Una maltosa, dos glucosas","category":"2 de 5 · Completa un solo número","left":["maltose","water"],"right":["d-glucose"],"solution":[1,1,2],"initial":[1,1,1],"guide":"single","guideIndexes":[2],"condition":"Hidrólisis · en la digestión participa la enzima maltasa. El agua sí es un reactivo.","explanation":"La maltosa es un azúcar formado por dos unidades de glucosa. Al romperse su unión mediante hidrólisis se consume agua y se obtienen dos moléculas de glucosa.","importance":"Importancia: permite comprender cómo la digestión transforma ciertos carbohidratos en moléculas que el organismo puede absorber y utilizar.","limit":"La imagen muestra alimentos con carbohidratos, no maltosa pura. La maltasa facilita el proceso y no se añade al recuento como reactivo consumido.","scene":"assets/azucares.webp","imageAlt":"Ilustración de alimentos con carbohidratos: cereales, frutas y miel","caption":"Ilustración de contexto alimentario; la ecuación representa específicamente maltosa.","source":"https://openstax.org/books/biology-2e/pages/3-1-synthesis-of-biological-macromolecules","hints":["Una maltosa tiene 12 C; cada glucosa tiene 6 C. Solo falta el número de glucosas.","Comprueba también H y O: 22 + 2 = 24 H; 11 + 1 = 12 O."],"reading":"Una molécula de maltosa más una de agua producen dos moléculas de glucosa."},
- {"id":"fermentacion","title":"¿De dónde salen las burbujas del pan?","category":"3 de 5 · Tú eliges los coeficientes","left":["d-glucose"],"right":["ethanol","carbon-dioxide"],"solution":[1,2,2],"initial":[1,1,1],"guide":"none","condition":"Fermentación alcohólica por levaduras · ecuación global simplificada.","explanation":"En la fermentación alcohólica, las levaduras transforman azúcares como la glucosa en etanol y dióxido de carbono. El CO₂ forma burbujas que ayudan a expandir la masa.","importance":"Importancia: conecta las reacciones químicas con la elaboración de pan. Fermentación no significa cualquier descomposición; aquí trabajamos una transformación concreta.","limit":"La ecuación resume una ruta de varias etapas. Las levaduras no crean los átomos de las burbujas: proceden de los reactivos.","scene":"assets/fermentacion.webp","imageAlt":"Ilustración de masa de pan con burbujas y un frasco de fermentación","caption":"Ilustración de contexto: masa fermentada.","source":"https://openstax.org/books/biology-2e/pages/7-5-metabolism-without-oxygen","hints":["Deja una glucosa para empezar. Sus 12 H deben quedar en el etanol: cada C₂H₆O tiene 6 H.","Con 2 etanoles ya tienes 4 C. Los 2 C restantes pueden quedar en 2 CO₂. Revisa los 6 O."],"reading":"Una glucosa se corresponde con dos etanoles y dos dióxidos de carbono."},
- {"id":"respiracion","title":"La glucosa también se usa para obtener energía","category":"4 de 5 · Compara todos los elementos","left":["d-glucose","oxygen"],"right":["carbon-dioxide","water"],"solution":[1,6,6,6],"initial":[1,1,1,1],"guide":"none","condition":"Respiración celular aeróbica · ecuación global simplificada, no una sola reacción.","explanation":"Las células pueden oxidar glucosa utilizando oxígeno. El proceso global produce CO₂ y agua y permite transferir parte de la energía a ATP. Las plantas también respiran.","importance":"Importancia: ayuda a relacionar la alimentación y el oxígeno con el funcionamiento celular, por ejemplo durante el movimiento de los músculos.","limit":"Respirar aire y realizar respiración celular no son lo mismo. ATP y todas las etapas intermedias no se muestran en esta ecuación simplificada.","scene":"assets/energia.webp","imageAlt":"Ilustración de una corredora junto a fibras musculares y una mitocondria","caption":"Ilustración de contexto: actividad muscular y mitocondrias.","source":"https://openstax.org/books/biology-2e/pages/6-1-energy-and-metabolism","hints":["Empieza con una glucosa. Sus 6 C pueden formar 6 CO₂; sus 12 H pueden formar 6 H₂O.","Los productos tienen 18 O. La glucosa ya aporta 6 O: faltan 12 O, que corresponden a 6 O₂."],"reading":"Una glucosa y seis oxígenos se corresponden con seis dióxidos de carbono y seis aguas."},
- {"id":"fotosintesis","title":"Ahora equilibra la fotosíntesis","category":"5 de 5 · Vuelve a la reacción de tu clase","left":["carbon-dioxide","water"],"right":["d-glucose","oxygen"],"solution":[6,6,1,6],"initial":[1,1,1,1],"guide":"none","condition":"Fotosíntesis · requiere energía luminosa. La luz no se cuenta como átomos.","explanation":"Los organismos fotosintéticos utilizan energía de la luz para formar materia orgánica a partir de CO₂. Esta ecuación global simplificada relaciona CO₂ y agua con glucosa y oxígeno.","importance":"Importancia: conecta con la clase que ya empezaron y con la producción de materia orgánica que sostiene muchas cadenas alimentarias.","limit":"Aunque el resumen parece el inverso de la respiración, no son la misma ruta recorrida al revés. La ecuación no muestra todas las etapas ni de qué reactivo procede cada oxígeno; el O₂ liberado procede del agua.","scene":"assets/fotosintesis-contexto.png","imageAlt":"Esquema de una planta que recibe agua, CO₂ y luz, con cloroplastos y liberación de O₂; también se muestra respiración en mitocondrias","caption":"Esquema didáctico: fotosíntesis en cloroplastos y respiración en mitocondrias.","source":"https://openstax.org/books/biology-2e/pages/6-1-energy-and-metabolism","hints":["Deja una glucosa como referencia. Necesitas 6 C y 12 H en los reactivos. ¿Cuántos CO₂ y H₂O los aportan?","Con 6 CO₂ y 6 H₂O entran 18 O. La glucosa contiene 6 O; los otros 12 O se contabilizan como 6 O₂."],"reading":"Seis dióxidos de carbono y seis aguas se corresponden con una glucosa y seis oxígenos en el resumen global."}
+  {
+    "id": "agua",
+    "title": "Dos gases forman agua",
+    "left": [
+      "hydrogen",
+      "oxygen"
+    ],
+    "right": [
+      "water"
+    ],
+    "solution": [
+      2,
+      1,
+      2
+    ],
+    "initial": [
+      1,
+      1,
+      1
+    ],
+    "guide": "steps",
+    "condition": "Síntesis de agua · requiere activación; solo simulación, nunca mezclar ni encender gases.",
+    "explanation": "El hidrógeno y el oxígeno pueden combinarse para formar agua. El O₂ contiene dos átomos de oxígeno: no podemos repartir uno y hacer desaparecer el otro.",
+    "importance": "Importancia: La transformación global también aparece en pilas de combustible, donde se aprovecha energía química para obtener electricidad. Aquí solo contamos átomos.",
+    "limit": "No es una práctica escolar con gases. Que una ecuación esté balanceada no significa que ocurra por sí sola.",
+    "scene": "assets/rx-laboratorio.png",
+    "imageAlt": "Material de laboratorio, recipientes y muestras minerales; ilustración de contexto, no instrucciones de práctica.",
+    "caption": "Ilustración didáctica. Material de laboratorio, recipientes y muestras minerales; ilustración de contexto, no instrucciones de práctica.",
+    "source": "https://openstax.org/books/chemistry-2e/pages/4-1-writing-and-balancing-chemical-equations",
+    "hints": [
+      "Empieza por el O: un O₂ tiene 2 O. Cada agua contiene 1 O. Necesitas 2 aguas.",
+      "Ahora las 2 aguas tienen 4 H. Cada H₂ aporta 2 H: hacen falta 2 H₂."
+    ],
+    "reading": "Dos moléculas de hidrógeno y una de oxígeno corresponden a dos de agua.",
+    "guideIndexes": [
+      2,
+      0
+    ],
+    "guideTexts": [
+      "Paso 1: conserva los dos O del O₂ formando dos aguas.",
+      "Paso 2: las dos aguas necesitan cuatro H. Ajusta el H₂."
+    ],
+    "order": 1,
+    "level": 1,
+    "levelTitle": "Primeros pasos",
+    "category": "1 de 30 · Nivel 1 · Primeros pasos"
+  },
+  {
+    "id": "peroxido",
+    "title": "El agua oxigenada libera un gas",
+    "left": [
+      "hydrogen-peroxide"
+    ],
+    "right": [
+      "water",
+      "oxygen"
+    ],
+    "solution": [
+      2,
+      2,
+      1
+    ],
+    "initial": [
+      1,
+      1,
+      1
+    ],
+    "guide": "steps",
+    "condition": "Descomposición del peróxido de hidrógeno · la catalasa puede acelerarla.",
+    "explanation": "El peróxido de hidrógeno, H₂O₂, puede transformarse en agua y oxígeno. Las burbujas son gas O₂, no hidrógeno. Cambiar H₂O₂ por H₂O sería cambiar la sustancia, no balancear.",
+    "importance": "Importancia: La catalasa ayuda a las células a descomponer peróxido. Es un ejemplo de enzima que modifica la rapidez, no el balance de átomos.",
+    "limit": "La ilustración no es un protocolo. No se indica usar peróxido concentrado ni cerrar recipientes que produzcan gas.",
+    "scene": "assets/rx-laboratorio.png",
+    "imageAlt": "Material de laboratorio, recipientes y muestras minerales; ilustración de contexto, no instrucciones de práctica.",
+    "caption": "Ilustración didáctica. Material de laboratorio, recipientes y muestras minerales; ilustración de contexto, no instrucciones de práctica.",
+    "source": "https://openstax.org/books/chemistry-2e/pages/4-2-classifying-chemical-reactions",
+    "hints": [
+      "Deja 1 O₂. Prueba 2 H₂O₂: aportan 4 H y 4 O.",
+      "Los 4 H necesitan 2 H₂O; entre esas aguas y el O₂ quedan 4 O."
+    ],
+    "reading": "Dos peróxidos producen dos aguas y un oxígeno.",
+    "guideIndexes": [
+      0,
+      1
+    ],
+    "guideTexts": [
+      "Paso 1: coloca dos peróxidos y conserva un O₂.",
+      "Paso 2: ajusta el agua para conservar los cuatro H."
+    ],
+    "order": 2,
+    "level": 1,
+    "levelTitle": "Primeros pasos",
+    "category": "2 de 30 · Nivel 1 · Primeros pasos"
+  },
+  {
+    "id": "magnesio",
+    "title": "Un metal también incorpora oxígeno",
+    "left": [
+      "magnesium",
+      "oxygen"
+    ],
+    "right": [
+      "magnesium-oxide"
+    ],
+    "solution": [
+      2,
+      1,
+      2
+    ],
+    "initial": [
+      1,
+      1,
+      1
+    ],
+    "guide": "steps",
+    "condition": "Oxidación de magnesio · modelo virtual, no encender metales.",
+    "explanation": "El magnesio puede reaccionar con oxígeno para formar óxido de magnesio. El Mg metálico se organiza en una red y el óxido es un sólido iónico: no son moléculas aisladas.",
+    "importance": "Importancia: Permite ver que un material que se oxida incorpora átomos del entorno; no es simplemente el mismo metal de otro color.",
+    "limit": "MgO se cuenta por unidades fórmula. Los dibujos de iones indican proporciones, no la forma completa de un cristal.",
+    "scene": "assets/rx-metales.png",
+    "imageAlt": "Magnesio, hierro parcialmente oxidado y aluminio con una ampliación esquemática de su superficie.",
+    "caption": "Ilustración didáctica. Magnesio, hierro parcialmente oxidado y aluminio con una ampliación esquemática de su superficie.",
+    "source": "https://openstax.org/books/chemistry-2e/pages/4-2-classifying-chemical-reactions",
+    "hints": [
+      "Un O₂ aporta 2 O: coloca 2 unidades de MgO.",
+      "Ahora necesitas 2 Mg en los reactivos."
+    ],
+    "reading": "Dos átomos de Mg y un O₂ corresponden a dos unidades fórmula de MgO.",
+    "guideIndexes": [
+      2,
+      0
+    ],
+    "guideTexts": [
+      "Paso 1: conserva los dos oxígenos en dos unidades de MgO.",
+      "Paso 2: iguala el número de átomos de magnesio."
+    ],
+    "order": 3,
+    "level": 1,
+    "levelTitle": "Primeros pasos",
+    "category": "3 de 30 · Nivel 1 · Primeros pasos"
+  },
+  {
+    "id": "amoniaco",
+    "title": "Nitrógeno e hidrógeno: amoníaco",
+    "left": [
+      "nitrogen",
+      "hydrogen"
+    ],
+    "right": [
+      "ammonia"
+    ],
+    "solution": [
+      1,
+      3,
+      2
+    ],
+    "initial": [
+      1,
+      1,
+      1
+    ],
+    "guide": "steps",
+    "condition": "Síntesis industrial de amoníaco · reacción reversible, catalizador y condiciones industriales.",
+    "explanation": "N₂ y H₂ pueden formar NH₃. Cada amoníaco tiene un N y tres H. La industria necesita condiciones específicas para obtenerlo a una rapidez útil.",
+    "importance": "Importancia: El amoníaco permite fabricar fertilizantes nitrogenados. El nitrógeno que requieren las plantas no aparece de la nada.",
+    "limit": "No equivale a decir que las raíces convierten directamente N₂ y H₂ en amoníaco. La fijación biológica sigue otro proceso.",
+    "scene": "assets/fotosintesis-contexto.png",
+    "imageAlt": "Planta, cloroplastos y mitocondrias: esquema de procesos celulares.",
+    "caption": "Ilustración didáctica. Planta, cloroplastos y mitocondrias: esquema de procesos celulares.",
+    "source": "https://openstax.org/books/chemistry-2e/pages/4-2-classifying-chemical-reactions",
+    "hints": [
+      "Deja 1 N₂; sus 2 N necesitan 2 NH₃.",
+      "Dos NH₃ tienen 6 H: los aportan 3 H₂."
+    ],
+    "reading": "Un nitrógeno y tres hidrógenos moleculares corresponden a dos amoníacos.",
+    "reversible": true,
+    "guideIndexes": [
+      2,
+      1
+    ],
+    "guideTexts": [
+      "Paso 1: forma dos amoníacos para conservar el nitrógeno.",
+      "Paso 2: completa los seis H con moléculas H₂."
+    ],
+    "order": 4,
+    "level": 1,
+    "levelTitle": "Primeros pasos",
+    "category": "4 de 30 · Nivel 1 · Primeros pasos"
+  },
+  {
+    "id": "ozono",
+    "title": "El mismo elemento, otra molécula",
+    "left": [
+      "oxygen"
+    ],
+    "right": [
+      "ozone"
+    ],
+    "solution": [
+      3,
+      2
+    ],
+    "initial": [
+      1,
+      1
+    ],
+    "guide": "none",
+    "condition": "Formación de ozono · balance global idealizado de varias etapas impulsadas por energía.",
+    "explanation": "O₂ y O₃ contienen únicamente oxígeno, pero son sustancias distintas. Para pasar de grupos de dos átomos a grupos de tres, busca un total que se pueda repartir de ambas maneras.",
+    "importance": "Importancia: El ozono estratosférico absorbe radiación ultravioleta. Cerca del suelo puede ser contaminante: su ubicación importa.",
+    "limit": "3 O₂ → 2 O₃ resume el balance; no describe una colisión simultánea de tres moléculas. Se necesitan etapas y energía.",
+    "scene": "assets/rx-atmosfera.png",
+    "imageAlt": "La atmósfera terrestre y una representación ampliada de ozono; tamaños no proporcionales.",
+    "caption": "Ilustración didáctica. La atmósfera terrestre y una representación ampliada de ozono; tamaños no proporcionales.",
+    "source": "https://science.nasa.gov/earth/earth-observatory/chemistry-in-the-sunlight/",
+    "hints": [
+      "El primer total común a grupos de 2 y de 3 es 6.",
+      "Tres O₂ contienen 6 O; dos O₃ también contienen 6 O."
+    ],
+    "reading": "Tres oxígenos moleculares se corresponden con dos ozonos en este balance global.",
+    "order": 5,
+    "level": 1,
+    "levelTitle": "Primeros pasos",
+    "category": "5 de 30 · Nivel 1 · Primeros pasos"
+  },
+  {
+    "id": "maltosa",
+    "title": "Una maltosa, dos glucosas",
+    "category": "6 de 30 · Nivel 2 · Moléculas de la vida",
+    "left": [
+      "maltose",
+      "water"
+    ],
+    "right": [
+      "d-glucose"
+    ],
+    "solution": [
+      1,
+      1,
+      2
+    ],
+    "initial": [
+      1,
+      1,
+      1
+    ],
+    "guide": "single",
+    "guideIndexes": [
+      2
+    ],
+    "condition": "Hidrólisis · en la digestión participa la enzima maltasa. El agua sí es un reactivo.",
+    "explanation": "La maltosa es un azúcar formado por dos unidades de glucosa. Al romperse su unión mediante hidrólisis se consume agua y se obtienen dos moléculas de glucosa.",
+    "importance": "Importancia: permite comprender cómo la digestión transforma ciertos carbohidratos en moléculas que el organismo puede absorber y utilizar.",
+    "limit": "La imagen muestra alimentos con carbohidratos, no maltosa pura. La maltasa facilita el proceso y no se añade al recuento como reactivo consumido.",
+    "scene": "assets/azucares.webp",
+    "imageAlt": "Ilustración de alimentos con carbohidratos: cereales, frutas y miel",
+    "caption": "Ilustración de contexto alimentario; la ecuación representa específicamente maltosa.",
+    "source": "https://openstax.org/books/biology-2e/pages/3-1-synthesis-of-biological-macromolecules",
+    "hints": [
+      "Una maltosa tiene 12 C; cada glucosa tiene 6 C. Solo falta el número de glucosas.",
+      "Comprueba también H y O: 22 + 2 = 24 H; 11 + 1 = 12 O."
+    ],
+    "reading": "Una molécula de maltosa más una de agua producen dos moléculas de glucosa.",
+    "order": 6,
+    "level": 2,
+    "levelTitle": "Moléculas de la vida",
+    "guideTexts": [
+      "Completa el número de glucosas: compara primero sus carbonos."
+    ]
+  },
+  {
+    "id": "glicina",
+    "title": "Dos aminoácidos se unen",
+    "left": [
+      "glycine"
+    ],
+    "right": [
+      "glycylglycine",
+      "water"
+    ],
+    "solution": [
+      2,
+      1,
+      1
+    ],
+    "initial": [
+      1,
+      1,
+      1
+    ],
+    "guide": "none",
+    "condition": "Condensación · representación formal del balance de un enlace peptídico.",
+    "explanation": "Dos glicinas pueden representarse formando el dipéptido glicilglicina y agua. Al unir piezas también hay que contabilizar los átomos que quedan en el agua.",
+    "importance": "Importancia: Conecta las moléculas pequeñas del juego con los péptidos, sin exigir contar una proteína completa.",
+    "limit": "No basta mezclar glicina en agua para fabricar proteínas. Las células usan aminoácidos activados, ribosomas y energía; aquí solo representamos el balance formal.",
+    "scene": "assets/proteinas.webp",
+    "imageAlt": "Contexto biológico de proteínas y aminoácidos.",
+    "caption": "Ilustración didáctica. Contexto biológico de proteínas y aminoácidos.",
+    "source": "https://openstax.org/books/biology-2e/pages/3-1-synthesis-of-biological-macromolecules",
+    "hints": [
+      "La glicilglicina tiene 4 C; cada glicina aporta 2 C. Necesitas 2 glicinas.",
+      "Comprueba N: hay 2 a cada lado. Los 10 H y 4 O quedan repartidos entre el péptido y el agua."
+    ],
+    "reading": "Dos glicinas corresponden formalmente a una glicilglicina y un agua.",
+    "order": 7,
+    "level": 2,
+    "levelTitle": "Moléculas de la vida",
+    "category": "7 de 30 · Nivel 2 · Moléculas de la vida"
+  },
+  {
+    "id": "lactica",
+    "title": "Una glucosa, dos productos de fermentación",
+    "left": [
+      "d-glucose"
+    ],
+    "right": [
+      "lactic-acid"
+    ],
+    "solution": [
+      1,
+      2
+    ],
+    "initial": [
+      1,
+      1
+    ],
+    "guide": "none",
+    "condition": "Fermentación homoláctica · resumen con ácido láctico en forma neutra.",
+    "explanation": "Algunas bacterias transforman glucosa mediante fermentación láctica. En este resumen, cada producto conserva tres carbonos; una glucosa contiene seis.",
+    "importance": "Importancia: Es una conexión con la acidificación de alimentos como el yogur. No todas las fermentaciones producen alcohol ni CO₂.",
+    "limit": "Es un resumen con glucosa, no la receta completa del yogur: en la leche también hay lactosa y etapas previas. En células predomina lactato, no ácido láctico neutro.",
+    "scene": "assets/rx-yogur.png",
+    "imageAlt": "Leche, yogur y una ampliación ilustrativa de bacterias lácticas; tamaños no proporcionales.",
+    "caption": "Ilustración didáctica. Leche, yogur y una ampliación ilustrativa de bacterias lácticas; tamaños no proporcionales.",
+    "source": "https://openstax.org/books/biology-2e/pages/7-5-metabolism-without-oxygen",
+    "hints": [
+      "Una glucosa tiene 6 C. Cada ácido láctico tiene 3 C.",
+      "Dos C₃H₆O₃ conservan también los 12 H y los 6 O de la glucosa."
+    ],
+    "reading": "Una glucosa corresponde a dos ácidos lácticos en el resumen neutro.",
+    "order": 8,
+    "level": 2,
+    "levelTitle": "Moléculas de la vida",
+    "category": "8 de 30 · Nivel 2 · Moléculas de la vida"
+  },
+  {
+    "id": "urea",
+    "title": "La ureasa transforma la urea",
+    "left": [
+      "urea",
+      "water"
+    ],
+    "right": [
+      "ammonia",
+      "carbon-dioxide"
+    ],
+    "solution": [
+      1,
+      1,
+      2,
+      1
+    ],
+    "initial": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "guide": "none",
+    "condition": "Hidrólisis de urea · balance global neutro, facilitado por la enzima ureasa.",
+    "explanation": "La urea contiene dos N. En el balance simplificado con agua se forman amoníaco y CO₂. La enzima facilita la transformación sin aportar los átomos de esos productos.",
+    "importance": "Importancia: Ayuda a entender transformaciones del nitrógeno en el suelo y el uso de fertilizantes, donde también importa evitar pérdidas de amoníaco.",
+    "limit": "En agua hay equilibrios con amonio y bicarbonato según el pH. Esta forma neutra no describe todas las especies presentes.",
+    "scene": "assets/fotosintesis-contexto.png",
+    "imageAlt": "Planta, cloroplastos y mitocondrias: esquema de procesos celulares.",
+    "caption": "Ilustración didáctica. Planta, cloroplastos y mitocondrias: esquema de procesos celulares.",
+    "source": "https://doi.org/10.1007/s11157-018-9466-1",
+    "hints": [
+      "Una urea contiene 2 N. Cada NH₃ tiene 1 N: coloca 2 NH₃.",
+      "Los reactivos suman 6 H y 2 O. Comprueba que los productos conservan ambas cantidades."
+    ],
+    "reading": "Una urea y un agua corresponden a dos amoníacos y un CO₂ en el resumen.",
+    "order": 9,
+    "level": 2,
+    "levelTitle": "Moléculas de la vida",
+    "category": "9 de 30 · Nivel 2 · Moléculas de la vida"
+  },
+  {
+    "id": "metano",
+    "title": "El metano se transforma al arder",
+    "category": "10 de 30 · Nivel 2 · Moléculas de la vida",
+    "left": [
+      "methane",
+      "oxygen"
+    ],
+    "right": [
+      "carbon-dioxide",
+      "water"
+    ],
+    "solution": [
+      1,
+      2,
+      1,
+      2
+    ],
+    "initial": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "guide": "steps",
+    "guideIndexes": [
+      3,
+      1
+    ],
+    "condition": "Combustión completa · requiere encendido y suficiente oxígeno. Solo modelo virtual.",
+    "explanation": "El metano reacciona con oxígeno. En la combustión completa, sus átomos se reorganizan en dióxido de carbono y agua, y se transfiere energía al entorno.",
+    "importance": "Importancia: el metano es un componente principal del gas natural. El ejemplo relaciona un combustible conocido con la conservación de los átomos; no es una práctica con fuego.",
+    "limit": "Balancear cuenta átomos; no mide la energía liberada ni representa una llama real.",
+    "scene": "assets/gas.webp",
+    "imageAlt": "Ilustración de una instalación de gas con una llama en una antorcha industrial",
+    "caption": "Ilustración de contexto: uso de combustibles gaseosos.",
+    "source": "https://openstax.org/books/chemistry-2e/pages/4-1-writing-and-balancing-chemical-equations",
+    "hints": [
+      "El C ya coincide. Hay 4 H en el metano y 2 H en cada agua. ¿Cuántas aguas necesitas?",
+      "Con 2 aguas, los productos tienen 4 O: 2 en CO₂ y 2 en las aguas. Cada O₂ aporta 2 O."
+    ],
+    "reading": "Una molécula de metano y dos de oxígeno se corresponden con una de dióxido de carbono y dos de agua.",
+    "order": 10,
+    "level": 2,
+    "levelTitle": "Moléculas de la vida",
+    "guideTexts": [
+      "Paso 1: conserva los cuatro H del metano formando dos aguas.",
+      "Paso 2: ajusta el O₂ para obtener cuatro O en total."
+    ]
+  },
+  {
+    "id": "hierro",
+    "title": "Hierro que incorpora oxígeno",
+    "left": [
+      "iron",
+      "oxygen"
+    ],
+    "right": [
+      "iron-oxide"
+    ],
+    "solution": [
+      4,
+      3,
+      2
+    ],
+    "initial": [
+      1,
+      1,
+      1
+    ],
+    "guide": "none",
+    "condition": "Oxidación · modelo simplificado de formación de óxido de hierro(III).",
+    "explanation": "En Fe₂O₃ hay dos Fe por cada tres O. Para usar moléculas enteras de O₂, conviene formar dos unidades de óxido: así necesitamos seis O.",
+    "importance": "Importancia: Conecta el balance con el deterioro de objetos metálicos y con la importancia de proteger superficies.",
+    "limit": "La herrumbre real suele contener óxidos e hidróxidos hidratados, no solo Fe₂O₃. Este es un modelo simplificado.",
+    "scene": "assets/rx-metales.png",
+    "imageAlt": "Magnesio, hierro parcialmente oxidado y aluminio con una ampliación esquemática de su superficie.",
+    "caption": "Ilustración didáctica. Magnesio, hierro parcialmente oxidado y aluminio con una ampliación esquemática de su superficie.",
+    "source": "https://openstax.org/books/chemistry-2e/pages/4-2-classifying-chemical-reactions",
+    "hints": [
+      "Dos Fe₂O₃ contienen 6 O. Eso requiere 3 O₂.",
+      "Esas dos unidades contienen 4 Fe: ajusta el hierro metálico a 4."
+    ],
+    "reading": "Cuatro Fe y tres O₂ corresponden a dos unidades de Fe₂O₃.",
+    "order": 11,
+    "level": 3,
+    "levelTitle": "Más elementos",
+    "category": "11 de 30 · Nivel 3 · Más elementos"
+  },
+  {
+    "id": "aluminio",
+    "title": "Una capa que protege al aluminio",
+    "left": [
+      "aluminium",
+      "oxygen"
+    ],
+    "right": [
+      "aluminium-oxide"
+    ],
+    "solution": [
+      4,
+      3,
+      2
+    ],
+    "initial": [
+      1,
+      1,
+      1
+    ],
+    "guide": "none",
+    "condition": "Oxidación superficial del aluminio · modelo de Al₂O₃.",
+    "explanation": "Al reaccionar con el oxígeno, el aluminio forma una capa superficial de óxido. El balance tiene el mismo patrón de proporciones que el reto anterior.",
+    "importance": "Importancia: Una reacción con oxígeno puede formar una capa protectora; no todos los metales se comportan como el hierro.",
+    "limit": "La ecuación no calcula el grosor de la capa ni garantiza protección en cualquier ambiente. La ampliación de la imagen no está a escala.",
+    "scene": "assets/rx-metales.png",
+    "imageAlt": "Magnesio, hierro parcialmente oxidado y aluminio con una ampliación esquemática de su superficie.",
+    "caption": "Ilustración didáctica. Magnesio, hierro parcialmente oxidado y aluminio con una ampliación esquemática de su superficie.",
+    "source": "https://openstax.org/books/chemistry-2e/pages/4-2-classifying-chemical-reactions",
+    "hints": [
+      "Para reunir los oxígenos en parejas, prueba 2 Al₂O₃ y 3 O₂.",
+      "Dos Al₂O₃ tienen 4 Al. No cambies el subíndice 2: ajusta el coeficiente del aluminio."
+    ],
+    "reading": "Cuatro Al y tres O₂ corresponden a dos unidades de Al₂O₃.",
+    "order": 12,
+    "level": 3,
+    "levelTitle": "Más elementos",
+    "category": "12 de 30 · Nivel 3 · Más elementos"
+  },
+  {
+    "id": "neutralizacion-sodio",
+    "title": "Dos bases para un ácido",
+    "left": [
+      "sodium-hydroxide",
+      "sulfuric-acid"
+    ],
+    "right": [
+      "sodium-sulfate",
+      "water"
+    ],
+    "solution": [
+      2,
+      1,
+      1,
+      2
+    ],
+    "initial": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "guide": "none",
+    "condition": "Neutralización completa en disolución acuosa · solo representación virtual.",
+    "explanation": "El ácido sulfúrico puede reaccionar con hidróxido de sodio para formar sulfato de sodio y agua. En este modelo, una unidad de sulfato de sodio necesita dos Na.",
+    "importance": "Importancia: Permite comprender que neutralizar no es mezclar cualquier cantidad: existen proporciones químicas.",
+    "limit": "Son sustancias corrosivas. No realizar mezclas. Las fórmulas de las sales expresan proporciones de iones, no moléculas aisladas en agua.",
+    "scene": "assets/rx-laboratorio.png",
+    "imageAlt": "Material de laboratorio, recipientes y muestras minerales; ilustración de contexto, no instrucciones de práctica.",
+    "caption": "Ilustración didáctica. Material de laboratorio, recipientes y muestras minerales; ilustración de contexto, no instrucciones de práctica.",
+    "source": "https://openstax.org/books/chemistry-2e/pages/4-2-classifying-chemical-reactions",
+    "hints": [
+      "Deja 1 Na₂SO₄. Necesitas 2 NaOH para aportar sus 2 Na.",
+      "Los reactivos suman 4 H: forman 2 H₂O. Comprueba los 6 O en total."
+    ],
+    "reading": "Dos NaOH y un H₂SO₄ corresponden a un Na₂SO₄ y dos aguas.",
+    "order": 13,
+    "level": 3,
+    "levelTitle": "Más elementos",
+    "category": "13 de 30 · Nivel 3 · Más elementos"
+  },
+  {
+    "id": "neutralizacion-calcio",
+    "title": "El paréntesis también cuenta",
+    "left": [
+      "calcium-hydroxide",
+      "hydrogen-chloride"
+    ],
+    "right": [
+      "calcium-chloride",
+      "water"
+    ],
+    "solution": [
+      1,
+      2,
+      1,
+      2
+    ],
+    "initial": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "guide": "none",
+    "condition": "Neutralización en agua · Ca(OH)₂ contiene dos O y dos H.",
+    "explanation": "El 2 situado después de (OH) multiplica tanto al O como al H. Al reaccionar con ácido clorhídrico, el hidróxido de calcio puede producir cloruro de calcio y agua.",
+    "importance": "Importancia: Introduce fórmulas con paréntesis sin cambiar la regla del juego: el coeficiente multiplica la fórmula completa.",
+    "limit": "El HCl en agua está ionizado. Usamos la ecuación molecular convencional; no es una receta para mezclar productos.",
+    "scene": "assets/rx-laboratorio.png",
+    "imageAlt": "Material de laboratorio, recipientes y muestras minerales; ilustración de contexto, no instrucciones de práctica.",
+    "caption": "Ilustración didáctica. Material de laboratorio, recipientes y muestras minerales; ilustración de contexto, no instrucciones de práctica.",
+    "source": "https://openstax.org/books/chemistry-2e/pages/4-2-classifying-chemical-reactions",
+    "hints": [
+      "CaCl₂ contiene 2 Cl. Cada HCl aporta 1 Cl: necesitas 2 HCl.",
+      "Ahora tienes 4 H y 2 O en los reactivos: se contabilizan en 2 H₂O."
+    ],
+    "reading": "Un Ca(OH)₂ y dos HCl corresponden a un CaCl₂ y dos aguas.",
+    "order": 14,
+    "level": 3,
+    "levelTitle": "Más elementos",
+    "category": "14 de 30 · Nivel 3 · Más elementos"
+  },
+  {
+    "id": "bicarbonato",
+    "title": "El bicarbonato puede liberar CO₂",
+    "left": [
+      "sodium-bicarbonate"
+    ],
+    "right": [
+      "sodium-carbonate",
+      "carbon-dioxide",
+      "water"
+    ],
+    "solution": [
+      2,
+      1,
+      1,
+      1
+    ],
+    "initial": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "guide": "none",
+    "condition": "Descomposición térmica del bicarbonato de sodio.",
+    "explanation": "Al calentarse, el bicarbonato puede producir carbonato de sodio, CO₂ y agua. Hay tres productos: no olvides ninguno al sumar.",
+    "importance": "Importancia: Relaciona una sustancia conocida de cocina con la producción de gas. En recetas también puede reaccionar con ácidos: es otra reacción.",
+    "limit": "No confundas bicarbonato de sodio, NaHCO₃, con carbonato de sodio, Na₂CO₃. Aquí solo se practica el balance, no una preparación culinaria.",
+    "scene": "assets/fermentacion.webp",
+    "imageAlt": "Masa fermentada y burbujas; contexto alimentario.",
+    "caption": "Ilustración didáctica. Masa fermentada y burbujas; contexto alimentario.",
+    "source": "https://openstax.org/books/chemistry-2e/pages/4-2-classifying-chemical-reactions",
+    "hints": [
+      "El Na₂CO₃ requiere 2 Na: coloca 2 NaHCO₃.",
+      "Los 2 C quedan repartidos en Na₂CO₃ y CO₂. Los 2 H forman un agua; los O suman 6 por lado."
+    ],
+    "reading": "Dos bicarbonatos corresponden a un carbonato, un CO₂ y un agua.",
+    "order": 15,
+    "level": 3,
+    "levelTitle": "Más elementos",
+    "category": "15 de 30 · Nivel 3 · Más elementos"
+  },
+  {
+    "id": "carbonato",
+    "title": "Una roca y un ácido producen gas",
+    "left": [
+      "calcium-carbonate",
+      "hydrogen-chloride"
+    ],
+    "right": [
+      "calcium-chloride",
+      "carbon-dioxide",
+      "water"
+    ],
+    "solution": [
+      1,
+      2,
+      1,
+      1,
+      1
+    ],
+    "initial": [
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "guide": "none",
+    "condition": "Reacción de un carbonato con ácido clorhídrico · únicamente virtual.",
+    "explanation": "El carbonato de calcio puede reaccionar con un ácido liberando CO₂. El calcio permanece en una sal y parte del hidrógeno y el oxígeno termina en agua.",
+    "importance": "Importancia: Ayuda a reconocer por qué las rocas carbonatadas reaccionan con ácidos. En el ambiente, otros ácidos pueden intervenir en procesos distintos.",
+    "limit": "No es un protocolo con ácido. Un mineral tiene una red cristalina, no pequeñas moléculas de CaCO₃ aisladas.",
+    "scene": "assets/rx-laboratorio.png",
+    "imageAlt": "Material de laboratorio, recipientes y muestras minerales; ilustración de contexto, no instrucciones de práctica.",
+    "caption": "Ilustración didáctica. Material de laboratorio, recipientes y muestras minerales; ilustración de contexto, no instrucciones de práctica.",
+    "source": "https://openstax.org/books/chemistry-2e/pages/4-2-classifying-chemical-reactions",
+    "hints": [
+      "Mantén un CaCO₃ y un CaCl₂. Para los dos Cl se necesitan 2 HCl.",
+      "Con un CO₂ y un agua se conservan 1 C, 2 H y 3 O."
+    ],
+    "reading": "Un CaCO₃ y dos HCl corresponden a un CaCl₂, un CO₂ y un agua.",
+    "order": 16,
+    "level": 4,
+    "levelTitle": "Varias transformaciones",
+    "category": "16 de 30 · Nivel 4 · Varias transformaciones"
+  },
+  {
+    "id": "magnesio-acido",
+    "title": "¿Qué gas sale del metal?",
+    "left": [
+      "magnesium",
+      "hydrogen-chloride"
+    ],
+    "right": [
+      "magnesium-chloride",
+      "hydrogen"
+    ],
+    "solution": [
+      1,
+      2,
+      1,
+      1
+    ],
+    "initial": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "guide": "none",
+    "condition": "Metal y ácido · libera hidrógeno; solo simulación.",
+    "explanation": "El magnesio puede reaccionar con ácido clorhídrico y formar cloruro de magnesio e hidrógeno. Esta vez las burbujas no serían CO₂: identifica los productos de cada ecuación.",
+    "importance": "Importancia: Muestra por qué ver burbujas no basta para identificar un gas. Hay que conocer qué sustancias reaccionan y buscar evidencias.",
+    "limit": "El hidrógeno es inflamable y el ácido corrosivo. No se propone realizar esta mezcla ni probar gases.",
+    "scene": "assets/rx-metales.png",
+    "imageAlt": "Magnesio, hierro parcialmente oxidado y aluminio con una ampliación esquemática de su superficie.",
+    "caption": "Ilustración didáctica. Magnesio, hierro parcialmente oxidado y aluminio con una ampliación esquemática de su superficie.",
+    "source": "https://openstax.org/books/chemistry-2e/pages/4-2-classifying-chemical-reactions",
+    "hints": [
+      "El MgCl₂ necesita 2 Cl. Ajusta HCl a 2.",
+      "Los dos H de los reactivos forman un H₂. El Mg ya está equilibrado."
+    ],
+    "reading": "Un Mg y dos HCl corresponden a un MgCl₂ y un H₂.",
+    "order": 17,
+    "level": 4,
+    "levelTitle": "Varias transformaciones",
+    "category": "17 de 30 · Nivel 4 · Varias transformaciones"
+  },
+  {
+    "id": "fermentacion",
+    "title": "¿De dónde salen las burbujas del pan?",
+    "category": "18 de 30 · Nivel 4 · Varias transformaciones",
+    "left": [
+      "d-glucose"
+    ],
+    "right": [
+      "ethanol",
+      "carbon-dioxide"
+    ],
+    "solution": [
+      1,
+      2,
+      2
+    ],
+    "initial": [
+      1,
+      1,
+      1
+    ],
+    "guide": "none",
+    "condition": "Fermentación alcohólica por levaduras · ecuación global simplificada.",
+    "explanation": "En la fermentación alcohólica, las levaduras transforman azúcares como la glucosa en etanol y dióxido de carbono. El CO₂ forma burbujas que ayudan a expandir la masa.",
+    "importance": "Importancia: conecta las reacciones químicas con la elaboración de pan. Fermentación no significa cualquier descomposición; aquí trabajamos una transformación concreta.",
+    "limit": "La ecuación resume una ruta de varias etapas. Las levaduras no crean los átomos de las burbujas: proceden de los reactivos.",
+    "scene": "assets/fermentacion.webp",
+    "imageAlt": "Ilustración de masa de pan con burbujas y un frasco de fermentación",
+    "caption": "Ilustración de contexto: masa fermentada.",
+    "source": "https://openstax.org/books/biology-2e/pages/7-5-metabolism-without-oxygen",
+    "hints": [
+      "Deja una glucosa para empezar. Sus 12 H deben quedar en el etanol: cada C₂H₆O tiene 6 H.",
+      "Con 2 etanoles ya tienes 4 C. Los 2 C restantes pueden quedar en 2 CO₂. Revisa los 6 O."
+    ],
+    "reading": "Una glucosa se corresponde con dos etanoles y dos dióxidos de carbono.",
+    "order": 18,
+    "level": 4,
+    "levelTitle": "Varias transformaciones"
+  },
+  {
+    "id": "metanogenesis",
+    "title": "Microorganismos que producen metano",
+    "left": [
+      "carbon-dioxide",
+      "hydrogen"
+    ],
+    "right": [
+      "methane",
+      "water"
+    ],
+    "solution": [
+      1,
+      4,
+      1,
+      2
+    ],
+    "initial": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "guide": "none",
+    "condition": "Metanogénesis hidrogenotrófica · balance global en ambientes sin oxígeno.",
+    "explanation": "Algunas arqueas usan CO₂ e hidrógeno y producen metano. No todos los microorganismos usan oxígeno ni todas las rutas sin oxígeno son fermentaciones.",
+    "importance": "Importancia: Conecta el metano del catálogo con humedales y digestores de biogás, donde viven comunidades microbianas.",
+    "limit": "Resume una ruta con varias etapas. No basta mezclar gases para reproducirla; no recolectar ni encender gases.",
+    "scene": "assets/humedal.webp",
+    "imageAlt": "Humedal: en algunos sedimentos sin oxígeno viven microorganismos metanógenos.",
+    "caption": "Ilustración didáctica. Humedal: en algunos sedimentos sin oxígeno viven microorganismos metanógenos.",
+    "source": "https://openstax.org/books/biology-2e/pages/7-5-metabolism-without-oxygen",
+    "hints": [
+      "Un CO₂ aporta 2 O: coloca 2 aguas. El carbono queda en un metano.",
+      "CH₄ y 2 H₂O suman 8 H: se necesitan 4 H₂."
+    ],
+    "reading": "Un CO₂ y cuatro H₂ corresponden a un metano y dos aguas.",
+    "order": 19,
+    "level": 4,
+    "levelTitle": "Varias transformaciones",
+    "category": "19 de 30 · Nivel 4 · Varias transformaciones"
+  },
+  {
+    "id": "acetico",
+    "title": "Un compuesto que ya contiene oxígeno",
+    "left": [
+      "acetic-acid",
+      "oxygen"
+    ],
+    "right": [
+      "carbon-dioxide",
+      "water"
+    ],
+    "solution": [
+      1,
+      2,
+      2,
+      2
+    ],
+    "initial": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "guide": "none",
+    "condition": "Combustión completa · suficiente oxígeno y activación; solo modelo virtual.",
+    "explanation": "Ácido acético contiene carbono e hidrógeno, y también oxígeno. En este modelo de combustión completa forma CO₂ y agua. Primero conserva C, después H y al final ajusta el O₂.",
+    "importance": "Importancia: El ácido acético es la sustancia característica del vinagre. El ejercicio usa la sustancia como modelo químico, no supone que el vinagre doméstico arda.",
+    "limit": "La ilustración es un contexto de combustibles, no una prueba con esta sustancia. Una combustión incompleta puede formar otros productos. No encender, oler ni mezclar sustancias.",
+    "scene": "assets/gas.webp",
+    "imageAlt": "Instalación de combustible gaseoso; no es una invitación a encender ni mezclar gases.",
+    "caption": "Ilustración didáctica. Instalación de combustible gaseoso; no es una invitación a encender ni mezclar gases.",
+    "source": "https://openstax.org/books/chemistry-2e/pages/4-1-writing-and-balancing-chemical-equations",
+    "hints": [
+      "Un C₂H₄O₂ produce 2 CO₂ y 2 H₂O.",
+      "Los productos tienen 6 O; el ácido ya contiene 2 O. Faltan 4 O: usa 2 O₂."
+    ],
+    "reading": "La proporción mínima es 1 : 2 : 2 : 2 en el orden de la ecuación. Todos los tipos de átomos se conservan.",
+    "order": 20,
+    "level": 4,
+    "levelTitle": "Varias transformaciones",
+    "category": "20 de 30 · Nivel 4 · Varias transformaciones"
+  },
+  {
+    "id": "etanol",
+    "title": "El alcohol y sus átomos de oxígeno",
+    "left": [
+      "ethanol",
+      "oxygen"
+    ],
+    "right": [
+      "carbon-dioxide",
+      "water"
+    ],
+    "solution": [
+      1,
+      3,
+      2,
+      3
+    ],
+    "initial": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "guide": "none",
+    "condition": "Combustión completa · suficiente oxígeno y activación; solo modelo virtual.",
+    "explanation": "Etanol contiene carbono e hidrógeno, y también oxígeno. En este modelo de combustión completa forma CO₂ y agua. Primero conserva C, después H y al final ajusta el O₂.",
+    "importance": "Importancia: El etanol puede ser producto de fermentación y también combustible. Una misma molécula participa en reacciones distintas.",
+    "limit": "La ilustración es un contexto de combustibles, no una prueba con esta sustancia. Una combustión incompleta puede formar otros productos. No encender, oler ni mezclar sustancias.",
+    "scene": "assets/gas.webp",
+    "imageAlt": "Instalación de combustible gaseoso; no es una invitación a encender ni mezclar gases.",
+    "caption": "Ilustración didáctica. Instalación de combustible gaseoso; no es una invitación a encender ni mezclar gases.",
+    "source": "https://openstax.org/books/chemistry-2e/pages/4-1-writing-and-balancing-chemical-equations",
+    "hints": [
+      "Para un etanol: 2 C forman 2 CO₂; 6 H forman 3 H₂O.",
+      "Los productos contienen 7 O. El etanol aporta 1: los 6 restantes vienen de 3 O₂."
+    ],
+    "reading": "La proporción mínima es 1 : 3 : 2 : 3 en el orden de la ecuación. Todos los tipos de átomos se conservan.",
+    "order": 21,
+    "level": 5,
+    "levelTitle": "Combustibles y aplicaciones",
+    "category": "21 de 30 · Nivel 5 · Combustibles y aplicaciones"
+  },
+  {
+    "id": "acetona",
+    "title": "Otro uso para contar tres carbonos",
+    "left": [
+      "acetone",
+      "oxygen"
+    ],
+    "right": [
+      "carbon-dioxide",
+      "water"
+    ],
+    "solution": [
+      1,
+      4,
+      3,
+      3
+    ],
+    "initial": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "guide": "none",
+    "condition": "Combustión completa · suficiente oxígeno y activación; solo modelo virtual.",
+    "explanation": "Acetona contiene carbono e hidrógeno, y también oxígeno. En este modelo de combustión completa forma CO₂ y agua. Primero conserva C, después H y al final ajusta el O₂.",
+    "importance": "Importancia: La acetona es un disolvente. Reconocer que una sustancia orgánica es inflamable es distinto de proponer usarla como combustible en clase.",
+    "limit": "La ilustración es un contexto de combustibles, no una prueba con esta sustancia. Una combustión incompleta puede formar otros productos. No encender, oler ni mezclar sustancias.",
+    "scene": "assets/gas.webp",
+    "imageAlt": "Instalación de combustible gaseoso; no es una invitación a encender ni mezclar gases.",
+    "caption": "Ilustración didáctica. Instalación de combustible gaseoso; no es una invitación a encender ni mezclar gases.",
+    "source": "https://openstax.org/books/chemistry-2e/pages/4-1-writing-and-balancing-chemical-equations",
+    "hints": [
+      "Un C₃H₆O necesita 3 CO₂ y 3 H₂O.",
+      "Los productos tienen 9 O. La acetona aporta 1; los otros 8 llegan como 4 O₂."
+    ],
+    "reading": "La proporción mínima es 1 : 4 : 3 : 3 en el orden de la ecuación. Todos los tipos de átomos se conservan.",
+    "order": 22,
+    "level": 5,
+    "levelTitle": "Combustibles y aplicaciones",
+    "category": "22 de 30 · Nivel 5 · Combustibles y aplicaciones"
+  },
+  {
+    "id": "eteno",
+    "title": "Un doble enlace, otro balance",
+    "left": [
+      "ethene",
+      "oxygen"
+    ],
+    "right": [
+      "carbon-dioxide",
+      "water"
+    ],
+    "solution": [
+      1,
+      3,
+      2,
+      2
+    ],
+    "initial": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "guide": "none",
+    "condition": "Combustión completa · suficiente oxígeno y activación; solo modelo virtual.",
+    "explanation": "El eteno contiene carbono e hidrógeno. En este modelo de combustión completa forma CO₂ y agua. Primero conserva C, después H y al final ajusta el O₂.",
+    "importance": "Importancia: El eteno o etileno participa como señal en la maduración de frutos. Aquí se estudia su combustión, que NO es el mecanismo de maduración.",
+    "limit": "La ilustración es un contexto de combustibles, no una prueba con esta sustancia. Una combustión incompleta puede formar otros productos. No encender, oler ni mezclar sustancias.",
+    "scene": "assets/gas.webp",
+    "imageAlt": "Instalación de combustible gaseoso; no es una invitación a encender ni mezclar gases.",
+    "caption": "Ilustración didáctica. Instalación de combustible gaseoso; no es una invitación a encender ni mezclar gases.",
+    "source": "https://openstax.org/books/chemistry-2e/pages/4-1-writing-and-balancing-chemical-equations",
+    "hints": [
+      "C₂H₄ contiene 2 C y 4 H: coloca 2 CO₂ y 2 H₂O.",
+      "Necesitas 6 O en los productos: se aportan con 3 O₂."
+    ],
+    "reading": "La proporción mínima es 1 : 3 : 2 : 2 en el orden de la ecuación. Todos los tipos de átomos se conservan.",
+    "order": 23,
+    "level": 5,
+    "levelTitle": "Combustibles y aplicaciones",
+    "category": "23 de 30 · Nivel 5 · Combustibles y aplicaciones"
+  },
+  {
+    "id": "propano",
+    "title": "Tres carbonos y ocho hidrógenos",
+    "left": [
+      "propane",
+      "oxygen"
+    ],
+    "right": [
+      "carbon-dioxide",
+      "water"
+    ],
+    "solution": [
+      1,
+      5,
+      3,
+      4
+    ],
+    "initial": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "guide": "none",
+    "condition": "Combustión completa · suficiente oxígeno y activación; solo modelo virtual.",
+    "explanation": "Propano contiene carbono e hidrógeno. En este modelo de combustión completa forma CO₂ y agua. Primero conserva C, después H y al final ajusta el O₂.",
+    "importance": "Importancia: El propano forma parte de combustibles de uso doméstico. El balance explica cantidades relativas, no el manejo de un balón de gas.",
+    "limit": "La ilustración es un contexto de combustibles, no una prueba con esta sustancia. Una combustión incompleta puede formar otros productos. No encender, oler ni mezclar sustancias.",
+    "scene": "assets/gas.webp",
+    "imageAlt": "Instalación de combustible gaseoso; no es una invitación a encender ni mezclar gases.",
+    "caption": "Ilustración didáctica. Instalación de combustible gaseoso; no es una invitación a encender ni mezclar gases.",
+    "source": "https://openstax.org/books/chemistry-2e/pages/4-1-writing-and-balancing-chemical-equations",
+    "hints": [
+      "Un C₃H₈ produce 3 CO₂ y 4 H₂O.",
+      "Los productos suman 10 O: necesitas 5 O₂."
+    ],
+    "reading": "La proporción mínima es 1 : 5 : 3 : 4 en el orden de la ecuación. Todos los tipos de átomos se conservan.",
+    "order": 24,
+    "level": 5,
+    "levelTitle": "Combustibles y aplicaciones",
+    "category": "24 de 30 · Nivel 5 · Combustibles y aplicaciones"
+  },
+  {
+    "id": "esterificacion",
+    "title": "Tres uniones en una molécula de glicerol",
+    "left": [
+      "acetic-acid",
+      "glycerol"
+    ],
+    "right": [
+      "triacetin",
+      "water"
+    ],
+    "solution": [
+      3,
+      1,
+      1,
+      3
+    ],
+    "initial": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "guide": "none",
+    "condition": "Esterificación reversible · catalizador ácido y condiciones de síntesis; únicamente virtual.",
+    "explanation": "El glicerol tiene tres grupos OH. El balance global de esterificación completa con ácido acético forma triacetina y agua. Se utilizan tres moléculas de ácido por cada glicerol.",
+    "importance": "Importancia: Introduce una aplicación: modificar una molécula para obtener derivados usados en formulaciones industriales, como la triacetina.",
+    "limit": "Es un reto de ampliación; no se exige memorizar mecanismos orgánicos. Hay equilibrios y productos intermedios. La imagen representa el contexto de lípidos, no triacetina pura.",
+    "scene": "assets/aceite.webp",
+    "imageAlt": "Contexto de grasas y derivados del glicerol; no representa triacetina pura.",
+    "caption": "Ilustración didáctica. Contexto de grasas y derivados del glicerol; no representa triacetina pura.",
+    "source": "https://pubchem.ncbi.nlm.nih.gov/compound/5541",
+    "hints": [
+      "La triacetina tiene 9 C. El glicerol aporta 3; los 6 restantes pueden venir de 3 ácidos acéticos.",
+      "Los reactivos suman 20 H y 9 O. Tras formar C₉H₁₄O₆ quedan 6 H y 3 O: forman 3 aguas."
+    ],
+    "reading": "Tres ácidos acéticos y un glicerol corresponden a una triacetina y tres aguas en el balance global.",
+    "reversible": true,
+    "order": 25,
+    "level": 5,
+    "levelTitle": "Combustibles y aplicaciones",
+    "category": "25 de 30 · Nivel 5 · Combustibles y aplicaciones"
+  },
+  {
+    "id": "etano",
+    "title": "Cuando aparece un oxígeno impar",
+    "left": [
+      "ethane",
+      "oxygen"
+    ],
+    "right": [
+      "carbon-dioxide",
+      "water"
+    ],
+    "solution": [
+      2,
+      7,
+      4,
+      6
+    ],
+    "initial": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "guide": "none",
+    "condition": "Combustión completa · suficiente oxígeno y activación; solo modelo virtual.",
+    "explanation": "Etano contiene carbono e hidrógeno. En este modelo de combustión completa forma CO₂ y agua. Primero conserva C, después H y al final ajusta el O₂.",
+    "importance": "Importancia: El etano está presente en el gas natural. Este reto enseña a duplicar todas las cantidades cuando el cálculo pide media molécula de O₂.",
+    "limit": "La ilustración es un contexto de combustibles, no una prueba con esta sustancia. Una combustión incompleta puede formar otros productos. No encender, oler ni mezclar sustancias.",
+    "scene": "assets/gas.webp",
+    "imageAlt": "Instalación de combustible gaseoso; no es una invitación a encender ni mezclar gases.",
+    "caption": "Ilustración didáctica. Instalación de combustible gaseoso; no es una invitación a encender ni mezclar gases.",
+    "source": "https://openstax.org/books/chemistry-2e/pages/4-1-writing-and-balancing-chemical-equations",
+    "hints": [
+      "Con un etano: 2 CO₂ y 3 H₂O contienen 7 O. Harían falta 3,5 O₂.",
+      "En vez de partir una molécula, duplica TODA la proporción: 2 etanos, 7 O₂, 4 CO₂ y 6 aguas."
+    ],
+    "reading": "La proporción mínima es 2 : 7 : 4 : 6 en el orden de la ecuación. Todos los tipos de átomos se conservan.",
+    "order": 26,
+    "level": 6,
+    "levelTitle": "Desafío de integración",
+    "category": "26 de 30 · Nivel 6 · Desafío de integración"
+  },
+  {
+    "id": "glicerol",
+    "title": "Tres oxígenos que no debes olvidar",
+    "left": [
+      "glycerol",
+      "oxygen"
+    ],
+    "right": [
+      "carbon-dioxide",
+      "water"
+    ],
+    "solution": [
+      2,
+      7,
+      6,
+      8
+    ],
+    "initial": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "guide": "none",
+    "condition": "Combustión completa · suficiente oxígeno y activación; solo modelo virtual.",
+    "explanation": "Glicerol contiene carbono e hidrógeno, y también oxígeno. En este modelo de combustión completa forma CO₂ y agua. Primero conserva C, después H y al final ajusta el O₂.",
+    "importance": "Importancia: El glicerol aparece en grasas y diversas formulaciones. La presencia de oxígeno en el combustible también cuenta para el balance.",
+    "limit": "La ilustración es un contexto de combustibles, no una prueba con esta sustancia. Una combustión incompleta puede formar otros productos. No encender, oler ni mezclar sustancias.",
+    "scene": "assets/gas.webp",
+    "imageAlt": "Instalación de combustible gaseoso; no es una invitación a encender ni mezclar gases.",
+    "caption": "Ilustración didáctica. Instalación de combustible gaseoso; no es una invitación a encender ni mezclar gases.",
+    "source": "https://openstax.org/books/chemistry-2e/pages/4-1-writing-and-balancing-chemical-equations",
+    "hints": [
+      "Con un glicerol: 3 CO₂ y 4 H₂O contienen 10 O. El glicerol ya aporta 3: faltan 7 O.",
+      "Eso requiere 3,5 O₂. Duplica todos los coeficientes para trabajar con enteros: 2, 7, 6 y 8."
+    ],
+    "reading": "La proporción mínima es 2 : 7 : 6 : 8 en el orden de la ecuación. Todos los tipos de átomos se conservan.",
+    "order": 27,
+    "level": 6,
+    "levelTitle": "Desafío de integración",
+    "category": "27 de 30 · Nivel 6 · Desafío de integración"
+  },
+  {
+    "id": "butano",
+    "title": "El reto de los trece oxígenos",
+    "left": [
+      "butane",
+      "oxygen"
+    ],
+    "right": [
+      "carbon-dioxide",
+      "water"
+    ],
+    "solution": [
+      2,
+      13,
+      8,
+      10
+    ],
+    "initial": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "guide": "none",
+    "condition": "Combustión completa · suficiente oxígeno y activación; solo modelo virtual.",
+    "explanation": "Butano contiene carbono e hidrógeno. En este modelo de combustión completa forma CO₂ y agua. Primero conserva C, después H y al final ajusta el O₂.",
+    "importance": "Importancia: El butano es un combustible conocido. Los coeficientes grandes no cambian las reglas: cada fórmula se mantiene intacta.",
+    "limit": "La ilustración es un contexto de combustibles, no una prueba con esta sustancia. Una combustión incompleta puede formar otros productos. No encender, oler ni mezclar sustancias.",
+    "scene": "assets/gas.webp",
+    "imageAlt": "Instalación de combustible gaseoso; no es una invitación a encender ni mezclar gases.",
+    "caption": "Ilustración didáctica. Instalación de combustible gaseoso; no es una invitación a encender ni mezclar gases.",
+    "source": "https://openstax.org/books/chemistry-2e/pages/4-1-writing-and-balancing-chemical-equations",
+    "hints": [
+      "Con un butano: 4 CO₂ y 5 H₂O contienen 13 O. Harían falta 6,5 O₂.",
+      "Multiplica todo por dos: 2 butanos, 13 O₂, 8 CO₂ y 10 H₂O."
+    ],
+    "reading": "La proporción mínima es 2 : 13 : 8 : 10 en el orden de la ecuación. Todos los tipos de átomos se conservan.",
+    "order": 28,
+    "level": 6,
+    "levelTitle": "Desafío de integración",
+    "category": "28 de 30 · Nivel 6 · Desafío de integración"
+  },
+  {
+    "id": "respiracion",
+    "title": "La glucosa también se usa para obtener energía",
+    "category": "29 de 30 · Nivel 6 · Desafío de integración",
+    "left": [
+      "d-glucose",
+      "oxygen"
+    ],
+    "right": [
+      "carbon-dioxide",
+      "water"
+    ],
+    "solution": [
+      1,
+      6,
+      6,
+      6
+    ],
+    "initial": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "guide": "none",
+    "condition": "Respiración celular aeróbica · ecuación global simplificada, no una sola reacción.",
+    "explanation": "Las células pueden oxidar glucosa utilizando oxígeno. El proceso global produce CO₂ y agua y permite transferir parte de la energía a ATP. Las plantas también respiran.",
+    "importance": "Importancia: ayuda a relacionar la alimentación y el oxígeno con el funcionamiento celular, por ejemplo durante el movimiento de los músculos.",
+    "limit": "Respirar aire y realizar respiración celular no son lo mismo. ATP y todas las etapas intermedias no se muestran en esta ecuación simplificada.",
+    "scene": "assets/energia.webp",
+    "imageAlt": "Ilustración de una corredora junto a fibras musculares y una mitocondria",
+    "caption": "Ilustración de contexto: actividad muscular y mitocondrias.",
+    "source": "https://openstax.org/books/biology-2e/pages/7-1-energy-in-living-systems",
+    "hints": [
+      "Empieza con una glucosa. Sus 6 C pueden formar 6 CO₂; sus 12 H pueden formar 6 H₂O.",
+      "Los productos tienen 18 O. La glucosa ya aporta 6 O: faltan 12 O, que corresponden a 6 O₂."
+    ],
+    "reading": "Una glucosa y seis oxígenos se corresponden con seis dióxidos de carbono y seis aguas.",
+    "order": 29,
+    "level": 6,
+    "levelTitle": "Desafío de integración"
+  },
+  {
+    "id": "fotosintesis",
+    "title": "Ahora equilibra la fotosíntesis",
+    "category": "30 de 30 · Nivel 6 · Desafío de integración",
+    "left": [
+      "carbon-dioxide",
+      "water"
+    ],
+    "right": [
+      "d-glucose",
+      "oxygen"
+    ],
+    "solution": [
+      6,
+      6,
+      1,
+      6
+    ],
+    "initial": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "guide": "none",
+    "condition": "Fotosíntesis · requiere energía luminosa. La luz no se cuenta como átomos.",
+    "explanation": "Los organismos fotosintéticos utilizan energía de la luz para formar materia orgánica a partir de CO₂. Esta ecuación global simplificada relaciona CO₂ y agua con glucosa y oxígeno.",
+    "importance": "Importancia: conecta con la clase que ya empezaron y con la producción de materia orgánica que sostiene muchas cadenas alimentarias.",
+    "limit": "Aunque el resumen parece el inverso de la respiración, no son la misma ruta recorrida al revés. La ecuación no muestra todas las etapas ni de qué reactivo procede cada oxígeno; el O₂ liberado procede del agua.",
+    "scene": "assets/fotosintesis-contexto.png",
+    "imageAlt": "Esquema de una planta que recibe agua, CO₂ y luz, con cloroplastos y liberación de O₂; también se muestra respiración en mitocondrias",
+    "caption": "Esquema didáctico: fotosíntesis en cloroplastos y respiración en mitocondrias.",
+    "source": "https://openstax.org/books/biology-2e/pages/8-1-overview-of-photosynthesis",
+    "hints": [
+      "Deja una glucosa como referencia. Necesitas 6 C y 12 H en los reactivos. ¿Cuántos CO₂ y H₂O los aportan?",
+      "Con 6 CO₂ y 6 H₂O entran 18 O. La glucosa contiene 6 O; los otros 12 O se contabilizan como 6 O₂."
+    ],
+    "reading": "Seis dióxidos de carbono y seis aguas se corresponden con una glucosa y seis oxígenos en el resumen global.",
+    "order": 30,
+    "level": 6,
+    "levelTitle": "Desafío de integración"
+  }
 ]

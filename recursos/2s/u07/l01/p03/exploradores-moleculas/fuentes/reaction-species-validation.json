@@ -1,0 +1,392 @@
+{
+  "rdkit": "2026.09.1",
+  "checks": [
+    "explicit hydrogen atom count equals authored composition",
+    "total charge zero",
+    "SVG generated from same validated molecule"
+  ],
+  "note": "Salts show constituent-ion stoichiometry, not a molecular crystal geometry. Ozone shows one resonance contributor.",
+  "records": [
+    {
+      "id": "hydrogen",
+      "name": "Hidrógeno",
+      "formula": "H2",
+      "counts": {
+        "H": 2
+      },
+      "smiles": "[H][H]",
+      "kind": "molecule",
+      "svg": "assets/rx-hydrogen.svg",
+      "validatedFormula": "H2",
+      "source": "https://pubchem.ncbi.nlm.nih.gov/"
+    },
+    {
+      "id": "oxygen",
+      "name": "Oxígeno",
+      "formula": "O2",
+      "counts": {
+        "O": 2
+      },
+      "smiles": "O=O",
+      "kind": "molecule",
+      "svg": "assets/rx-oxygen.svg",
+      "validatedFormula": "O2",
+      "source": "https://pubchem.ncbi.nlm.nih.gov/"
+    },
+    {
+      "id": "water",
+      "name": "Agua",
+      "formula": "H2O",
+      "counts": {
+        "O": 1,
+        "H": 2
+      },
+      "smiles": "O",
+      "kind": "molecule",
+      "svg": "assets/rx-water.svg",
+      "validatedFormula": "H2O",
+      "source": "https://pubchem.ncbi.nlm.nih.gov/"
+    },
+    {
+      "id": "carbon-dioxide",
+      "name": "Dióxido de carbono",
+      "formula": "CO2",
+      "counts": {
+        "O": 2,
+        "C": 1
+      },
+      "smiles": "O=C=O",
+      "kind": "molecule",
+      "svg": "assets/rx-carbon-dioxide.svg",
+      "validatedFormula": "CO2",
+      "source": "https://pubchem.ncbi.nlm.nih.gov/"
+    },
+    {
+      "id": "hydrogen-peroxide",
+      "name": "Peróxido de hidrógeno",
+      "formula": "H2O2",
+      "counts": {
+        "O": 2,
+        "H": 2
+      },
+      "smiles": "OO",
+      "kind": "molecule",
+      "svg": "assets/rx-hydrogen-peroxide.svg",
+      "validatedFormula": "H2O2",
+      "source": "https://pubchem.ncbi.nlm.nih.gov/"
+    },
+    {
+      "id": "magnesium",
+      "name": "Magnesio",
+      "formula": "Mg",
+      "counts": {
+        "Mg": 1
+      },
+      "smiles": "[Mg]",
+      "kind": "atom",
+      "svg": "assets/rx-magnesium.svg",
+      "validatedFormula": "Mg",
+      "source": "https://pubchem.ncbi.nlm.nih.gov/"
+    },
+    {
+      "id": "magnesium-oxide",
+      "name": "Óxido de magnesio",
+      "formula": "MgO",
+      "counts": {
+        "Mg": 1,
+        "O": 1
+      },
+      "smiles": "[Mg+2].[O-2]",
+      "kind": "formula-unit",
+      "svg": "assets/rx-magnesium-oxide.svg",
+      "validatedFormula": "MgO",
+      "source": "https://pubchem.ncbi.nlm.nih.gov/"
+    },
+    {
+      "id": "nitrogen",
+      "name": "Nitrógeno",
+      "formula": "N2",
+      "counts": {
+        "N": 2
+      },
+      "smiles": "N#N",
+      "kind": "molecule",
+      "svg": "assets/rx-nitrogen.svg",
+      "validatedFormula": "N2",
+      "source": "https://pubchem.ncbi.nlm.nih.gov/"
+    },
+    {
+      "id": "ammonia",
+      "name": "Amoníaco",
+      "formula": "NH3",
+      "counts": {
+        "N": 1,
+        "H": 3
+      },
+      "smiles": "N",
+      "kind": "molecule",
+      "svg": "assets/rx-ammonia.svg",
+      "validatedFormula": "H3N",
+      "source": "https://pubchem.ncbi.nlm.nih.gov/"
+    },
+    {
+      "id": "ozone",
+      "name": "Ozono",
+      "formula": "O3",
+      "counts": {
+        "O": 3
+      },
+      "smiles": "[O-][O+]=O",
+      "kind": "molecule",
+      "svg": "assets/rx-ozone.svg",
+      "validatedFormula": "O3",
+      "source": "https://pubchem.ncbi.nlm.nih.gov/"
+    },
+    {
+      "id": "lactic-acid",
+      "name": "Ácido láctico",
+      "formula": "C3H6O3",
+      "counts": {
+        "C": 3,
+        "O": 3,
+        "H": 6
+      },
+      "smiles": "CC(O)C(=O)O",
+      "kind": "molecule",
+      "svg": "assets/rx-lactic-acid.svg",
+      "validatedFormula": "C3H6O3",
+      "source": "https://pubchem.ncbi.nlm.nih.gov/"
+    },
+    {
+      "id": "iron",
+      "name": "Hierro",
+      "formula": "Fe",
+      "counts": {
+        "Fe": 1
+      },
+      "smiles": "[Fe]",
+      "kind": "atom",
+      "svg": "assets/rx-iron.svg",
+      "validatedFormula": "Fe",
+      "source": "https://pubchem.ncbi.nlm.nih.gov/"
+    },
+    {
+      "id": "iron-oxide",
+      "name": "Óxido de hierro(III)",
+      "formula": "Fe2O3",
+      "counts": {
+        "Fe": 2,
+        "O": 3
+      },
+      "smiles": "[Fe+3].[Fe+3].[O-2].[O-2].[O-2]",
+      "kind": "formula-unit",
+      "svg": "assets/rx-iron-oxide.svg",
+      "validatedFormula": "Fe2O3",
+      "source": "https://pubchem.ncbi.nlm.nih.gov/"
+    },
+    {
+      "id": "aluminium",
+      "name": "Aluminio",
+      "formula": "Al",
+      "counts": {
+        "Al": 1
+      },
+      "smiles": "[Al]",
+      "kind": "atom",
+      "svg": "assets/rx-aluminium.svg",
+      "validatedFormula": "Al",
+      "source": "https://pubchem.ncbi.nlm.nih.gov/"
+    },
+    {
+      "id": "aluminium-oxide",
+      "name": "Óxido de aluminio",
+      "formula": "Al2O3",
+      "counts": {
+        "Al": 2,
+        "O": 3
+      },
+      "smiles": "[Al+3].[Al+3].[O-2].[O-2].[O-2]",
+      "kind": "formula-unit",
+      "svg": "assets/rx-aluminium-oxide.svg",
+      "validatedFormula": "Al2O3",
+      "source": "https://pubchem.ncbi.nlm.nih.gov/"
+    },
+    {
+      "id": "sodium-hydroxide",
+      "name": "Hidróxido de sodio",
+      "formula": "NaOH",
+      "counts": {
+        "Na": 1,
+        "O": 1,
+        "H": 1
+      },
+      "smiles": "[Na+].[OH-]",
+      "kind": "formula-unit",
+      "svg": "assets/rx-sodium-hydroxide.svg",
+      "validatedFormula": "HNaO",
+      "source": "https://pubchem.ncbi.nlm.nih.gov/"
+    },
+    {
+      "id": "sulfuric-acid",
+      "name": "Ácido sulfúrico",
+      "formula": "H2SO4",
+      "counts": {
+        "O": 4,
+        "S": 1,
+        "H": 2
+      },
+      "smiles": "OS(=O)(=O)O",
+      "kind": "molecule",
+      "svg": "assets/rx-sulfuric-acid.svg",
+      "validatedFormula": "H2O4S",
+      "source": "https://pubchem.ncbi.nlm.nih.gov/"
+    },
+    {
+      "id": "sodium-sulfate",
+      "name": "Sulfato de sodio",
+      "formula": "Na2SO4",
+      "counts": {
+        "Na": 2,
+        "O": 4,
+        "S": 1
+      },
+      "smiles": "[Na+].[Na+].[O-]S(=O)(=O)[O-]",
+      "kind": "formula-unit",
+      "svg": "assets/rx-sodium-sulfate.svg",
+      "validatedFormula": "Na2O4S",
+      "source": "https://pubchem.ncbi.nlm.nih.gov/"
+    },
+    {
+      "id": "calcium-hydroxide",
+      "name": "Hidróxido de calcio",
+      "formula": "Ca(OH)2",
+      "counts": {
+        "Ca": 1,
+        "O": 2,
+        "H": 2
+      },
+      "smiles": "[Ca+2].[OH-].[OH-]",
+      "kind": "formula-unit",
+      "svg": "assets/rx-calcium-hydroxide.svg",
+      "validatedFormula": "H2CaO2",
+      "source": "https://pubchem.ncbi.nlm.nih.gov/"
+    },
+    {
+      "id": "hydrogen-chloride",
+      "name": "Cloruro de hidrógeno / ácido clorhídrico en agua",
+      "formula": "HCl",
+      "counts": {
+        "Cl": 1,
+        "H": 1
+      },
+      "smiles": "Cl",
+      "kind": "molecule",
+      "svg": "assets/rx-hydrogen-chloride.svg",
+      "validatedFormula": "HCl",
+      "source": "https://pubchem.ncbi.nlm.nih.gov/"
+    },
+    {
+      "id": "calcium-chloride",
+      "name": "Cloruro de calcio",
+      "formula": "CaCl2",
+      "counts": {
+        "Ca": 1,
+        "Cl": 2
+      },
+      "smiles": "[Ca+2].[Cl-].[Cl-]",
+      "kind": "formula-unit",
+      "svg": "assets/rx-calcium-chloride.svg",
+      "validatedFormula": "CaCl2",
+      "source": "https://pubchem.ncbi.nlm.nih.gov/"
+    },
+    {
+      "id": "sodium-bicarbonate",
+      "name": "Bicarbonato de sodio",
+      "formula": "NaHCO3",
+      "counts": {
+        "Na": 1,
+        "O": 3,
+        "C": 1,
+        "H": 1
+      },
+      "smiles": "[Na+].OC(=O)[O-]",
+      "kind": "formula-unit",
+      "svg": "assets/rx-sodium-bicarbonate.svg",
+      "validatedFormula": "CHNaO3",
+      "source": "https://pubchem.ncbi.nlm.nih.gov/"
+    },
+    {
+      "id": "sodium-carbonate",
+      "name": "Carbonato de sodio",
+      "formula": "Na2CO3",
+      "counts": {
+        "Na": 2,
+        "O": 3,
+        "C": 1
+      },
+      "smiles": "[Na+].[Na+].[O-]C(=O)[O-]",
+      "kind": "formula-unit",
+      "svg": "assets/rx-sodium-carbonate.svg",
+      "validatedFormula": "CNa2O3",
+      "source": "https://pubchem.ncbi.nlm.nih.gov/"
+    },
+    {
+      "id": "calcium-carbonate",
+      "name": "Carbonato de calcio",
+      "formula": "CaCO3",
+      "counts": {
+        "Ca": 1,
+        "O": 3,
+        "C": 1
+      },
+      "smiles": "[Ca+2].[O-]C(=O)[O-]",
+      "kind": "formula-unit",
+      "svg": "assets/rx-calcium-carbonate.svg",
+      "validatedFormula": "CCaO3",
+      "source": "https://pubchem.ncbi.nlm.nih.gov/"
+    },
+    {
+      "id": "magnesium-chloride",
+      "name": "Cloruro de magnesio",
+      "formula": "MgCl2",
+      "counts": {
+        "Mg": 1,
+        "Cl": 2
+      },
+      "smiles": "[Mg+2].[Cl-].[Cl-]",
+      "kind": "formula-unit",
+      "svg": "assets/rx-magnesium-chloride.svg",
+      "validatedFormula": "Cl2Mg",
+      "source": "https://pubchem.ncbi.nlm.nih.gov/"
+    },
+    {
+      "id": "ethene",
+      "name": "Eteno / etileno",
+      "formula": "C2H4",
+      "counts": {
+        "C": 2,
+        "H": 4
+      },
+      "smiles": "C=C",
+      "kind": "molecule",
+      "svg": "assets/rx-ethene.svg",
+      "validatedFormula": "C2H4",
+      "source": "https://pubchem.ncbi.nlm.nih.gov/"
+    },
+    {
+      "id": "triacetin",
+      "name": "Triacetina",
+      "formula": "C9H14O6",
+      "counts": {
+        "C": 9,
+        "O": 6,
+        "H": 14
+      },
+      "smiles": "CC(=O)OCC(COC(C)=O)OC(C)=O",
+      "kind": "molecule",
+      "svg": "assets/rx-triacetin.svg",
+      "validatedFormula": "C9H14O6",
+      "source": "https://pubchem.ncbi.nlm.nih.gov/"
+    }
+  ]
+}

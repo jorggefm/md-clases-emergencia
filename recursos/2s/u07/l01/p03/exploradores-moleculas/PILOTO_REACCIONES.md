@@ -1,5 +1,7 @@
 # Piloto de balanceo integrado
 
+Registro historico del primer piloto. La version actual tiene 30 ecuaciones: ver `BANCO_30_REACCIONES.md`. Se conservan los cinco enlaces y resultados anteriores.
+
 Solicitud del docente, 28/10/2026: cinco ejercicios, misma interfaz, cada reaccion con imagen/explicacion/importancia y moleculas ya conocidas. Es una extension del recurso, no una nueva aplicacion. Los 40 registros y estructuras de `molecules.json` no se modifican.
 
 ## Secuencia
